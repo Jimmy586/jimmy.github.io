@@ -6,7 +6,7 @@ permalink: about
 
 <div style="text-align: justify">
 
-<img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/me_teaching.jpg">
+<img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/nature.jpg">
 <p class="!py-0 !mb-0 dark:text-slate-300">I love teaching since I was very young, because for me the best way to learn is to teach.</p>
 <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A picture of me pitching my project at the EIT Digital Budapest, HUNGARY July 2023.</p>
 

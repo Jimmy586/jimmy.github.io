@@ -12,7 +12,7 @@ theme-color: stone # indigo|yellow|pink|green|stone|
 # homepage information
 author: Mananjara Jimmy VATOSOA
 author-bio: true  # change to false to hide
-author-image: profile_home.jpeg  # file must be in the /assets/img/ folder
+author-image: profile_home.png  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
