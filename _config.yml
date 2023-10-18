@@ -1,9 +1,9 @@
 # change the followings to match your Github username and repo name
-baseurl: "github.com/Jimmy58" # the name of your github repo
+baseurl: "/jimmy.github.io" # the name of your github repo
 url: "https://jimmy586.github.io/jimmy.github.io/" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Henri Aïdasso"
+title: "Mananjara Jimmy VATOSOA"
 description: Data Scientist | Software Engineer
 
 # color theme for links
