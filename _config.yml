@@ -4,7 +4,7 @@ url: "https://jimmy586.github.io/jimmy.github.io/" # the url of your github page
 
 # site information used in page title, meta data etc.
 title: "Mananjara Jimmy VATOSOA"
-description: Data Scientist | Software Engineer
+description: Cloud Engineer | Software Engineer
 
 # color theme for links
 theme-color: stone # indigo|yellow|pink|green|stone|
@@ -18,6 +18,8 @@ author-image: profile_home.jpeg  # file must be in the /assets/img/ folder
 show-nav-menu: true
 
 nav-menu:
+- text: RESUME
+  permalink: {{site.baseurl}}/assets/raw/RESUME.pdf
 - text: About
   permalink: about
 - text: Blog
@@ -26,16 +28,16 @@ nav-menu:
 # use false to turn off any social media links
 twitter: false
 facebook: false
-instagram: https://instagram.com/ahenrij
-github: https://github.com/ahenrij
-linkedin: https://linkedin.com/in/ahenrij
-medium: https://medium.com/@ahenrij
+instagram: false
+github: https://github.com/Jimmy586
+linkedin: https://linkedin.com/in/mananjara-jimmy.vatosoa
+medium: false
 google-scholar: false
-email: ahenrij@gmail.com
+email: contact@vatosoamananjara-jimmy.com
 
 # footer information
 footer-msg: "Powered using Tailpages"
-footer-msg-link: https://github.com/ahenrij/tailpages
+footer-msg-link: https://github.com/Jimmy586
 
 # google analytics
 google-analytics: G-Q7Q1DLKRB4
