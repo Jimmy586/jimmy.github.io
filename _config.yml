@@ -19,7 +19,7 @@ show-nav-menu: true
 
 nav-menu:
 - text: RESUME
-  permalink: {{site.url}}/assets/raw/RESUME.pdf
+  permalink: https://github.com/Jimmy586/jimmy.github.io/blob/main/assets/raw/RESUME.pdf
 - text: About
   permalink: about
 - text: Blog
