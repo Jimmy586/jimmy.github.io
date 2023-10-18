@@ -19,7 +19,7 @@ show-nav-menu: true
 
 nav-menu:
 - text: RESUME
-  permalink: //assets/raw/RESUME.pdf
+  permalink: https://vatosoamananjara-jimmy.com/assets/raw/RESUME.pdf
 - text: About
   permalink: about
 - text: Blog
