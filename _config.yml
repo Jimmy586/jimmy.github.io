@@ -1,6 +1,6 @@
 # change the followings to match your Github username and repo name
-baseurl: "/jimmy.github.io" # the name of your github repo
-url: "https://jimmy586.github.io/jimmy.github.io/" # the url of your github pages
+baseurl: "" # the name of your github repo
+url: "https://vatosoamananjara-jimmy.com/" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Mananjara Jimmy VATOSOA"
@@ -19,7 +19,7 @@ show-nav-menu: true
 
 nav-menu:
 - text: RESUME
-  permalink: https://jimmy586.github.io/jimmy.github.io/assets/raw/RESUME.pdf
+  permalink: https://vatosoamananjara-jimmy.com/assets/raw/RESUME.pdf
 - text: About
   permalink: about
 - text: Blog
