@@ -6,33 +6,32 @@ permalink: about
 
 <div style="text-align: justify">
 
-<img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/nature.jpg">
-<p class="!py-0 !mb-0 dark:text-slate-300">I'm a nature lover.</p>
-<p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A view of the <i>Old Port of Montreal</i> at Montréal, Québec, Canada.</p>
+<img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/me_teaching.jpg">
+<p class="!py-0 !mb-0 dark:text-slate-300">I love teaching since I was very young, because for me the best way to learn is to teach.</p>
+<p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A picture of me pitching my project at the EIT Digital Budapest, HUNGARY July 2023.</p>
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
-Henri Aïdasso is a Ph.D. Student, working as part of the <a class="text-gray-500 dark:text-stone-300" href="https://www.etsmtl.ca/laboratoires/lasi" target="_blank">Computer Systems Architecture Laboratory</a> at ÉTS Montréal. He is exploring in his researches, new ways to improve DevOps processes by taking leverage of data collected from industrials partners and Artificial Intelligence: Intelligent DevOps. His work is undertaken in the context of the <a class="text-gray-500 dark:text-stone-300" href="https://www.etsmtl.ca/en/news/2021/chaire-kaloom-telus-ets" target="_blank">Kaloom-TELUS Industrial Research Chair</a> and conducted under the supervision of Pr Francis Bordeleau.
+VATOSOA Mananjara Jimmy is a Junior Machine learning Engineer, pursuing his Masters in Cloud Computing at the Rennes University (expected August 2024). His main interest focuses in Deep Learning and large scale Systems where he can train and work on his Models on a distributed Machines. He had an opportunity of an internship on Summer 2023 at IMT Atlantique Rennes, where he worked on an ambitious research project to tackle the energy greediness of base stations (BS) in France. During this research journey, he redesigned the Model EARTH to make a more accurate estimation of all Base Stations power consumption, then designed an algorithm to detect the key factor which influences the power consumption, then proposed some strategies to save energy in a seamless way and conducted under the supervision of Pr Loutfi NYAUMI and Christopher MERLHE. From this research, he managed to save up to 20% of energy consumption after applying the data traffic of a BS in Rennes . To extend this project he proposed a Queue learning algorithm by taking into account two features, the User Equipment (UE) and the BS to predict the future traffic and to apply the power saving approaches automatically depends on the load.
 
 <br>
-Prior to that, he worked at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> using Artificial Intelligence to improve energy performance in industries 4.0: timeseries forecast, golden batch analysis, and digital twins modeling. He has also developed several company-specific data science projects and packages within the team, including their latest cloud-based applications stack for serving AI models. <br>
-He is a Software Engineer with seven years of experience and has developed his skills around fullstack web and android development, DevOps practices, and cloud-based applications. He has advanced knowledge of design patterns, architecture patterns and databases.
+Before this, 2020 to 2022, right after his graduation (BSc in AI) he worked at <a class="text-gray-500 dark:text-stone-300" href="https://videotron.com/" target="_blank">Videotron</a> as IT backoffice Support, specializing in Business Anti-virus and Cloud-based content, and after a year at the company he was promoted as a trainer.
+He developped most of his soft skills during this experience, where he had to manage and train +50 agents.
 </p>
 
-<h2 class="dark:text-stone-200">Formation</h2>
+<h2 class="dark:text-stone-200">Education</h2>
 <p class="dark:text-stone-300">
-Since fall 2022, Henri is a doctoral student in Computer Engineering at ÉTS Montréal, University of Québec in Canada.
-Just before that, he graduated top of his class with a Master of Science in Big Data: Business Intelligence and Machine Learning in 2022 from the University of Rennes 1 in France, which he completed as a work-study program at Energiency.
-In 2020, he earned a Bachelor of Science in Computer Science from the University of Rennes 1 and graduated as valedictorian of his class,
-one year after leaving Benin for France. <br>
+Graduating from Higschool in 2014, in Madagascar, Jimmy managed to get the highest score for the serie C (Mention Tres Bien) and secured a government scolarship in 2015 to advance his study in Egypt, at Cairo University, Faculty of Computer Engineering and AI.
+After a long wait, he started his first year of bachelor in September 2016, and successfully completed it in 2022 with an outstanding grade, and a highest honours for the Graduation project (193/200) which was entitled "Car fuel consumption predictor with ANN". 
+In 2022, awarded of the French government scholarship, Jimmy pursued his Masters degree in an international curriculum named "Cloud and Network Infrastrure" at the University of Rennes, which is expected to be complete by August 2024   . <br>
 
-Prior to that, he worked during a year as a freelance software engineer after graduating in 2017 with a bachelor's degree in Computer Science applied to Management from the University of Abomey-Calavi in Benin. He was a government scholar holder, finished valedictorian of his class, and received the trophy of excellence awarded to the best student in computer science applied to management.
+Apply for a PhD thesis? , note sure yet :P.
 </p>
 
-<h2 class="dark:text-stone-200">Curriculum Vitae</h2>
- <p><a href="{{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2022-09)</a></p>
+<h2 class="dark:text-stone-200">My Curriculum Vitae</h2>
+ <p><a href="{{site.baseurl}}/assets/raw/RESUME.pdf" class="dark:text-stone-300" target="_blank">Download my Resume (v.2023.10)</a></p>
  <iframe
- src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202209_CV_Henri_Aidasso__en_.pdf"
+ src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/RESUME.pdf"
  width="100%"
  height="300px"
  style="border: none;"></iframe>
