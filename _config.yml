@@ -1,6 +1,6 @@
 # change the followings to match your Github username and repo name
 baseurl: "github.com/Jimmy58" # the name of your github repo
-url: "https://henriaidasso.me" # the url of your github pages
+url: "https://jimmy586.github.io/jimmy.github.io/" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Henri Aïdasso"
@@ -10,7 +10,7 @@ description: Data Scientist | Software Engineer
 theme-color: stone # indigo|yellow|pink|green|stone|
 
 # homepage information
-author: Henri Aïdasso
+author: Mananjara Jimmy VATOSOA
 author-bio: true  # change to false to hide
 author-image: profile_home.jpeg  # file must be in the /assets/img/ folder
 
