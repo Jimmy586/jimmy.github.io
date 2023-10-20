@@ -12,7 +12,7 @@ permalink: about
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
-VATOSOA Mananjara Jimmy is a Junior Machine learning Engineer, pursuing his Masters in Cloud Computing at the Rennes University . His main interest focuses in Deep Learning and large scale Systems where he can train and work on his Models on a distributed Machines. He had an opportunity of an internship on Summer 2023 at IMT Atlantique Rennes, where he worked on an ambitious research project to tackle the energy greediness of base stations (BS) in France. During this research journey, he redesigned the Model EARTH to make a more accurate estimation of all Base Stations power consumption, then designed an algorithm to detect the key factor which influences the power consumption, then proposed some strategies to save energy in a seamless way and conducted under the supervision of Pr Loutfi NYAUMI and Christopher MERLHE. From this research, he managed to save up to 20% of energy consumption after applying the data traffic of a BS in Rennes . To extend this project he proposed a Queue learning algorithm by taking into account two features, the User Equipment (UE) and the BS to predict the future traffic and to apply the power saving approaches automatically depends on the load.
+VATOSOA Mananjara Jimmy is a Junior Machine learning Engineer, pursuing his Masters in Cloud Computing at the Rennes University . His main interest focuses in Deep Learning and large scale Systems where he can train and work on his Models on a distributed Machines. He had an opportunity of an internship on Summer 2023 at IMT Atlantique Rennes, where he worked on an ambitious research project to tackle the energy greediness of base stations (BS) in France, <a class="text-gray-500 dark:text-stone-300" href="https://github.com/Jimmy586/Cellular_Base_Stations_Power_Consumption_Analysis" target="_blank">here</a>. During this research journey, he redesigned the Model EARTH to make a more accurate estimation of all Base Stations power consumption, then designed an algorithm to detect the key factor which influences the power consumption, then proposed some strategies to save energy in a seamless way and conducted under the supervision of<a class="text-gray-500 dark:text-stone-300" href="https://www.imt-atlantique.fr/en/person/loutfi-nuaymi" target="_blank">Pr Loutfi NYAUMI</a>  and Christopher MERLHE. From this research, he managed to save up to 20% of energy consumption after applying the data traffic of a BS in Rennes . To extend this project he proposed a Queue learning algorithm by taking into account two features, the User Equipment (UE) and the BS to predict the future traffic and to apply the power saving approaches automatically depends on the load.
 
 <br>
 Before this, 2020 to 2022, right after his graduation (BSc in AI) he worked at <a class="text-gray-500 dark:text-stone-300" href="https://videotron.com/" target="_blank">Videotron</a> as IT backoffice Support, specializing in Business Anti-virus and Cloud-based content, and after a year at the company he was promoted as a trainer.
@@ -46,7 +46,7 @@ Apply for a PhD thesis? , note sure yet :).
   {% endfor %}
 </div>
 
-<h2 class="dark:text-stone-200">Some academic projects</h2>
+<h2 class="dark:text-stone-200">Some academic projects (Contribution with Henri)</h2>
 <div>
   {% for project in site.academics %}
     <div>
