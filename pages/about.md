@@ -21,7 +21,7 @@ He developped most of his soft skills during this experience, where he had to ma
 
 <h2 class="dark:text-stone-200">Education</h2>
 <p class="dark:text-stone-300">
-Graduating from Higschool in 2014, in Madagascar, Jimmy managed to get the highest score for the serie C (Mention Tres Bien) and secured a government scolarship in 2015 to advance his study in Egypt, at Cairo University, Faculty of Computer Engineering and AI.
+Graduating from Higschool in 2014, in Madagascar, Jimmy managed to get the highest score for the serie C (15.94/20) in the whole country and secured a government scolarship in 2015 to advance his study in Egypt, at Cairo University, Faculty of Computer Engineering and AI.
 After a long wait, he started his first year of bachelor in September 2016, and successfully completed it in 2022 with an outstanding grade, and a highest honours for the Graduation project (193/200) which was entitled "Car fuel consumption predictor with ANN". 
 In 2022, awarded of the French government scholarship, Jimmy pursued his Masters degree in an international curriculum named "Cloud and Network Infrastrure" at the University of Rennes, which is expected to be complete by August 2024   . <br>
 
