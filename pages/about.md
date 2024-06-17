@@ -7,7 +7,7 @@ permalink: about
 <div style="text-align: justify">
 
 <img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/nature.jpg">
-<p class="!py-0 !mb-0 dark:text-slate-300">I love sharing knowledge since a very young age, because for me the best way to learn is to teach.</p>
+<p class="!py-0 !mb-0 dark:text-slate-300">I have loved sharing knowledge from a very young age because, for me, the best way to learn is by teaching.</p>
 <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A picture of me pitching my project at the ELTE Informatikai Kai, University Budapest, HUNGARY July 2023.</p>
 
 <h2 class="dark:text-stone-200 mt-32">Major project and Professional Journey</h2>
