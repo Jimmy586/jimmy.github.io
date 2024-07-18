@@ -4,7 +4,7 @@ url: "https://vatosoamananjara-jimmy.com/" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Mananjara Jimmy VATOSOA"
-description: Cloud Engineer | Software Engineer
+description: Cloud Engineer | Machine Learning
 
 # color theme for links
 theme-color: stone # indigo|yellow|pink|green|stone|
@@ -19,7 +19,7 @@ show-nav-menu: true
 
 nav-menu:
 - text: RESUME
-  permalink: https://vatosoamananjara-jimmy.com/assets/raw/RESUME.pdf
+  permalink: ./assets/raw/RESUME.pdf
 - text: About
   permalink: about
 - text: Blog
