@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
+
 {% if site.show-nav-menu %}
   {% include nav.html %}
 {% endif %}
 
-<div class="container mx-auto text-center prose prose-{{site.theme-color}} my-8">
+<div class="container mx-auto text-center prose prose-{{ site.theme-color }} my-8">
   <div class="flex flex-col items-center">
-    <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{site.baseurl}}/assets/img/{{site.author-image}}" alt="author profile image">
-    <h1 class="dark:text-white mt-4">{{site.author}}</h1>
+    <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{ site.baseurl }}/assets/img/{{ site.author-image }}" alt="author profile image">
+    <h1 class="dark:text-white mt-4">{{ site.author }}</h1>
   </div>
   
   {% if site.author-bio %}
@@ -31,7 +32,7 @@ layout: default
   
   <section id="career-goals" class="my-6">
     <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-      I am seeking opportunities to learn and grow while showcasing my expertise. My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of my resources to sustainable solutions for the greater good. Read <a class="text-gray-500 dark:text-stone-200" href="https://vatosoamananjara-jimmy.com/about">more about me</a>.
+      I am seeking opportunities to learn and grow while showcasing my expertise. My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of my resources to sustainable solutions for the greater good. Read <a class="text-gray-500 dark:text-stone-200" href="{{ site.baseurl }}/about">more about me</a>.
     </p>
     <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
       <strong>Last update:</strong> July 2024
@@ -65,7 +66,7 @@ layout: default
       .typeString('AI/Machine Learning Engineer')
       .pauseFor(PAUSE)
       .deleteAll()
-      .typeString('Cloud/Infratructure Engineer')
+      .typeString('Cloud/Infrastructure Engineer')
       .pauseFor(PAUSE)
       .deleteAll()
       .typeString('LLM/Prompt Engineer')

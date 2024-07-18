@@ -1,31 +1,31 @@
-# change the followings to match your Github username and repo name
-baseurl: "" # the name of your github repo
-url: "https://vatosoamananjara-jimmy.com/" # the url of your github pages
+# General Settings
+baseurl: "" # The name of your GitHub repository
+url: "https://vatosoamananjara-jimmy.com/" # The URL of your GitHub Pages
 
-# site information used in page title, meta data etc.
+# Site Information
 title: "Mananjara Jimmy VATOSOA"
-description: Cloud Engineer | Machine Learning
+description: "Cloud Engineer | Machine Learning"
 
-# color theme for links
-theme-color: stone # indigo|yellow|pink|green|stone|
+# Theme Settings
+theme-color: stone # Options: indigo, yellow, pink, green, stone
 
-# homepage information
+# Homepage Information
 author: Mananjara Jimmy VATOSOA
-author-bio: true  # change to false to hide
-author-image: profile_home.png  # file must be in the /assets/img/ folder
+author-bio: true  # Change to false to hide author bio
+author-image: profile_home.png  # File must be in the /assets/img/ folder
 
-# navigation menu
+# Navigation Menu
 show-nav-menu: true
 
 nav-menu:
-- text: RESUME
-  permalink: ./assets/raw/RESUME.pdf
-- text: About
-  permalink: about
-- text: Blog
-  permalink: blog
+  - text: RESUME
+    permalink: ./assets/raw/RESUME.pdf
+  - text: About
+    permalink: about
+  - text: Blog
+    permalink: blog
 
-# use false to turn off any social media links
+# Social Media Links
 twitter: false
 facebook: false
 instagram: false
@@ -35,19 +35,19 @@ medium: false
 google-scholar: false
 email: contact@vatosoamananjara-jimmy.com
 
-# footer information
+# Footer Information
 footer-msg: "Powered using Tailpages"
 footer-msg-link: https://github.com/Jimmy586
 
-# google analytics
+# Google Analytics
 google-analytics: G-Q7Q1DLKRB4
 
-# jekyll plugins - no need to change
+# Jekyll Plugins
 plugins:
-    - jekyll-seo-tag
-    - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# collections
+# Collections
 collections_dir: collections
 collections:
   - academics
