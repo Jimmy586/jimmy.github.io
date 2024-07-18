@@ -46,7 +46,7 @@ Throughout his internship, he harnessed the power of renowned Python libraries/p
 
 
 <h2 class="dark:text-stone-200">My Curriculum Vitae</h2>
- <p><a href="{{site.baseurl}}/assets/raw/RESUME.pdf" class="dark:text-stone-300" target="_blank">Download my Resume (v.2024.06)</a></p>
+ <p><a href="{{site.baseurl}}/assets/raw/RESUME.pdf" class="dark:text-stone-300" target="_blank">Download my Resume (v.2024.07)</a></p>
  <iframe
  src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/RESUME.pdf"
  width="100%"
