@@ -20,12 +20,12 @@ show-nav-menu: true
 nav-menu:
   - text: RESUME
     permalink: ./assets/raw/RESUME.pdf
+  - text: Projects
+    permalink: projects
   - text: About
     permalink: about
   - text: Blog
     permalink: blog
-  - text: Projects
-    permalink: projects
 
 # Social Media Links
 twitter: false
