@@ -24,6 +24,8 @@ nav-menu:
     permalink: about
   - text: Blog
     permalink: blog
+  - text: Projects
+    permalink: projects
 
 # Social Media Links
 twitter: false
