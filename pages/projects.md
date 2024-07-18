@@ -17,33 +17,35 @@ permalink: projects
         <ul class="list-disc list-inside dark:text-stone-300">
           <li>Creating an end-to-end pipeline for detecting and extracting component references from PCB images.
             <br><em>Added Value:</em> Streamlined the identification process, reducing manual effort and increasing accuracy.</li>
-          <li>Training and fine-tuning Yolov8 models for accurate component detection.
+          <li>Training and fine-tuning Yolov8 models for accurate component detection, then Implemented a Sorting Algorithm to sort the detected components for an easy text extraction.
             <br><em>Added Value:</em> Enhanced the reliability of the detection system, leading to fewer errors and improved efficiency.</li>
-          <li>Implementing OCR to read and extract textual information from PCB components.
+          <li>Training Fine-tuning EasyOCR to read and extract textual information from PCB components.
             <br><em>Added Value:</em> Automated the text extraction process, saving significant time for engineers.</li>
           <li>Utilizing fuzzy matching algorithms to match extracted text with component references.
             <br><em>Added Value:</em> Improved the precision of component identification, reducing potential mismatches.</li>
+          <li>Datasheet retriever using webscraping Scrapy in Python.
+            <br><em>Added Value:</em> Implemented a web scrapping program with Scrapy to retrieve the datasheet of the detected component, in order to have its full specification.</li>
         </ul>
         I also customized LLMs and LLM4Decompile models for reverse engineering tasks, which included:
         <ul class="list-disc list-inside dark:text-stone-300">
-          <li>Setting up local cluster machines for LLM training and fine-tuning.
-            <br><em>Added Value:</em> Enabled efficient and scalable model training, accommodating large datasets.</li>
-          <li>Developing a pipeline for decompiling and analyzing assembly language files.
+          <li>Setting up local cluster machines for LLM deployment and customization.
+            <br><em>Added Value:</em> Enabled efficient and scalable model deployment : Llama3 and gemma2, accommodating local documents for the company's usage.</li>
+          <li>Developing a pipeline for decompiling and analyzing assembly language files Usint LLM4Decompile.
             <br><em>Added Value:</em> Accelerated the reverse engineering process, facilitating quicker insights into complex codebases.</li>
-          <li>Testing and optimizing Graph Neural Network (GNN) based decompiler models.
-            <br><em>Added Value:</em> Improved decompilation accuracy, aiding cybersecurity efforts.</li>
+          <li>Testing and optimizing Graph Neural Network (GNN) based decompiler models Nbref form Meta for the company's Use case.
+            <br><em>Added Value:</em> Improved decompilation accuracy using DeGPT model , which significantly reduced the time hardware pentesters spent on security assessments.</li>
         </ul>
-        Additionally, I built fully automated CI/CD pipelines using Kubernetes and Ansible, which significantly reduced the time hardware pentesters spent on security assessments.
+        Additionally, I built fully automated CI/CD pipelines using Kubernetes and Ansible, with clusterd Machines (spare machines)
         <ul class="list-disc list-inside dark:text-stone-300">
-          <li>Implementing CI/CD pipelines.
-            <br><em>Added Value:</em> Enhanced deployment efficiency and consistency, reducing downtime and operational costs.</li>
+          <li>Implementing CI/CD pipelines with gitlabCI .
+            <br><em>Added Value:</em> Enhanced deployment efficiency and consistency for local tests, reducing downtime and operational costs.</li>
         </ul>
         I also deployed LLMs locally with Retrieval-Augmented Generation (RAG), which helped employees chat with local documents to retrieve the most relevant information.
         <ul class="list-disc list-inside dark:text-stone-300">
           <li>Deploying LLMs with RAG.
             <br><em>Added Value:</em> Enabled employees to efficiently access and retrieve relevant information from local documents, enhancing productivity.</li>
         </ul>
-        <em>Tech Stack: Yolo, OpenCV, OCR, RAG/GraphRAG, LLM, Pytorch, Kubernetes, Docker, Ansible, Python, GitLab.</em>
+        <em>Tech Stack: Yolo, Transformers, OpenCV, OCR, RAG/GraphRAG, LLM, Pytorch, Kubernetes, Docker, Ansible, Python, GitLab.</em>
       </p>
 
       <h2 class="dark:text-stone-200">IMT Atlantique</h2>
@@ -65,10 +67,10 @@ permalink: projects
 
       <h2 class="dark:text-stone-200">Personal Projects</h2>
       <p class="dark:text-stone-300">
-        <strong>System Architecture and School Projects (2022 - Present)</strong><br>
+        <strong>System Architecture and Machine Learning Projects(2022 - Present)</strong><br>
         I have worked on several personal and school projects, including:
         <ul class="list-disc list-inside dark:text-stone-300">
-          <li><strong>SuperApp azplus.mg:</strong> Designed and deployed a SuperApp for Madagascar, transitioning its infrastructure to Google Cloud Platform (GCP) and adopting a microservices architecture. This involved:
+          <li><strong> My brother's startup https://azplus.mg:</strong> Designed and deployed a SuperApp for Madagascar, transitioning its infrastructure to Google Cloud Platform (GCP) and adopting a microservices architecture. This involved:
             <ul class="list-disc list-inside dark:text-stone-300">
               <li>Setting up Kubernetes clusters for scalable microservices deployment.
                 <br><em>Added Value:</em> Enhanced app scalability and reliability, ensuring a seamless user experience during high demand.</li>
@@ -83,12 +85,12 @@ permalink: projects
               <li>Training a YOLO model for detecting and recognizing different Euro coins.
                 <br><em>Added Value:</em> Provided an accurate and efficient tool for coin recognition, simplifying user tasks.</li>
               <li>Implementing the app for real-time coin recognition on mobile devices.
-                <br><em>Added Value:</em> Offered a convenient mobile solution for users, enhancing accessibility and usability.</li>
+                <br><em>Added Value:</em> Offered a convenient mobile solution for my girlfriend on her Euro coin collections.</li>
             </ul>
           </li>
-          <li><strong>Cloud-based Noise Processing:</strong> Worked on a project to predict queue lengths and perform speech-to-text conversion using Raspberry Pi and cloud technologies. This involved:
+          <li><strong>Cloud-based Noise Processing:</strong> Worked on a project to predict queue lengths and perform home assistant using Raspberry Pi and cloud technologies. This involved:
             <ul class="list-disc list-inside dark:text-stone-300">
-              <li>Deploying noise processing algorithms on Raspberry Pi devices.
+              <li>Deploying noise processing algorithms on Raspberry Pi devices to predict queues at the student restaurant.
                 <br><em>Added Value:</em> Enabled real-time noise analysis, providing actionable insights for various applications.</li>
               <li>Utilizing cloud services for real-time data processing and storage.
                 <br><em>Added Value:</em> Ensured efficient and scalable data processing, supporting high-performance applications.</li>
