@@ -97,4 +97,3 @@ As you embark on your machine learning journey, remember that persistence and cu
 
 </p>
 
-These detailed blog posts highlight my deep interest and active engagement in the field of machine learning and cloud engineering. By sharing my knowledge and experiences, I aim to contribute to the community and inspire others to explore the exciting possibilities of these technologies.

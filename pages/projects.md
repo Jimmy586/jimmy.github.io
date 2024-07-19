@@ -6,8 +6,10 @@ permalink: projects
 
 <div style="text-align: justify">
   <h1 class="dark:text-stone-200">Projects</h1>
-
-  <section id="projects">
+  <img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/card.PNG">
+  <p class="!py-0 !mb-0 dark:text-slate-300">My professional card.</p>
+  <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">Greatness is not achieved overnight, the only way to get there is by providing yourself all manners to hit your best potential.</p>
+    <section id="projects">
     <div class="project-content">
 
       <h2 class="dark:text-stone-200">SERMA Safety and Security</h2>
