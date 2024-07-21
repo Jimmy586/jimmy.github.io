@@ -21,7 +21,7 @@ layout: default
         <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
       </div>
     </div>
-    <div id="typing-container" class="w-full flex justify-end" style="display: none;">
+    <div id="typing-container" class="w-full flex justify-end">
       <div class="chat-bubble-container flex items-end justify-end">
         <div id="typing-bubble" class="chat-bubble outgoing typing-animation">
           <div class="typing-dots">
@@ -31,7 +31,7 @@ layout: default
       </div>
       <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
     </div>
-    <div id="reply-container" class="w-full flex justify-end">
+    <div id="reply-container" class="w-full flex justify-end" style="display: none;">
       <div class="chat-bubble-container flex items-end justify-end">
         <div id="reply" class="chat-bubble outgoing">
           <ul class="bullet-points">
@@ -193,7 +193,7 @@ layout: default
 
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function() {
-    displayReply();
+    setTimeout(displayReply, 1500); // Simulate typing delay before displaying reply
   });
 
   function displayReply() {
