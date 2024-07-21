@@ -467,7 +467,30 @@ layout: default
   }
 </style>
 
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(displayReply, 2000); // Simulate typing delay before displaying reply
+  });
 
+  function displayReply() {
+    var typingContainer = document.getElementById('typing-container');
+    var replyContainer = document.getElementById('reply-container');
+    var reply = document.getElementById('reply');
+    
+    // Hide typing animation and show reply
+    typingContainer.style.display = 'none';
+    replyContainer.style.display = 'flex';
+    
+    // Set reply content
+    reply.innerHTML = `
+      <ul class="bullet-points">
+        <li>AI/GenAI/Machine Learning Engineer</li>
+        <li>Cloud/Infrastructure Engineer</li>
+        <li>LLM/Prompt Engineer</li>
+      </ul>
+    `;
+  }
+</script>
 
 {% include social-media.html %}
 {% include footer.html %}
