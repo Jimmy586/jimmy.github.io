@@ -18,7 +18,7 @@ layout: default
     <div class="chat-bubble incoming">
       <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
     </div>
-    <div id="typing"></div>
+    <div id="typing" class="flex flex-col items-end w-full"></div>
   </div>
   
   <section id="professional-summary" class="my-6">
@@ -93,6 +93,7 @@ layout: default
   .chat-bubble.outgoing {
     background-color: #28a745;
     align-self: flex-end;
+    margin-left: auto;
   }
   
   .chat-bubble.outgoing::after {
