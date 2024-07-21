@@ -16,7 +16,7 @@ layout: default
   
   <div id="chat-container" class="flex flex-col items-start space-y-4 mt-8 mx-5 md:mx-auto">
     <div class="chat-bubble-container flex items-end">
-      <img src="{{ site.baseurl }}/assets/raw/img/hr.jpg" class="chat-profile-pic" alt="Profile picture">
+      <img src="{{ site.baseurl }}/assets/img/hr.jpg" class="chat-profile-pic" alt="Profile picture">
       <div class="chat-bubble incoming">
         <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
       </div>
@@ -29,7 +29,7 @@ layout: default
           </div>
         </div>
       </div>
-      <img src="{{ site.baseurl }}/assets/raw/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
+      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
     </div>
     <div id="reply-container" class="w-full flex justify-end" style="display: none;">
       <div class="chat-bubble-container flex items-end justify-end">
@@ -37,7 +37,7 @@ layout: default
           <!-- Reply content will be typed here -->
         </div>
       </div>
-      <img src="{{ site.baseurl }}/assets/raw/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
+      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
     </div>
   </div>
   
@@ -216,7 +216,7 @@ layout: default
         replyContainer.style.display = 'flex';
         reply.innerHTML = '<ul class="bullet-points">';
       })
-      .typeString('<li>AI/Machine Learning Engineer</li>')
+      .typeString('<li>AI/GenAI/Machine Learning Engineer</li>')
       .pauseFor(PAUSE)
       .typeString('<li>Cloud/Infrastructure Engineer</li>')
       .pauseFor(PAUSE)
