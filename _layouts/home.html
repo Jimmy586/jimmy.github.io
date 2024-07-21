@@ -18,7 +18,7 @@ layout: default
     <div class="chat-bubble incoming">
       <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
     </div>
-    <div id="typing" class="flex flex-col items-end w-full"></div>
+    <div id="typing" class="w-full flex justify-end h-32"></div>
   </div>
   
   <section id="professional-summary" class="my-6">
@@ -61,12 +61,12 @@ layout: default
   }
   
   .chat-bubble {
-    max-width: 60%;
-    padding: 10px 20px;
-    border-radius: 20px;
+    max-width: 50%;
+    padding: 8px 16px;
+    border-radius: 16px;
     margin: 5px 0;
     position: relative;
-    font-size: 1rem;
+    font-size: 0.875rem; /* reduced font size */
     color: #fff;
   }
   
@@ -84,10 +84,10 @@ layout: default
   }
   
   .chat-bubble.incoming::after {
-    border-width: 10px 10px 10px 0;
+    border-width: 8px 8px 8px 0;
     border-color: transparent #007bff transparent transparent;
-    left: -10px;
-    top: 10px;
+    left: -8px;
+    top: 8px;
   }
   
   .chat-bubble.outgoing {
@@ -97,10 +97,14 @@ layout: default
   }
   
   .chat-bubble.outgoing::after {
-    border-width: 10px 0 10px 10px;
+    border-width: 8px 0 8px 8px;
     border-color: transparent transparent transparent #28a745;
-    right: -10px;
-    top: 10px;
+    right: -8px;
+    top: 8px;
+  }
+
+  #typing {
+    min-height: 4rem; /* static space for the chat bubble */
   }
 </style>
 
@@ -119,16 +123,19 @@ layout: default
       cursor: '',
     });
 
-    function addReply() {
-      typing.innerHTML = '<div class="chat-bubble outgoing"><p>AI/Machine Learning Engineer<br>Cloud/Infrastructure Engineer<br>LLM/Prompt Engineer</p></div>';
-    }
-
     typewriter
       .callFunction(() => {
-        typing.innerHTML = '';
+        typing.innerHTML = '<div class="chat-bubble outgoing"><p>';
       })
+      .typeString('AI/Machine Learning Engineer')
       .pauseFor(PAUSE)
-      .callFunction(addReply)
+      .typeString('<br>Cloud/Infrastructure Engineer')
+      .pauseFor(PAUSE)
+      .typeString('<br>LLM/Prompt Engineer')
+      .pauseFor(PAUSE)
+      .callFunction(() => {
+        typing.innerHTML += '</p></div>';
+      })
       .pauseFor(PAUSE)
       .deleteAll()
       .start();
