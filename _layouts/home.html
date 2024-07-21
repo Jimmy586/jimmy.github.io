@@ -78,6 +78,8 @@ layout: default
 </div>
 
 <style>
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
   #chat-container {
     display: flex;
     flex-direction: column;
@@ -202,7 +204,8 @@ layout: default
   }
   
   .bullet-points li::before {
-    content: "\2713"; /* Unicode character for checkmark */
+    content: "\f00c"; /* FontAwesome checkmark */
+    font-family: FontAwesome;
     position: absolute;
     left: 0;
     color: #28a745; /* Green color */
