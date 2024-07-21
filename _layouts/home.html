@@ -14,7 +14,12 @@ layout: default
   
   {% if site.author-bio %}
   
-  <p class="font-mono font-semibold text-lg xl:text-2xl lg:py-3 dark:text-white mx-5 md:mx-auto"><span id="typing"></span></p>
+  <div id="chat-container" class="flex flex-col items-start space-y-4 mt-8 mx-5 md:mx-auto">
+    <div class="chat-bubble incoming">
+      <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
+    </div>
+    <div id="typing"></div>
+  </div>
   
   <section id="professional-summary" class="my-6">
     <div class="summary-content">
@@ -48,6 +53,56 @@ layout: default
   {% endif %}
 </div>
 
+<style>
+  #chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .chat-bubble {
+    max-width: 60%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px 0;
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .chat-bubble::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    display: block;
+    width: 0;
+  }
+  
+  .chat-bubble.incoming {
+    background-color: #007bff;
+    align-self: flex-start;
+  }
+  
+  .chat-bubble.incoming::after {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #007bff transparent transparent;
+    left: -10px;
+    top: 10px;
+  }
+  
+  .chat-bubble.outgoing {
+    background-color: #28a745;
+    align-self: flex-end;
+  }
+  
+  .chat-bubble.outgoing::after {
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #28a745;
+    right: -10px;
+    top: 10px;
+  }
+</style>
+
 <script type="text/javascript">
   (function(){
     type();
@@ -58,20 +113,24 @@ layout: default
     const PAUSE = 1500; // 1.5s
 
     var typewriter = new Typewriter(typing, {
-      loop: true,
+      loop: false,
       delay: 100,
+      cursor: '',
     });
 
     typewriter
-      .typeString('AI/Machine Learning Engineer')
+      .callFunction(() => {
+        typing.innerHTML = '<div class="chat-bubble outgoing"><p>AI/Machine Learning Engineer</p></div>';
+      })
       .pauseFor(PAUSE)
-      .deleteAll()
-      .typeString('Cloud/Infrastructure Engineer')
+      .callFunction(() => {
+        typing.innerHTML += '<div class="chat-bubble outgoing"><p>Cloud/Infrastructure Engineer</p></div>';
+      })
       .pauseFor(PAUSE)
-      .deleteAll()
-      .typeString('LLM/Prompt Engineer')
+      .callFunction(() => {
+        typing.innerHTML += '<div class="chat-bubble outgoing"><p>LLM/Prompt Engineer</p></div>';
+      })
       .pauseFor(PAUSE)
-      .deleteAll()
       .start();
   }
 </script>
