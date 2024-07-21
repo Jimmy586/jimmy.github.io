@@ -113,24 +113,23 @@ layout: default
     const PAUSE = 1500; // 1.5s
 
     var typewriter = new Typewriter(typing, {
-      loop: false,
+      loop: true,
       delay: 100,
       cursor: '',
     });
 
+    function addReply() {
+      typing.innerHTML = '<div class="chat-bubble outgoing"><p>AI/Machine Learning Engineer<br>Cloud/Infrastructure Engineer<br>LLM/Prompt Engineer</p></div>';
+    }
+
     typewriter
       .callFunction(() => {
-        typing.innerHTML = '<div class="chat-bubble outgoing"><p>AI/Machine Learning Engineer</p></div>';
+        typing.innerHTML = '';
       })
       .pauseFor(PAUSE)
-      .callFunction(() => {
-        typing.innerHTML += '<div class="chat-bubble outgoing"><p>Cloud/Infrastructure Engineer</p></div>';
-      })
+      .callFunction(addReply)
       .pauseFor(PAUSE)
-      .callFunction(() => {
-        typing.innerHTML += '<div class="chat-bubble outgoing"><p>LLM/Prompt Engineer</p></div>';
-      })
-      .pauseFor(PAUSE)
+      .deleteAll()
       .start();
   }
 </script>
