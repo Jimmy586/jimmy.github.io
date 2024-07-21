@@ -18,7 +18,7 @@ layout: default
     <div class="chat-bubble-container flex items-end">
       <img src="{{ site.baseurl }}/assets/img/hr.jpg" class="chat-profile-pic" alt="Profile picture">
       <div class="chat-bubble incoming">
-        <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
+        <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for my company?</p>
       </div>
     </div>
     <div id="typing-container" class="w-full flex justify-end" style="display: none;">
@@ -180,6 +180,11 @@ layout: default
       opacity: 1;
     }
   }
+
+  .bullet-points {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
 </style>
 
 <script type="text/javascript">
@@ -201,27 +206,26 @@ layout: default
 
     typewriter
       .callFunction(() => {
-        reply.innerHTML = '<p>';
+        reply.innerHTML = '';
         typingContainer.style.display = 'flex';
+        replyContainer.style.display = 'none';
       })
       .pauseFor(PAUSE)
       .callFunction(() => {
         typingContainer.style.display = 'none';
         replyContainer.style.display = 'flex';
+        reply.innerHTML = '<ul class="bullet-points">';
       })
-      .typeString('AI/Machine Learning Engineer')
+      .typeString('<li>AI/Machine Learning Engineer</li>')
       .pauseFor(PAUSE)
-      .typeString('<br>Cloud/Infrastructure Engineer')
+      .typeString('<li>Cloud/Infrastructure Engineer</li>')
       .pauseFor(PAUSE)
-      .typeString('<br>LLM/Prompt Engineer')
+      .typeString('<li>LLM/Prompt Engineer</li>')
       .pauseFor(PAUSE)
       .callFunction(() => {
-        reply.innerHTML += '</p>';
+        reply.innerHTML += '</ul>';
       })
       .pauseFor(PAUSE)
-      .callFunction(() => {
-        replyContainer.style.display = 'none';
-      })
       .deleteAll()
       .start();
   }
