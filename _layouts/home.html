@@ -188,7 +188,7 @@ layout: default
 
   .bullet-points {
     padding-left: 20px;
-    list-style-type: disc;
+    list-style-type: none;
     line-height: 1.6;
     font-size: 1rem;
     font-family: 'Arial', sans-serif;
@@ -197,6 +197,16 @@ layout: default
   
   .bullet-points li {
     margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .bullet-points li::before {
+    content: "\2713"; /* Unicode character for checkmark */
+    position: absolute;
+    left: 0;
+    color: #28a745; /* Green color */
+    font-size: 1.2rem; /* Increase size if needed */
   }
 </style>
 
