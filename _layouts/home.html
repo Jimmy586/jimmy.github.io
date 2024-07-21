@@ -129,8 +129,8 @@ layout: default
   }
 
   .chat-profile-pic {
-    width: 32px;
-    height: 32px;
+    width: 40px; /* increased size */
+    height: 40px; /* increased size */
     border-radius: 50%;
     margin: 0 10px;
   }
@@ -200,7 +200,7 @@ layout: default
 
     typewriter
       .callFunction(() => {
-        replyContainer.innerHTML = '';
+        replyContainer.innerHTML = '<p>';
         typingBubble.classList.add('typing-animation');
       })
       .pauseFor(PAUSE)
@@ -214,7 +214,7 @@ layout: default
       .typeString('<br>LLM/Prompt Engineer')
       .pauseFor(PAUSE)
       .callFunction(() => {
-        replyContainer.innerHTML += '</p></div>';
+        replyContainer.innerHTML += '</p>';
       })
       .pauseFor(PAUSE)
       .deleteAll()
