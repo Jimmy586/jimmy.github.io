@@ -94,11 +94,12 @@ layout: default
   
   .chat-bubble {
     max-width: 60%;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 15px 25px; /* Increase padding for better readability */
+    border-radius: 25px; /* Smooth rounded corners */
     position: relative;
-    font-size: 0.875rem; /* reduced font size */
+    font-size: 1rem; /* Slightly increased font size */
     color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
   }
   
   .chat-bubble::after {
@@ -118,31 +119,31 @@ layout: default
     border-width: 8px 8px 8px 0;
     border-color: transparent #007bff transparent transparent;
     left: -8px;
-    top: 8px;
+    top: 15px;
   }
   
   .chat-bubble.outgoing {
     background-color: #28a745;
     align-self: flex-end;
-    margin-left: 200px; /* Added margin to move it more to the right */
+    margin-left: 400px; /* Added margin to move it more to the right */
   }
   
   .chat-bubble.outgoing::after {
     border-width: 8px 0 8px 8px;
     border-color: transparent transparent transparent #28a745;
     right: -8px;
-    top: 8px;
+    top: 15px;
   }
 
   .chat-profile-pic {
-    width: 40px; /* increased size */
-    height: 40px; /* increased size */
+    width: 50px; /* Increased size */
+    height: 50px; /* Increased size */
     border-radius: 50%;
     margin: 0 10px;
   }
 
   #typing {
-    min-height: 4rem; /* static space for the chat bubble */
+    min-height: 4rem; /* Static space for the chat bubble */
   }
 
   .typing-animation {
@@ -190,7 +191,7 @@ layout: default
   .bullet-points {
     padding-left: 20px;
     list-style-type: none;
-    line-height: 1.6;
+    line-height: 1.8;
     font-size: 1rem;
     font-family: 'Arial', sans-serif;
     color: #ffffff;
