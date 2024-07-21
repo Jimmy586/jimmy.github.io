@@ -15,10 +15,18 @@ layout: default
   {% if site.author-bio %}
   
   <div id="chat-container" class="flex flex-col items-start space-y-4 mt-8 mx-5 md:mx-auto">
-    <div class="chat-bubble incoming">
-      <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
+    <div class="chat-bubble-container flex items-end">
+      <img src="{{ site.baseurl }}/assets/raw/img/hr.jpg" class="chat-profile-pic" alt="Profile picture">
+      <div class="chat-bubble incoming">
+        <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">What can Jimmy bring to the table for your company?</p>
+      </div>
     </div>
-    <div id="typing" class="w-full flex justify-end h-32"></div>
+    <div id="typing" class="w-full flex justify-end">
+      <div class="chat-bubble-container flex items-end justify-end">
+        <div id="typing-bubble" class="chat-bubble outgoing typing-animation"></div>
+        <img src="{{ site.baseurl }}/assets/raw/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
+      </div>
+    </div>
   </div>
   
   <section id="professional-summary" class="my-6">
@@ -59,12 +67,17 @@ layout: default
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .chat-bubble-container {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
   
   .chat-bubble {
     max-width: 50%;
-    padding: 8px 16px;
-    border-radius: 16px;
-    margin: 5px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
     position: relative;
     font-size: 0.875rem; /* reduced font size */
     color: #fff;
@@ -103,8 +116,48 @@ layout: default
     top: 8px;
   }
 
+  .chat-profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+
   #typing {
     min-height: 4rem; /* static space for the chat bubble */
+  }
+
+  .typing-animation {
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .typing-animation::before, .typing-animation::after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    animation: blink 1.4s infinite both;
+  }
+
+  .typing-animation::after {
+    animation-delay: 0.2s;
+  }
+
+  @keyframes blink {
+    0%, 80%, 100% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
   }
 </style>
 
@@ -138,6 +191,13 @@ layout: default
       })
       .pauseFor(PAUSE)
       .deleteAll()
+      .callFunction(() => {
+        document.getElementById('typing-bubble').classList.add('typing-animation');
+      })
+      .pauseFor(PAUSE)
+      .callFunction(() => {
+        document.getElementById('typing-bubble').classList.remove('typing-animation');
+      })
       .start();
   }
 </script>
