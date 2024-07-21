@@ -31,10 +31,14 @@ layout: default
       </div>
       <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
     </div>
-    <div id="reply-container" class="w-full flex justify-end" style="display: none;">
+    <div id="reply-container" class="w-full flex justify-end">
       <div class="chat-bubble-container flex items-end justify-end">
         <div id="reply" class="chat-bubble outgoing">
-          <!-- Reply content will be typed here -->
+          <ul class="bullet-points">
+            <li>AI/GenAI/Machine Learning Engineer</li>
+            <li>Cloud/Infrastructure Engineer</li>
+            <li>LLM/Prompt Engineer</li>
+          </ul>
         </div>
       </div>
       <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic" alt="Profile picture">
@@ -189,43 +193,26 @@ layout: default
 
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function() {
-    type();
+    displayReply();
   });
 
-  function type() {
+  function displayReply() {
     var typingContainer = document.getElementById('typing-container');
     var replyContainer = document.getElementById('reply-container');
     var reply = document.getElementById('reply');
-    const PAUSE = 1500; // 1.5s
-
-    var typewriter = new Typewriter(reply, {
-      loop: false,
-      delay: 100,
-      cursor: '',
-    });
-
-    typewriter
-      .callFunction(() => {
-        reply.innerHTML = '';
-        typingContainer.style.display = 'flex';
-        replyContainer.style.display = 'none';
-      })
-      .pauseFor(PAUSE)
-      .callFunction(() => {
-        typingContainer.style.display = 'none';
-        replyContainer.style.display = 'flex';
-        reply.innerHTML = '<ul class="bullet-points">';
-      })
-      .typeString('<li>AI/GenAI/Machine Learning Engineer</li>')
-      .pauseFor(PAUSE)
-      .typeString('<li>Cloud/Infrastructure Engineer</li>')
-      .pauseFor(PAUSE)
-      .typeString('<li>LLM/Prompt Engineer</li>')
-      .pauseFor(PAUSE)
-      .callFunction(() => {
-        reply.innerHTML += '</ul>';
-      })
-      .start();
+    
+    // Hide typing animation and show reply
+    typingContainer.style.display = 'none';
+    replyContainer.style.display = 'flex';
+    
+    // Set reply content
+    reply.innerHTML = `
+      <ul class="bullet-points">
+        <li>AI/GenAI/Machine Learning Engineer</li>
+        <li>Cloud/Infrastructure Engineer</li>
+        <li>LLM/Prompt Engineer</li>
+      </ul>
+    `;
   }
 </script>
 
