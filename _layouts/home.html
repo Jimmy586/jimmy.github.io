@@ -6,266 +6,31 @@ layout: default
   {% include nav.html %}
 {% endif %}
 
+<div class="container mx-auto text-center prose prose-{{site.theme-color}} my-8">
 <div class="container mx-auto text-center prose prose-{{ site.theme-color }} my-8">
   <div class="flex flex-col items-center">
+    <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{site.baseurl}}/assets/img/{{site.author-image}}" alt="author profile image">
+    <h1 class="dark:text-white mt-4">{{site.author}}</h1>
     <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{ site.baseurl }}/assets/img/{{ site.author-image }}" alt="author profile image">
     <h1 class="dark:text-white mt-4">{{ site.author }}</h1>
   </div>
-  
+
   {% if site.author-bio %}
-  
-  <div id="chat-container" class="flex flex-col items-start space-y-4 mt-8 mx-5 md:mx-auto">
-    <div class="chat-bubble-container flex items-end">
-      <img src="{{ site.baseurl }}/assets/img/hr.jpg" class="chat-profile-pic" alt="Profile picture">
-      <div class="chat-bubble incoming">
-        <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">In which area can Jimmy bring value to the table for my company?</p>
-      </div>
-    </div>
-    <div id="typing-container" class="w-full flex justify-end">
-      <div class="chat-bubble-container flex items-end justify-end">
-        <div id="typing-bubble" class="chat-bubble outgoing typing-animation">
-          <div class="typing-dots">
-            <span></span><span></span><span></span>
-          </div>
-        </div>
-      </div>
-      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic outgoing-profile" alt="Profile picture">
-    </div>
-    <div id="reply-container" class="w-full flex justify-end" style="display: none;">
-      <div class="chat-bubble-container flex items-end justify-end">
-        <div id="reply" class="chat-bubble outgoing">
-          <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">Jimmy is an amazing</p>
-          <ul class="bullet-points">
-            <li><span class="highlight">✅ AI/Machine Learning Engineer</span></li>
-            <li><span class="highlight">✅ Cloud/Infrastructure Engineer</span></li>
-            <li><span class="highlight">✅ LLM/Prompt Engineer</span></li>
-          </ul>
-        </div>
-      </div>
-      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic outgoing-profile" alt="Profile picture">
-    </div>
-  </div>
-  
-  <section id="professional-summary" class="my-6">
-    <div class="summary-content">
-      <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-        I have acquired a solid understanding and hands-on experience in Cloud computing and Machine Learning throughout my academic and professional journey. I love crafting technological solutions in my spare time to challenge myself. I hold an MSc in Computer Science with a focus on Cloud and Network Infrastructure from <strong>Rennes University, France</strong>, complemented by a BSc in AI from <strong>Cairo University, Egypt</strong>.
-      </p>
-    </div>
-  </section>
-  
-  <section id="current-roles" class="my-6">
-    <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-      I am currently a <strong>Machine Learning Engineer Intern</strong> at <a class="text-gray-500 dark:text-stone-200" href="https://www.serma-safety-security.com/en/">SERMA SAFETY AND SECURITY</a> until August 2024. Additionally, I am helping my brother on his startup in Madagascar, a SuperApp I designed and helped deploy, available on Android and iOS. I also work as a part-time System Architect at <a class="text-gray-500 dark:text-stone-200" href="https://www.azplus.mg/">AZ+ Madagascar</a>.
-    </p>
-  </section>
-  
+@@ -31,7 +32,7 @@ <h1 class="dark:text-white mt-4">{{site.author}}</h1>
+
   <section id="career-goals" class="my-6">
     <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
+      I am seeking opportunities to learn and grow while showcasing my expertise. My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of my resources to sustainable solutions for the greater good. Read <a class="text-gray-500 dark:text-stone-200" href="https://vatosoamananjara-jimmy.com/about">more about me</a>.
       I am seeking opportunities to learn and grow while showcasing my expertise. My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of my resources to sustainable solutions for the greater good. Read <a class="text-gray-500 dark:text-stone-200" href="{{ site.baseurl }}/about">more about me</a>.
     </p>
-    <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">
-      <strong>Last update:</strong> July 2024
-    </p>
-  </section>
-  
-  <section id="projects" class="my-6">
     <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-      💻 I have worked on various projects involving Machine Learning, NLP, Computer Vision, Data Visualization, CI/CD, and Cloud-based projects.
-    </p>
-  </section>
-  
-  {% endif %}
-</div>
-
-<style>
-  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
-  #chat-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .chat-bubble-container {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-  }
-  
-  .chat-bubble {
-    max-width: 60%;
-    padding: 15px 25px; /* Increase padding for better readability */
-    border-radius: 25px; /* Smooth rounded corners */
-    position: relative;
-    font-size: 1rem; /* Slightly increased font size */
-    color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
-  }
-  
-  .chat-bubble::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    display: block;
-    width: 0;
-  }
-  
-  .chat-bubble.incoming {
-    background-color: #007bff;
-    align-self: flex-start;
-  }
-  
-  .chat-bubble.incoming::after {
-    border-width: 8px 8px 8px 0;
-    border-color: transparent #007bff transparent transparent;
-    left: -8px;
-    top: 15px;
-  }
-  
-  .chat-bubble.outgoing {
-    background-color: #28a745;
-    align-self: flex-end;
-    margin-right: auto;
-  }
-  
-  .chat-bubble.outgoing::after {
-    border-width: 8px 0 8px 8px;
-    border-color: transparent transparent transparent #28a745;
-    right: -8px;
-    top: 15px;
-  }
-
-  .chat-profile-pic {
-    width: 50px; /* Increased size */
-    height: 50px; /* Increased size */
-    border-radius: 50%;
-    margin: 0 10px;
-  }
-
-  .outgoing-profile {
-    margin-right: 200px; /* Added margin to move it more to the right */
-  }
-
-  @media (max-width: 768px) {
-    .chat-bubble {
-      max-width: 80%; /* Adjust max-width for smaller screens */
-    }
-    .outgoing-profile {
-      margin-right: 10px; /* Reduce margin for smaller screens */
-    }
-  }
-
-  #typing {
-    min-height: 4rem; /* Static space for the chat bubble */
-  }
-
-  .typing-animation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .typing-dots {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 30px;
-  }
-
-  .typing-dots span {
-    width: 6px;
-    height: 6px;
-    background-color: white;
-    border-radius: 50%;
-    animation: blink 1.4s infinite both;
-  }
-
-  .typing-dots span:nth-child(1) {
-    animation-delay: 0s;
-  }
-
-  .typing-dots span:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-
-  .typing-dots span:nth-child(3) {
-    animation-delay: 0.4s;
-  }
-
-  @keyframes blink {
-    0%, 80%, 100% {
-      opacity: 0;
-    }
-    40% {
-      opacity: 1;
-    }
-  }
-
-  .bullet-points {
-    padding-left: 20px;
-    list-style-type: none;
-    line-height: 1.8;
-    font-size: 1rem;
-    font-family: 'Arial', sans-serif;
-    color: #ffffff;
-  }
-  
-  .bullet-points li {
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 25px;
-    opacity: 0;
-    transition: opacity 1s ease-in;
-  }
-
-  .bullet-points li.show {
-    opacity: 1;
-  }
-
-  .bullet-points li::before {
-    content: "✅"; /* Unicode checkmark */
-    position: absolute;
-    left: 0;
-    font-size: 1.2rem; /* Increase size if needed */
-  }
-
-  .highlight {
-    font-weight: bold;
-    color: #FFD700; /* Gold color */
-    transition: color 1s ease-in;
-  }
-
-  .highlight.show {
-    color: #ffffff; /* White color after transition */
-  }
-</style>
-
-<script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(displayReply, 1500); // Simulate typing delay before displaying reply
-  });
-
-  function displayReply() {
-    var typingContainer = document.getElementById('typing-container');
-    var replyContainer = document.getElementById('reply-container');
-    var reply = document.getElementById('reply');
-    
-    // Hide typing animation and show reply
-    typingContainer.style.display = 'none';
-    replyContainer.style.display = 'flex';
-    
-    // Set reply content
-    reply.innerHTML = `
-    <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">Jimmy is an amazing</p>
-      <ul class="bullet-points">
-        <li class="show"><span class="highlight show">AI/Machine Learning Engineer</span></li>
-        <li class="show"><span class="highlight show">Cloud/Infrastructure Engineer</span></li>
-        <li class="show"><span class="highlight show">LLM/Prompt Engineer</span></li>
-      </ul>
-    `;
-  }
-</script>
-
-{% include social-media.html %}
-{% include footer.html %}
+      <strong>Last update:</strong> July 2024
+@@ -65,7 +66,7 @@ <h1 class="dark:text-white mt-4">{{site.author}}</h1>
+      .typeString('AI/Machine Learning Engineer')
+      .pauseFor(PAUSE)
+      .deleteAll()
+      .typeString('Cloud/Infratructure Engineer')
+      .typeString('Cloud/Infrastructure Engineer')
+      .pauseFor(PAUSE)
+      .deleteAll()
+      .typeString('LLM/Prompt Engineer')
