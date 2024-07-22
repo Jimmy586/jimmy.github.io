@@ -6,31 +6,75 @@ layout: default
   {% include nav.html %}
 {% endif %}
 
-<div class="container mx-auto text-center prose prose-{{site.theme-color}} my-8">
 <div class="container mx-auto text-center prose prose-{{ site.theme-color }} my-8">
   <div class="flex flex-col items-center">
-    <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{site.baseurl}}/assets/img/{{site.author-image}}" alt="author profile image">
-    <h1 class="dark:text-white mt-4">{{site.author}}</h1>
     <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{ site.baseurl }}/assets/img/{{ site.author-image }}" alt="author profile image">
     <h1 class="dark:text-white mt-4">{{ site.author }}</h1>
   </div>
-
+  
   {% if site.author-bio %}
-@@ -31,7 +32,7 @@ <h1 class="dark:text-white mt-4">{{site.author}}</h1>
-
+  
+  <p class="font-mono font-semibold text-lg xl:text-2xl lg:py-3 dark:text-white mx-5 md:mx-auto"><span id="typing"></span></p>
+  
+  <section id="professional-summary" class="my-6">
+    <div class="summary-content">
+      <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
+        I have acquired a solid understanding and hands-on experience in Cloud computing and Machine Learning throughout my academic and professional journey. I love crafting technological solutions in my spare time to challenge myself. I hold an MSc in Computer Science with a focus on Cloud and Network Infrastructure from <strong>Rennes University, France</strong>, complemented by a BSc in AI from <strong>Cairo University, Egypt</strong>.
+      </p>
+    </div>
+  </section>
+  
+  <section id="current-roles" class="my-6">
+    <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
+      I am currently a <strong>Machine Learning Engineer Intern</strong> at <a class="text-gray-500 dark:text-stone-200" href="https://www.serma-safety-security.com/en/">SERMA SAFETY AND SECURITY</a> until August 2024. Additionally, I am helping my brother on his startup in Madagascar, a SuperApp I designed and helped deploy, available on Android and iOS. I also work as a part-time System Architect at <a class="text-gray-500 dark:text-stone-200" href="https://www.azplus.mg/">AZ+ Madagascar</a>.
+    </p>
+  </section>
+  
   <section id="career-goals" class="my-6">
     <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-      I am seeking opportunities to learn and grow while showcasing my expertise. My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of my resources to sustainable solutions for the greater good. Read <a class="text-gray-500 dark:text-stone-200" href="https://vatosoamananjara-jimmy.com/about">more about me</a>.
       I am seeking opportunities to learn and grow while showcasing my expertise. My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of my resources to sustainable solutions for the greater good. Read <a class="text-gray-500 dark:text-stone-200" href="{{ site.baseurl }}/about">more about me</a>.
     </p>
     <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
       <strong>Last update:</strong> July 2024
-@@ -65,7 +66,7 @@ <h1 class="dark:text-white mt-4">{{site.author}}</h1>
+    </p>
+  </section>
+  
+  <section id="projects" class="my-6">
+    <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
+      💻 I have worked on various projects involving Machine Learning, NLP, Computer Vision, Data Visualization, CI/CD, and Cloud-based projects.
+    </p>
+  </section>
+  
+  {% endif %}
+</div>
+
+<script type="text/javascript">
+  (function(){
+    type();
+  })();
+
+  function type() {
+    var typing = document.getElementById('typing');
+    const PAUSE = 1500; // 1.5s
+
+    var typewriter = new Typewriter(typing, {
+      loop: true,
+      delay: 100,
+    });
+
+    typewriter
       .typeString('AI/Machine Learning Engineer')
       .pauseFor(PAUSE)
       .deleteAll()
-      .typeString('Cloud/Infratructure Engineer')
-      .typeString('LLM/GenAI Engineer')
+      .typeString('Cloud/Infrastructure Engineer')
       .pauseFor(PAUSE)
       .deleteAll()
       .typeString('LLM/Prompt Engineer')
+      .pauseFor(PAUSE)
+      .deleteAll()
+      .start();
+  }
+</script>
+
+{% include social-media.html %}
+{% include footer.html %}
