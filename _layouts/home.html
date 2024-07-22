@@ -29,20 +29,20 @@ layout: default
           </div>
         </div>
       </div>
-      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic" style="margin-right: 200px;" alt="Profile picture">
+      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic outgoing-profile" alt="Profile picture">
     </div>
     <div id="reply-container" class="w-full flex justify-end" style="display: none;">
       <div class="chat-bubble-container flex items-end justify-end">
         <div id="reply" class="chat-bubble outgoing">
           <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">Jimmy is an amazing</p>
           <ul class="bullet-points">
-            <li><span class="highlight">AI/Machine Learning Engineer</span></li>
-            <li><span class="highlight">Cloud/Infrastructure Engineer</span></li>
-            <li><span class="highlight">LLM/Prompt Engineer</span></li>
+            <li><span class="highlight">✅ AI/Machine Learning Engineer</span></li>
+            <li><span class="highlight">✅ Cloud/Infrastructure Engineer</span></li>
+            <li><span class="highlight">✅ LLM/Prompt Engineer</span></li>
           </ul>
         </div>
       </div>
-      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic" style="margin-right: 200px;" alt="Profile picture">
+      <img src="{{ site.baseurl }}/assets/img/lamma.jpg" class="chat-profile-pic outgoing-profile" alt="Profile picture">
     </div>
   </div>
   
@@ -126,7 +126,7 @@ layout: default
   .chat-bubble.outgoing {
     background-color: #28a745;
     align-self: flex-end;
-    margin-left: 400px; /* Added margin to move it more to the right */
+    margin-left: auto;
   }
   
   .chat-bubble.outgoing::after {
@@ -141,6 +141,19 @@ layout: default
     height: 50px; /* Increased size */
     border-radius: 50%;
     margin: 0 10px;
+  }
+
+  .outgoing-profile {
+    margin-right: 200px; /* Added margin to move it more to the right */
+  }
+
+  @media (max-width: 768px) {
+    .chat-bubble {
+      max-width: 80%; /* Adjust max-width for smaller screens */
+    }
+    .outgoing-profile {
+      margin-right: 10px; /* Reduce margin for smaller screens */
+    }
   }
 
   #typing {
@@ -246,9 +259,9 @@ layout: default
     reply.innerHTML = `
     <p class="font-mono font-semibold text-lg xl:text-2xl dark:text-white">Jimmy is an amazing</p>
       <ul class="bullet-points">
-        <li class="show"><span class="highlight show">AI/Machine Learning Engineer</span></li>
-        <li class="show"><span class="highlight show">Cloud/Infrastructure Engineer</span></li>
-        <li class="show"><span class="highlight show">LLM/Prompt Engineer</span></li>
+        <li class="show"><span class="highlight show">✅ AI/Machine Learning Engineer</span></li>
+        <li class="show"><span class="highlight show">✅ Cloud/Infrastructure Engineer</span></li>
+        <li class="show"><span class="highlight show">✅ LLM/Prompt Engineer</span></li>
       </ul>
     `;
   }
