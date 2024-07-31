@@ -4,10 +4,9 @@ title: Blog
 permalink: blog
 ---
 
-
 ### Highlighted Blog Posts
 
-<h4 class="blog-heading">1. Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth</h4>
+#### **1. Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth**
 **Date:** July 31, 2024
 <p class="text-gray-500 dark:text-stone-300">
 The recent release of Llama 3.1 offers models with an incredible level of performance, closing the gap between closed-source and open-weight models. Instead of using frozen, general-purpose LLMs like GPT-4o and Claude 3.5, you can fine-tune Llama 3.1 for your specific use cases to achieve better performance and customizability at a lower cost.
