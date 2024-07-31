@@ -13,10 +13,28 @@ The recent release of Llama 3.1 offers models with an incredible level of perfor
 
 In this article, we will provide a comprehensive overview of supervised fine-tuning. We will compare it to prompt engineering to understand when it makes sense to use it, detail the main techniques with their pros and cons, and introduce major concepts, such as LoRA hyperparameters, storage formats, and chat templates. Finally, we will implement it in practice by fine-tuning Llama 3.1 8B in Google Colab with state-of-the-art optimization using Unsloth.
 
+To keep it short, we delve into the essentials of supervised fine-tuning (SFT), a process that improves and customizes pre-trained language models (LLMs). SFT enables the transformation of a basic model into an advanced assistant capable of following complex instructions and answering queries with precision.
+
+### **Overview of Supervised Fine-Tuning Techniques**
+We explore several fine-tuning techniques including full fine-tuning, LoRA (Low-Rank Adaptation), and QLoRA (Quantization-aware Low-Rank Adaptation). Each method has its advantages depending on the specific needs in terms of computational resources and the scope of the project:
+- **Full Fine-Tuning**: This traditional method involves retraining all the parameters of the model on an instruction dataset. It provides excellent results but requires substantial computational power.
+- **LoRA**: An efficient approach that introduces small, trainable adapters instead of retraining all the model parameters. This technique is less resource-intensive and allows for more flexibility.
+- **QLoRA**: Building on LoRA, this method adds quantization awareness, which further reduces memory usage and makes it suitable for environments with limited GPU resources.
+
+### **Practical Implementation**
+We then provide a practical guide on implementing SFT using Llama 3.1, highlighting the use of Google Colab for environment setup and the Unsloth library for optimization. The article walks through the entire process from setting up the environment, selecting the fine-tuning technique, preparing the dataset, and configuring the training parameters.
+
+### **The Role of Instruction Datasets**
+A significant portion of the article is dedicated to the importance of high-quality instruction datasets. We discuss how to select and prepare these datasets to ensure the fine-tuned model performs well across a variety of tasks and scenarios. The use of the mlabonne/FineTome-100k dataset is showcased, illustrating how curated datasets contribute to effective fine-tuning.
+
+### **Ethical Considerations and Future Prospects**
+Lastly, the article touches on the ethical considerations of deploying fine-tuned models and the potential future applications. As machine learning continues to evolve, ensuring that these models are used responsibly remains a top priority.
+
+
 All the code used in this article is available on <a class="text-gray-500 dark:text-stone-300" href= "https://colab.research.google.com/drive/164cg_O7SV7G8kZr_JXqLd6VC7pd86-1Z#scrollTo=PoPKQjga6obN" target="_blank"> Google Colab </a>. The full article can be found in <a class="text-gray-500 dark:text-stone-300" href ="https://huggingface.co/blog/mlabonne/sft-llama3" target="_blank">this link </a>
 </p>
 
-#### 2. Practical Tips for Getting Started with Machine Learning
+#### **2. Practical Tips for Getting Started with Machine Learning**
 **Date:** June 10, 2024
 <p class="text-gray-500 dark:text-stone-300">
 For those new to the field of machine learning, getting started can seem daunting. However, with the right resources and guidance, anyone can begin their journey into this exciting and rapidly evolving field.
@@ -30,7 +48,7 @@ Reflecting on my own journey, I have found that continuous learning and experime
 As you embark on your machine learning journey, remember that persistence and curiosity are your greatest allies. Embrace challenges, learn from failures, and never stop exploring the possibilities of this transformative technology.
 </p>
 
-#### 3. The Role of Machine Learning in Sustainable Development
+#### **3. The Role of Machine Learning in Sustainable Development**
 **Date:** May 30, 2024
 <p class="text-gray-500 dark:text-stone-300">
 Machine learning is not only a powerful tool for business and technology but also a key enabler of sustainable development. By leveraging machine learning, we can address some of the most pressing environmental and social challenges of our time.
@@ -44,7 +62,7 @@ Reflecting on the role of machine learning in sustainable development, it is cle
 As we continue to explore the possibilities of machine learning, it is essential to prioritize sustainability and ethical considerations. By doing so, we can harness the power of technology to create a better, more sustainable future for all.
 </p>
 
-#### 4. Building Scalable Systems for Big Data Analytics
+#### **4. Building Scalable Systems for Big Data Analytics**
 **Date:** April 25, 2024
 <p class="text-gray-500 dark:text-stone-300">
 Big data analytics requires robust and scalable systems to handle the massive volumes of data generated every day. Building such systems involves a combination of architectural design, distributed computing frameworks, and data storage solutions.
@@ -60,7 +78,7 @@ Reflecting on the challenges of building scalable systems, it is clear that a ho
 As we continue to advance in the field of big data analytics, the ability to build and maintain scalable systems will be a key differentiator for organizations. By embracing innovative technologies and best practices, we can unlock the full potential of big data and drive meaningful insights.
 </p>
 
-#### 5. Enhancing Cybersecurity with AI and Machine Learning
+#### **5. Enhancing Cybersecurity with AI and Machine Learning**
 **Date:** March 20, 2024
 <p class="text-gray-500 dark:text-stone-300">
 Cybersecurity is a critical concern in today's digital landscape, and AI and machine learning offer powerful tools for enhancing security measures. These technologies can analyze vast amounts of data, detect anomalies, and predict potential threats, providing a proactive approach to cybersecurity.
@@ -74,7 +92,7 @@ However, the use of AI in cybersecurity also raises important questions. How do 
 Reflecting on these challenges, it is clear that the future of cybersecurity will be shaped by our ability to effectively harness the power of AI. By continuously refining our models and addressing ethical concerns, we can develop robust security solutions that protect against evolving threats.
 </p>
 
-#### 6. Optimizing Cloud Infrastructure for Machine Learning Workloads
+#### **6. Optimizing Cloud Infrastructure for Machine Learning Workloads**
 **Date:** February 15, 2024
 <p class="text-gray-500 dark:text-stone-300">
 Deploying machine learning models in the cloud offers numerous benefits, including scalability, flexibility, and cost-effectiveness. However, optimizing cloud infrastructure for these workloads requires careful planning and execution.
@@ -88,7 +106,7 @@ Reflecting on my experiences with cloud infrastructure, I have seen firsthand th
 Moreover, as organizations increasingly rely on cloud services, the need for robust security measures becomes paramount. How do we balance the convenience of cloud computing with the need to protect sensitive data? This is an ongoing challenge that requires continuous innovation and vigilance.
 </p>
 
-#### 7. The Evolution of Machine Learning: From Theory to Practical Applications
+#### **7. The Evolution of Machine Learning: From Theory to Practical Applications**
 **Date:** January 10, 2024
 <p class="text-gray-500 dark:text-stone-300">
 Machine learning has undergone a remarkable transformation from its early theoretical foundations to its current status as a driving force behind modern technology. This journey has been marked by several key milestones and breakthroughs that have shaped the field and expanded its applications.
