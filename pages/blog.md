@@ -8,7 +8,7 @@ permalink: blog
 
 #### **1. Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth**
 **Date:** July 31, 2024
-<p class="text-gray-500 dark:text-stone-300">
+
 The recent release of Llama 3.1 offers models with an incredible level of performance, closing the gap between closed-source and open-weight models. Instead of using frozen, general-purpose LLMs like GPT-4o and Claude 3.5, you can fine-tune Llama 3.1 for your specific use cases to achieve better performance and customizability at a lower cost.
 
 In this article, we will provide a comprehensive overview of supervised fine-tuning. We will compare it to prompt engineering to understand when it makes sense to use it, detail the main techniques with their pros and cons, and introduce major concepts, such as LoRA hyperparameters, storage formats, and chat templates. Finally, we will implement it in practice by fine-tuning Llama 3.1 8B in Google Colab with state-of-the-art optimization using Unsloth.
@@ -32,7 +32,7 @@ Lastly, the article touches on the ethical considerations of deploying fine-tune
 
 
 All the code used in this article is available on <a class="text-gray-500 dark:text-stone-300" href= "https://colab.research.google.com/drive/164cg_O7SV7G8kZr_JXqLd6VC7pd86-1Z#scrollTo=PoPKQjga6obN" target="_blank"> Google Colab </a>. The full article can be found in <a class="text-gray-500 dark:text-stone-300" href ="https://huggingface.co/blog/mlabonne/sft-llama3" target="_blank">this link </a>
-</p>
+
 
 #### **2. Practical Tips for Getting Started with Machine Learning**
 **Date:** June 10, 2024
