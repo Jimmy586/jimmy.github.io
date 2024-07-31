@@ -3,15 +3,7 @@ layout: page
 title: Blog
 permalink: blog
 ---
-.blog-heading {
-    color: #333; /* Default color */
-}
 
-@media (prefers-color-scheme: dark) {
-    .blog-heading {
-        color: #ccc; /* Color for dark mode */
-    }
-}
 
 ### Highlighted Blog Posts
 
