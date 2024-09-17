@@ -20,7 +20,7 @@ show-nav-menu: true
 nav-menu:
   - text: RESUME
     permalink: ./assets/raw/RESUME.pdf
-  - text: Projects
+  - text: Experience
     permalink: projects
   - text: About
     permalink: about
