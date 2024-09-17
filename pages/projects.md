@@ -53,7 +53,7 @@ permalink: projects
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/azplus.png alt="Project Icon" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="Project Icon" class="icon">
       <div>
         <h3>Personal Projects</h3>
         <p class="text-sm text-gray-500">System Architecture and School Projects (2022 - Present) • Rennes, France</p>
