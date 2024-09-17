@@ -1810,15 +1810,14 @@ strong.dark {
     line-height: 1.75rem;
   }
 }
-
 /* Dark Mode Variables */
 :root {
   --bg-color-light: #ffffff;
-  --bg-color-dark: #1f2937;
+  --bg-color-dark: #1e293b;
   --text-color-light: #374151;
-  --text-color-dark: #e5e7eb; /* Lighter text for dark mode */
+  --text-color-dark: #f3f4f6; /* Even lighter text for dark mode */
   --border-color-light: #e5e7eb;
-  --border-color-dark: #374151; /* Darker border for dark mode */
+  --border-color-dark: #4b5563; /* Lighter border for dark mode */
   --accent-color-light: #2563eb; /* Blue accent */
   --accent-color-dark: #93c5fd; /* Lighter blue for dark mode */
 }
@@ -1832,7 +1831,7 @@ body.light-mode {
 
 body.dark-mode {
   --bg-color: var(--bg-color-dark);
-  --text-color: var(--text-color-dark);
+  --text-color: var(--text-color-dark); /* Lighter text for better contrast */
   --border-color: var(--border-color-dark);
   --accent-color: var(--accent-color-dark);
 }
@@ -1870,7 +1869,7 @@ body.dark-mode {
 .experience-section .tech-stack {
   font-size: 0.875rem;
   color: var(--text-color);
-  opacity: 0.9; /* Slight opacity to differentiate the tech stack */
+  opacity: 1; /* Ensure full visibility */
 }
 
 /* Timeline */
@@ -1895,7 +1894,7 @@ body.dark-mode {
 
 /* Icon Styling */
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin-right: 10px;
 }
