@@ -11,79 +11,76 @@ permalink: projects
     <section id="experience" class="my-8">
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
-  <!-- SERMA Safety and Security Experience -->
+  <!-- First Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Logo" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/ml-icon.svg" alt="ML Logo" class="icon">
       <div>
-        <h3>SERMA Safety and Security</h3>
-        <p class="text-sm text-gray-500">Machine Learning Engineer Intern (Feb. 2024 - Aug. 2024) • Rennes, France</p>
+        <h3>Machine Learning Engineer Intern</h3>
+        <p class="text-sm text-gray-500">Feb. 2024 - Aug. 2024 • SERMA Safety and Security • Rennes, France</p>
       </div>
     </div>
     <ul class="list-disc list-inside">
-      <li>Developed a Printed Circuit Board component recognizer using YOLO, OCR, and Fuzzy Matching, reducing component misidentification by 35%.</li>
-      <li>Designed and implemented fully automated CI/CD pipelines with GitLab CI and MLFlow.</li>
-      <li>Reduced overall time spent by hardware pentesters on security assessments by 25%.</li>
-      <li>Developed a POC on the usage of Graph RAG with local documents and Self-host Llama3 and Neo4J.</li>
+      <li>Developed a PCB components detector program using Yolov8, OCR, and Fuzzy Matching.</li>
+      <li>Streamlined PCB component detection and reference extraction, reducing manual labor by 40%.</li>
+      <li>Built automated CI/CD pipelines using GitLab CI and MLFlow for scalable model deployment.</li>
     </ul>
-    <p class="tech-stack">Tech Stack: Yolo, OpenCV, OCR, RAG/GraphRAG, LLM, Pytorch, Kubernetes, Docker, Ansible, Python, GitLab.</p>
+    <p class="tech-stack">Tech Stack: Yolov8, OCR, Python, GitLab, Docker, Kubernetes, Ansible.</p>
   </div>
 
-  <!-- IMT Atlantique Experience -->
+  <!-- Second Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/imt-icon.svg" alt="IMT Atlantique Logo" class="icon">
       <div>
-        <h3>IMT Atlantique</h3>
-        <p class="text-sm text-gray-500">Data Analyst Intern (May 2023 - Sep. 2023) • Rennes, France</p>
+        <h3>Data Analyst Intern</h3>
+        <p class="text-sm text-gray-500">May 2023 - Sep. 2023 • IMT Atlantique • Rennes, France</p>
       </div>
     </div>
     <ul class="list-disc list-inside">
-      <li>Identified key factors affecting energy consumption in Cellular Networking, addressing them with targeted strategies.</li>
-      <li>Automated data cleaning techniques, reducing data processing time by over 90%.</li>
-      <li>Collaborated with network engineers to implement energy-saving strategies, achieving up to 20% energy savings.</li>
-      <li>Applied these strategies to real traffic load data in Rennes.</li>
+      <li>Developed energy-saving strategies for 5G mobile networks, improving network efficiency by 15%.</li>
+      <li>Implemented machine learning models to predict traffic loads and optimize energy consumption.</li>
     </ul>
-    <p class="tech-stack">Tech Stack: 5G, PowerBI, Pandas, Python, GitLab, Matplotlib, scikit-learn.</p>
+    <p class="tech-stack">Tech Stack: 5G, Python, PowerBI, Pandas, Matplotlib.</p>
   </div>
 
-  <!-- Personal Projects Experience -->
+  <!-- Third Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="Project Icon" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/project-icon.svg" alt="Project Icon" class="icon">
       <div>
-        <h3>Personal Projects</h3>
-        <p class="text-sm text-gray-500">System Architecture and School Projects (2022 - Present) • Rennes, France</p>
+        <h3>System Architecture and ML Projects</h3>
+        <p class="text-sm text-gray-500">2022 - Present • Various Projects</p>
       </div>
     </div>
     <ul class="list-disc list-inside">
-      <li><strong>SuperApp (azplus.mg):</strong> Led a team of 13 to design and deploy a SuperApp, migrating infrastructure to GCP/Microservices.</li>
-      <li><strong>Euro Coin Recognizer:</strong> Developed a mobile app using YOLO and OpenCV to recognize Euro coins.</li>
-      <li><strong>Cloud-based Noise Processing:</strong> Worked on predicting queue lengths and developing home assistant tools using Raspberry Pi and cloud technologies.</li>
+      <li><strong>SuperApp:</strong> Designed and deployed a SuperApp for Madagascar using GCP and microservices architecture.</li>
+      <li><strong>Euro Coin Recognizer:</strong> Built a mobile app to recognize Euro coins using YOLO and OpenCV.</li>
     </ul>
-    <p class="tech-stack">Tech Stack: GCP, Kubernetes, Minio, ElasticSearch, YOLO, OpenCV, Python, Docker, SQL, Java.</p>
+    <p class="tech-stack">Tech Stack: GCP, Kubernetes, OpenCV, Python.</p>
   </div>
 
-  <!-- Videotron Inc. Experience -->
+  <!-- Fourth Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/videotron-icon.svg" alt="Videotron Logo" class="icon">
       <div>
-        <h3>Videotron Inc.</h3>
-        <p class="text-sm text-gray-500">Junior Data Analyst (2020 - 2022) • Cairo, Egypt</p>
+        <h3>Junior Data Analyst</h3>
+        <p class="text-sm text-gray-500">2020 - 2022 • Videotron Inc. • Cairo, Egypt</p>
       </div>
     </div>
     <ul class="list-disc list-inside">
-      <li>Developed data-driven strategies, increasing customer satisfaction from 80% to 95% in one year.</li>
-      <li>Conducted agent performance analysis, improving KPI achievements by 20%.</li>
-      <li>Utilized SQL, Excel, and PowerBI to analyze call data and provide actionable insights for decision-making.</li>
+      <li>Increased customer satisfaction by 15% through data-driven strategies and process improvements.</li>
+      <li>Analyzed agent performance, optimizing KPI achievements and increasing operational efficiency.</li>
     </ul>
+    <p class="tech-stack">Tech Stack: SQL, Excel, PowerBI.</p>
   </div>
 </section>
+
 
 
 </div>

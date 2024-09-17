@@ -1811,37 +1811,75 @@ strong.dark {
   }
 }
 
+/* Light and Dark Mode Compatibility */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+:root {
+  --bg-color-light: #ffffff;
+  --bg-color-dark: #1e293b;
+  --text-color-light: #374151;
+  --text-color-dark: #f3f4f6;
+  --border-color-light: #e5e7eb;
+  --border-color-dark: #4b5563;
+}
+
+body.light-mode {
+  --bg-color: var(--bg-color-light);
+  --text-color: var(--text-color-light);
+  --border-color: var(--border-color-light);
+}
+
+body.dark-mode {
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+  --border-color: var(--border-color-dark);
+}
+
 /* Experience Section Styling */
 .experience-section {
   padding: 20px;
-  background-color: #f9fafb;
+  background-color: var(--bg-color);
   border-radius: 10px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border-color);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   position: relative;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .experience-section h3 {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #1f2937;
+  color: var(--text-color);
 }
 
 .experience-section p {
-  color: #4b5563;
+  color: var(--text-color);
 }
 
 .experience-section ul {
   list-style-type: disc;
   margin-left: 20px;
-  color: #4b5563;
+  color: var(--text-color);
 }
 
 .experience-section .tech-stack {
   font-size: 0.875rem;
-  color: #9ca3af;
+  color: var(--border-color);
   margin-top: 10px;
+}
+
+/* Timeline */
+.timeline-line {
+  position: absolute;
+  left: -15px;
+  top: 30px;
+  bottom: -30px;
+  width: 2px;
+  background-color: #2563eb;
 }
 
 .timeline-dot {
@@ -1854,15 +1892,7 @@ strong.dark {
   border-radius: 50%;
 }
 
-.timeline-line {
-  position: absolute;
-  left: -15px;
-  top: 30px;
-  bottom: -30px;
-  width: 2px;
-  background-color: #2563eb;
-}
-
+/* Icon Styling */
 .icon {
   width: 20px;
   height: 20px;
