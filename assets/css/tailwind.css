@@ -1811,31 +1811,30 @@ strong.dark {
   }
 }
 
-/* Light and Dark Mode Compatibility */
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
+/* Dark Mode Variables */
 :root {
   --bg-color-light: #ffffff;
-  --bg-color-dark: #1e293b;
+  --bg-color-dark: #1f2937;
   --text-color-light: #374151;
-  --text-color-dark: #f3f4f6;
+  --text-color-dark: #e5e7eb; /* Lighter text for dark mode */
   --border-color-light: #e5e7eb;
-  --border-color-dark: #4b5563;
+  --border-color-dark: #374151; /* Darker border for dark mode */
+  --accent-color-light: #2563eb; /* Blue accent */
+  --accent-color-dark: #93c5fd; /* Lighter blue for dark mode */
 }
 
 body.light-mode {
   --bg-color: var(--bg-color-light);
   --text-color: var(--text-color-light);
   --border-color: var(--border-color-light);
+  --accent-color: var(--accent-color-light);
 }
 
 body.dark-mode {
   --bg-color: var(--bg-color-dark);
   --text-color: var(--text-color-dark);
   --border-color: var(--border-color-dark);
+  --accent-color: var(--accent-color-dark);
 }
 
 /* Experience Section Styling */
@@ -1856,20 +1855,22 @@ body.dark-mode {
   color: var(--text-color);
 }
 
-.experience-section p {
+.experience-section p,
+.experience-section ul,
+.experience-section .tech-stack {
   color: var(--text-color);
 }
 
 .experience-section ul {
   list-style-type: disc;
   margin-left: 20px;
-  color: var(--text-color);
 }
 
+/* Improved tech stack color for readability */
 .experience-section .tech-stack {
   font-size: 0.875rem;
-  color: var(--border-color);
-  margin-top: 10px;
+  color: var(--text-color);
+  opacity: 0.9; /* Slight opacity to differentiate the tech stack */
 }
 
 /* Timeline */
@@ -1879,7 +1880,7 @@ body.dark-mode {
   top: 30px;
   bottom: -30px;
   width: 2px;
-  background-color: #2563eb;
+  background-color: var(--accent-color);
 }
 
 .timeline-dot {
@@ -1888,13 +1889,13 @@ body.dark-mode {
   top: 10px;
   width: 10px;
   height: 10px;
-  background-color: #2563eb;
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
 /* Icon Styling */
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
 }
