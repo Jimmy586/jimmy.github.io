@@ -18,13 +18,13 @@ permalink: projects
       <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="ML Logo" class="icon">
       <div>
         <h3>Machine Learning Engineer Intern</h3>
-        <p class="text-sm text-gray-500">Feb. 2024 - Aug. 2024 • SERMA Safety and Security • Rennes, France</p>
+        <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">Feb. 2024 - Aug. 2024 • SERMA Safety and Security • Rennes, France</p>
       </div>
     </div>
     <ul class="list-disc list-inside">
-      <li>Developed a PCB components detector program using Yolov8, OCR, and Fuzzy Matching.</li>
-      <li>Streamlined PCB component detection and reference extraction, reducing manual labor by 40%.</li>
-      <li>Built automated CI/CD pipelines using GitLab CI and MLFlow for scalable model deployment.</li>
+      <li><p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">Developed a PCB components detector program using Yolov8, OCR, and Fuzzy Matching.</p></li>
+      <li><p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">Streamlined PCB component detection and reference extraction, reducing manual labor by 40%.</p></li>
+      <li><p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">Built automated CI/CD pipelines using GitLab CI and MLFlow for scalable model deployment.</p></li>
     </ul>
     <p class="tech-stack">Tech Stack: Yolov8, OCR, Python, GitLab, Docker, Kubernetes, Ansible.</p>
   </div>
