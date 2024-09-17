@@ -15,7 +15,7 @@ permalink: projects
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/serma-icon.svg" alt="SERMA Logo" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Logo" class="icon">
       <div>
         <h3>SERMA Safety and Security</h3>
         <p class="text-sm text-gray-500">Machine Learning Engineer Intern (Feb. 2024 - Aug. 2024) • Rennes, France</p>
@@ -34,7 +34,7 @@ permalink: projects
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/imt-icon.svg" alt="IMT Atlantique Logo" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon">
       <div>
         <h3>IMT Atlantique</h3>
         <p class="text-sm text-gray-500">Data Analyst Intern (May 2023 - Sep. 2023) • Rennes, France</p>
@@ -53,7 +53,7 @@ permalink: projects
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/project-icon.svg" alt="Project Icon" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/azplus.png alt="Project Icon" class="icon">
       <div>
         <h3>Personal Projects</h3>
         <p class="text-sm text-gray-500">System Architecture and School Projects (2022 - Present) • Rennes, France</p>
@@ -71,7 +71,7 @@ permalink: projects
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
-      <img src="{{ site.baseurl }}/assets/img/icons/videotron-icon.svg" alt="Videotron Logo" class="icon">
+      <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon">
       <div>
         <h3>Videotron Inc.</h3>
         <p class="text-sm text-gray-500">Junior Data Analyst (2020 - 2022) • Cairo, Egypt</p>
@@ -87,62 +87,4 @@ permalink: projects
 
 
 </div>
-
-/* Experience Section Styling */
-.experience-section {
-  padding: 20px;
-  background-color: #f9fafb;
-  border-radius: 10px;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.experience-section h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #1f2937;
-}
-
-.experience-section p {
-  color: #4b5563;
-}
-
-.experience-section ul {
-  list-style-type: disc;
-  margin-left: 20px;
-  color: #4b5563;
-}
-
-.experience-section .tech-stack {
-  font-size: 0.875rem;
-  color: #9ca3af;
-  margin-top: 10px;
-}
-
-.timeline-dot {
-  position: absolute;
-  left: -20px;
-  top: 10px;
-  width: 10px;
-  height: 10px;
-  background-color: #2563eb;
-  border-radius: 50%;
-}
-
-.timeline-line {
-  position: absolute;
-  left: -15px;
-  top: 30px;
-  bottom: -30px;
-  width: 2px;
-  background-color: #2563eb;
-}
-
-.icon {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
 
