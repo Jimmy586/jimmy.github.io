@@ -51,12 +51,12 @@ permalink: projects
 
     <!-- Centered Tech Stack Icons -->
     <div class="tech-icons flex justify-center space-x-4 mt-6">
-      <img src="{{ site.baseurl }}/assets/img/icons/yolo.png" alt="YOLO" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/yolov8.png" alt="YOLO" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/opencv.png" alt="OpenCV" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/ocr.png" alt="OCR" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/neo4j.png" alt="Neo4J" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/llm.png" alt="LLM" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/pytorch.png" alt="Pytorch" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/pytorch.svg" alt="Pytorch" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/kubernetes.png" alt="Kubernetes" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion">
     </div>
@@ -135,6 +135,7 @@ permalink: projects
       <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/matplotlib.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion">
     </div>
   </div>
