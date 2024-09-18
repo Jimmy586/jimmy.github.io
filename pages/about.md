@@ -19,7 +19,7 @@ permalink: about
     <option value="eit">EIT Digital</option>
     <option value="elte">ELTE University</option>
     <option value="cairo univerisity">Cairo University</option>
-    <option value="pEcole Superieur Polytech">Ecole Superieur de Politechnique Madagascar</option>
+    <option value="Ecole Superieur Polytech">Ecole Superieur de Polytechnique Madagascar</option>
     <option value="sfx">Saint François Xavier</option>
   </select>
 </section>
