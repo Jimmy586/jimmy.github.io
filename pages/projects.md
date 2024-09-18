@@ -52,12 +52,12 @@ permalink: projects
 
     <!-- Tech Stack Icons for this Experience -->
     <div class="tech-icons flex justify-start space-x-4 mt-4">
-      <img src="{{ site.baseurl }}/assets/img/icons/yolo.png" alt="YOLO" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/yolov8.png" alt="YOLO" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/opencv.png" alt="OpenCV" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/ocr.png" alt="OCR" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/neo4j.png" alt="Neo4J" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/llm.png" alt="LLM" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/pytorch.png" alt="Pytorch" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/pytorch.svg" alt="Pytorch" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/kubernetes.png" alt="Kubernetes" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon hover-motion">
     </div>
@@ -71,7 +71,7 @@ permalink: projects
         <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon">
       </a>
       <div>
-        <h3 class="text-gray-700 dark:text-stone-100">Co-Founder</h3>
+        <h3 class="text-gray-700 dark:text-stone-100">Personal Project</h3>
         <div class="flex justify-between items-center">
           <p class="location-date text-gray-700 dark:text-stone-100">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
         </div>
