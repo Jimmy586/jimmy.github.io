@@ -34,8 +34,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Université de Rennes</h3>
-      <p class="text-gray-500 dark:text-gray-400">Master's degree, Cloud and Network Infrastructures • Sept. 2022 - Aug. 2024 •</p>
-      <p class="text-gray-500 dark:text-gray-400">Brittany, France</p>
+      <p class="text-gray-500 dark:text-gray-400">MSc Cloud and Network Infrastructures • Sept. 2022 - Aug. 2024 • Brittany, France</p>
       <ul class="list-disc list-inside mt-4">
         <li>Specialized in smart city services, big data, distributed systems, advanced cloud infrastructure, and fog computing.</li>
         <li>Grade: Good</li>
@@ -50,8 +49,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">EIT Digital Master School</h3>
-      <p class="text-gray-500 dark:text-gray-400">International Master's Student • Sept. 2022 - July 2024 •</p>
-      <p class="text-gray-500 dark:text-gray-400">Brittany, France</p>
+      <p class="text-gray-500 dark:text-gray-400">International Master Student • 09/2022 - 07/2024 • Rennes, France</p>
       <ul class="list-disc list-inside mt-4">
         <li>Double Masters in Cloud Computing from Université de Rennes and Innovation & Entrepreneurship at EIT Digital.</li>
         <li>Coached by renowned European entrepreneurs.</li>
@@ -81,8 +79,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Cairo University</h3>
-      <p class="text-gray-500 dark:text-gray-400">BSc in Computer Science & AI • Sept. 2016 - Aug. 2020 • Cairo, Egypt</p>
-      <p class="text-gray-500 dark:text-gray-400">Cairo, Egypt</p>
+      <p class="text-gray-500 dark:text-gray-400">B. Science in Computer Science & AI • Sept. 2016 - Aug. 2020 • Cairo, Egypt</p>
       <ul class="list-disc list-inside mt-4">
         <li>Secured a mixed Egyptian and Malagasy Government Scholarship for outstanding grades.</li>
         <li>Grade: Very Good</li>
@@ -98,8 +95,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Ecole Superieur de Polytechnique Madagascar</h3>
-      <p class="text-gray-500 dark:text-gray-400">Junior Bachelor of Engineering, Telecommunications • 2015 - 2016 •</p>
-      <p class="text-gray-500 dark:text-gray-400">Antsiranana ,Madagascar</p>
+      <p class="text-gray-500 dark:text-gray-400">Junior Engineering School, Telecommunications • 2015 - 2016 • Antsiranana ,Madagascar</p>
     </div>
   </div>
 
@@ -110,8 +106,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Saint François Xavier</h3>
-      <p class="text-gray-500 dark:text-gray-400">Baccalauréat, Serie C• Sept. 2011 - Aug. 2014 •</p>
-      <p class="text-gray-500 dark:text-gray-400">Fianarantsoa, Madagascar</p>
+      <p class="text-gray-500 dark:text-gray-400">Baccalauréat, Serie C • Sept. 2011 - Aug. 2014 • Fianarantsoa, Madagascar</p>
       <ul class="list-disc list-inside mt-4">
         <li> Top 1 </li>
         <li> Mention : très Bien </li>
