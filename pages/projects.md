@@ -9,17 +9,30 @@ permalink: projects
   <p class="!py-0 !mb-0 dark:text-slate-300">Let's be in touch to achieve greatness together.</p>
   <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">Greatness is not achieved overnight, the only way to get there is by providing yourself all manners to hit your best potential.</p>
   
+<section id="filters" class="my-8">
+  <!-- Project-Specific Filters -->
+  <label for="tech-filter" class="text-gray-700 dark:text-white">Filter by Technology:</label>
+  <select id="tech-filter" class="filter-dropdown">
+    <option value="all">All</option>
+    <option value="python">Python</option>
+    <option value="tensorflow">TensorFlow</option>
+    <option value="aws">AWS</option>
+    <option value="yolo">YOLO</option>
+    <option value="opencv">OpenCV</option>
+  </select>
+</section>
+
 <section id="experience" class="my-8">
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- SERMA Safety & Security Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" role="region" aria-labelledby="serma-experience">
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4">
+        <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4" loading="lazy">
       </a>
-    <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
+      <div>
+        <h3 id="serma-experience" class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
         <div class="flex justify-center">
           <p class="text-gray-500 dark:text-gray-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
         </div>
@@ -64,21 +77,23 @@ permalink: projects
       </li>
     </ul>
 
-    <!-- Centered Tech Stack Icons -->
+    <!-- Centered Tech Stack Icons with Animation -->
     <div class="tech-icons flex justify-center space-x-4 mt-6">
-      <img src="{{ site.baseurl }}/assets/img/icons/yolov8.png" alt="YOLO" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/opencv.png" alt="OpenCV" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/ocr.png" alt="OCR" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/neo4j.png" alt="Neo4J" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/llm.png" alt="LLM" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/pytorch.svg" alt="Pytorch" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/kubernetes.png" alt="Kubernetes" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/yolov8.png" alt="YOLO" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/opencv.png" alt="OpenCV" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/ocr.png" alt="OCR" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/neo4j.png" alt="Neo4J" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/llm.png" alt="LLM" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/pytorch.svg" alt="Pytorch" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/kubernetes.png" alt="Kubernetes" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion" loading="lazy">
     </div>
   </div>
 
   <!-- Additional experiences here... -->
 </section>
+
+
 
   <!-- AZ+ Madagascar Experience -->
 <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">

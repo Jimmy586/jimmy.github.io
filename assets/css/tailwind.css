@@ -1924,3 +1924,91 @@ ul ul {
   margin-left: 20px; /* Indent second level */
   list-style-type: disc; /* Keep the bullet style consistent */
 }
+
+/*
+1. Section-Specific Styling for Readability
+*/
+.section-header {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/*
+2. Loading Animation for Tech Icons
+*/
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.tech-icons img {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/*
+3. Filter Dropdown Styling
+*/
+.filter-dropdown {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/*
+5. Improve Typography for Readability
+*/
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  font-size: 0.9rem;
+}
+
+/*
+8. Use Lazy Loading for Images
+*/
+.icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/*
+9. Hover Effects for Project Links and Icons
+*/
+.experience-section h3:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.hover-motion {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-motion:hover {
+  transform: translateY(-10px); /* Move the icon up on hover */
+}
+
+/* Indented Second-Level Bullet Points */
+ul ul {
+  margin-top: 5px;  /* Space between levels */
+  margin-left: 20px; /* Indent second level */
+  list-style-type: disc; /* Keep the bullet style consistent */
+}
