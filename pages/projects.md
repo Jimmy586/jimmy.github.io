@@ -17,12 +17,16 @@ permalink: projects
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/ml-icon.png" alt="SERMA Safety and Security Logo" class="icon">
+        <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon">
       </a>
       <div>
         <h3 class="text-gray-700 dark:text-stone-100">Machine Learning Engineer Intern</h3>
-        <p class="company-name text-gray-700 dark:text-stone-100">SERMA Safety and Security</p>
-        <p class="location-date">Feb. 2024 - Aug. 2024 • Rennes, France</p>
+
+        <!-- Flex Container for Company Name and Location/Date -->
+        <div class="flex justify-between items-center">
+          <p class="company-name text-gray-700 dark:text-stone-100">SERMA Safety and Security</p>
+          <p class="location-date text-gray-500 dark:text-stone-400">Feb. 2024 - Aug. 2024 • Rennes, France</p>
+        </div>
       </div>
     </div>
     <ul class="list-disc list-inside text-gray-500 dark:text-stone-100">
@@ -42,7 +46,10 @@ permalink: projects
       <img src="{{ site.baseurl }}/assets/img/icons/ansible.png" alt="Ansible" class="icon">
     </div>
   </div>
+
+  <!-- Additional Experiences... -->
 </section>
+
 
 
   <!-- Third Experience -->
