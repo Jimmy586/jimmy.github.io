@@ -25,7 +25,8 @@ permalink: projects
         <!-- Flex Container for Company Name and Location/Date -->
         <div class="flex justify-between items-center">
           <p class="company-name text-gray-700 dark:text-stone-100">SERMA Safety and Security</p>
-          <p class="location-date text-gray-500 dark:text-stone-400">Feb. 2024 - Aug. 2024 • Rennes, France</p>
+
+          <p class="location-date text-gray-700 dark:text-stone-100">Feb. 2024 - Aug. 2024 • Rennes, France</p>
         </div>
       </div>
     </div>
