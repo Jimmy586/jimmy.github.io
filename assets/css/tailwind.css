@@ -1810,6 +1810,41 @@ strong.dark {
     line-height: 1.75rem;
   }
 }
+/* Tech Icons Styling */
+.tech-icons img {
+  width: 40px; /* Same size as company logos */
+  height: 40px;
+  display: inline-block;
+}
+
+.tech-icons {
+  margin-top: 15px; /* Separate tech icons from content */
+}
+
+/* Icon Styling */
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Company Name Styling */
+.company-name {
+  font-size: 1rem; /* Same size as other text */
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-weight: normal;
+  color: var(--text-color); /* Same color as main content */
+}
+
+/* Location and Date Styling */
+.location-date {
+  font-style: italic;
+  color: var(--border-color); /* Slightly lighter color */
+  font-size: 0.85rem; /* Smaller font size */
+  margin-bottom: 10px; /* Space between date/location and content */
+}
+
 /* Experience Section Styling */
 .experience-section {
   padding: 15px; /* Reduced padding */
