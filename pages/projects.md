@@ -15,16 +15,16 @@ permalink: projects
   <!-- SERMA Safety & Security Experience -->
   <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
     <div class="flex items-start">
-      <!-- Logo on the left side -->
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4">
       </a>
-      <!-- Job Title and Details on the right side -->
-      <div class="w-full">
+    <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
-        <p class="text-gray-600 dark:text-gray-400">SERMA Safety & Security</p>
-        <p class="text-gray-500 dark:text-gray-400">Feb. 2024 - Aug. 2024 • Rennes, France</p>
-
+        <div class="flex justify-center">
+          <p class="text-gray-500 dark:text-gray-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
+        </div>
+      </div>
+    </div>
     
     <ul class="task-list mt-4">
       <!-- Task 1 -->
