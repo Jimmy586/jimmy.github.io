@@ -19,7 +19,7 @@ permalink: about
     <option value="eit">EIT Digital</option>
     <option value="elte">ELTE University</option>
     <option value="cairo">Cairo University</option>
-    <option value="madagascar">Ecole Superieur de Politechnique Madagascar</option>
+    <option value="polytech">Ecole Superieur de Politechnique Madagascar</option>
     <option value="sfx">Saint François Xavier</option>
   </select>
 </section>
@@ -90,11 +90,11 @@ permalink: about
   <!-- Ecole Superieur de Polytechnique Madagascar -->
    <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 flex" data-edu="Ecole Superieur Polytech">
     <a href="https://www.polytechnique.mg/" target="_blank">
-      <img src="{{ site.baseurl }}/assets/img/icons/fcai.png" alt="Ecole Superieur de Polytechnique Madagascar Logo" class="icon mr-6">
+      <img src="{{ site.baseurl }}/assets/img/icons/espa.png" alt="Ecole Superieur de Polytechnique Madagascar Logo" class="icon mr-6">
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Ecole Superieur de Polytechnique Madagascar</h3>
-      <p class="text-gray-500 dark:text-gray-400">Bachelor of Engineering, Telecommunications Engineering • 2014 - 2016 • Madagascar</p>
+      <p class="text-gray-500 dark:text-gray-400">Junior Bachelor of Engineering, Telecommunications Engineering • 2015 - 2016 • Madagascar</p>
     </div>
   </div>
 
@@ -105,7 +105,11 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Saint François Xavier</h3>
-      <p class="text-gray-500 dark:text-gray-400">Baccalauréat, Serie C, Mention très Bien • Sept. 2011 - Aug. 2014 • Fianarantsoa, Madagascar</p>
+      <p class="text-gray-500 dark:text-gray-400">Baccalauréat, Serie C• Sept. 2011 - Aug. 2014 • Fianarantsoa</p>
+      <ul class="list-disc list-inside mt-4">
+        <li>Malagasy Government Scholarship for outstanding grades.</li>
+        <li> Mention : très Bien </li>
+      </ul>
     </div>
   </div>
 
