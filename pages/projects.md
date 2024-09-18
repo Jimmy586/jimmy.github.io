@@ -17,7 +17,7 @@ permalink: projects
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/ml-icon.svg" alt="SERMA Safety and Security Logo" class="icon">
+        <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon">
       </a>
       <div>
         <h3 class="text-gray-700 dark:text-stone-100">Machine Learning Engineer Intern</h3>
@@ -37,7 +37,7 @@ permalink: projects
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
       <a href="https://www.imt-atlantique.fr/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/imt-icon.svg" alt="IMT Atlantique Logo" class="icon">
+        <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon">
       </a>
       <div>
         <h3 class="text-gray-700 dark:text-stone-100">Data Analyst Intern</h3>
@@ -56,7 +56,7 @@ permalink: projects
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
       <a href="https://www.azplus.mg/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/project-icon.svg" alt="AZ+ Madagascar Logo" class="icon">
+        <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon">
       </a>
       <div>
         <h3 class="text-gray-700 dark:text-stone-100">System Architecture and ML Projects</h3>
@@ -75,7 +75,7 @@ permalink: projects
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
       <a href="https://www.videotron.com/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/videotron-icon.svg" alt="Videotron Logo" class="icon">
+        <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon">
       </a>
       <div>
         <h3 class="text-gray-700 dark:text-stone-100">Junior Data Analyst</h3>
