@@ -1908,3 +1908,19 @@ strong.dark {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
   border-color: var(--accent-color); /* Accent color on hover */
 }
+
+/* Icon Hover Motion */
+.hover-motion {
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.hover-motion:hover {
+  transform: translateY(-10px); /* Move the icon up on hover */
+}
+
+/* Indented Second-Level Bullet Points */
+ul ul {
+  margin-top: 5px;  /* Space between levels */
+  margin-left: 20px; /* Indent second level */
+  list-style-type: disc; /* Keep the bullet style consistent */
+}
