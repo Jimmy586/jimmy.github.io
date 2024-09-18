@@ -80,7 +80,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Cairo University</h3>
-      <p class="text-gray-500 dark:text-gray-400">BSc in Computer Science & AI (Scholarship) • Sept. 2016 - Aug. 2020• Cairo, Egypt</p>
+      <p class="text-gray-500 dark:text-gray-400">BSc in Computer Science & AI(Scholarship) • Sept. 2016 - Aug. 2020• Cairo, Egypt</p>
       <ul class="list-disc list-inside mt-4">
         <li>Secured a mixed Egyptian and Malagasy Government Scholarship for outstanding grades.</li>
         <li>Grade: Very Good</li>
