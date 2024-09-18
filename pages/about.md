@@ -11,6 +11,7 @@ permalink: about
 <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A picture of me pitching my project at the ELTE Informatikai Kai, University Budapest, HUNGARY July 2023.</p>
 
 <section id="filters" class="my-8">
+<h2 class="dark:text-stone-200 mt-32">Education Background</h2>
   <!-- Education-Specific Filters -->
   <label for="edu-filter" class="text-gray-700 dark:text-white">Filter by Institution:</label>
   <select id="edu-filter" class="filter-dropdown" onchange="filterEducation()">
@@ -25,7 +26,6 @@ permalink: about
 </section>
 
 <section id="education" class="my-8">
-<h2 class="dark:text-stone-200 mt-32">Education Background</h2>
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- Université de Rennes -->
