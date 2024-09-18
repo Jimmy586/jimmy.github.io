@@ -45,7 +45,7 @@ permalink: projects
     
     <ul class="task-list mt-4">
       <li class="task-item">
-        <strong class="task-title">PCB Component Recognition</strong> 
+        <strong class="task-title text-gray-500 dark:text-slate-400 ">PCB Component Recognition</strong> 
         <span class="task-tech">(Technologies: YOLO, OCR, Fuzzy Matching)</span>:
         <ul class="task-details">
           <li>Developed a system to detect PCB components using YOLO and OCR, reducing manual inspection time.</li>
