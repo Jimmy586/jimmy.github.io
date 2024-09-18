@@ -10,11 +10,143 @@ permalink: about
 <p class="!py-0 !mb-0 dark:text-slate-300">I have loved sharing knowledge from a very young age because, for me, the best way to learn is by teaching.</p>
 <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A picture of me pitching my project at the ELTE Informatikai Kai, University Budapest, HUNGARY July 2023.</p>
 
+<section id="filters" class="my-8">
+  <!-- Education-Specific Filters -->
+  <label for="edu-filter" class="text-gray-700 dark:text-white">Filter by Institution:</label>
+  <select id="edu-filter" class="filter-dropdown" onchange="filterEducation()">
+    <option value="all">All</option>
+    <option value="rennes">Université de Rennes</option>
+    <option value="eit">EIT Digital</option>
+    <option value="elte">ELTE University</option>
+    <option value="cairo">Cairo University</option>
+    <option value="madagascar">Ecole Superieur de Politechnique Madagascar</option>
+    <option value="sfx">Saint François Xavier</option>
+  </select>
+</section>
+
+<section id="education" class="my-8">
+  <div class="timeline-line"></div> <!-- Blue timeline line -->
+
+  <!-- Université de Rennes -->
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="rennes">
+    <div class="flex items-start">
+      <a href="http://cni.istic.univ-rennes1.fr/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/cni.png" alt="Université de Rennes Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Université de Rennes</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-center">Master's degree, Cloud and Network Infrastructures • Sept. 2022 - Aug. 2024 • Brittany, France</p>
+        <ul class="task-list mt-4">
+          <li>Specialized in smart city services, big data, distributed systems, advanced cloud infrastructure, and fog computing.</li>
+          <li>Grade: Good</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- EIT Digital -->
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="eit">
+    <div class="flex items-start">
+      <a href="https://masterschool.eitdigital.eu/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/eit.png" alt="EIT Digital Master School Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">EIT Digital Master School</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-center">International Master's Student • Sept. 2022 - July 2024 • Brittany, France</p>
+        <ul class="task-list mt-4">
+          <li>Double Masters in Cloud Computing from Université de Rennes and Innovation & Entrepreneurship at EIT Digital.</li>
+          <li>Coached by renowned European entrepreneurs.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ELTE University -->
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="elte">
+    <div class="flex items-start">
+      <a href="https://www.elte.hu/en/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/elte.png" alt="ELTE University Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">ELTE University, Informatics Faculty</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-center">Summer Class, Erasmus+ (Scholarship) • Jun. 2023 - July 2023 • Budapest, Hungary</p>
+        <ul class="task-list mt-4">
+          <li>Showcased V2V Grids project and delivered an engaging pitch.</li>
+          <li>Grade: Excellent</li>
+          <li>Core Values: Leadership, teamwork, pitching, innovation, technology watch, project management.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cairo University -->
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="cairo">
+    <div class="flex items-start">
+      <a href="https://fcai.cu.edu.eg/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/fcai.png" alt="Cairo University Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Cairo University</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-center">Bachelor of Engineering, Computer Science & AI • Sept. 2016 - Aug. 2020 • Cairo, Egypt</p>
+        <ul class="task-list mt-4">
+          <li>Secured a mixed Egyptian and Malagasy Government Scholarship for outstanding grades.</li>
+          <li>Grade: Very Good</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ecole Superieur de Polytechnique Madagascar -->
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="madagascar">
+    <div class="flex items-start">
+      <a href="https://www.polytechnique.mg/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/fcai.png" alt="Ecole Superieur de Polytechnique Madagascar Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Ecole Superieur de Polytechnique Madagascar</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-center">Bachelor of Engineering, Telecommunications Engineering • 2014 - 2016 • Madagascar</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Saint François Xavier -->
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="sfx">
+    <div class="flex items-start">
+      <a href="https://vatosoamananjara-jimmy.com/about" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/sfx.png" alt="Saint François Xavier Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Saint François Xavier</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-center">Baccalauréat, Serie C, Mention très Bien • Sept. 2011 - Aug. 2014 • Fianarantsoa, Madagascar</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<script>
+  function filterEducation() {
+    const selectedEdu = document.getElementById("edu-filter").value;
+    const educationSections = document.querySelectorAll(".education-section");
+
+    educationSections.forEach(section => {
+      const eduTag = section.getAttribute("data-edu");
+
+      if (selectedEdu === "all" || eduTag === selectedEdu) {
+        section.style.display = "block";
+      } else {
+        section.style.display = "none";
+      }
+    });
+  }
+</script>
+
+
 <section id="major-projects">
-  <h2 class="dark:text-stone-200 mt-32">Major Projects and Professional Journey</h2>
+  <h2 class="dark:text-stone-200 mt-32">Personal and Professional Journey</h2>
   <div class="project-content">
     <p class="dark:text-stone-300">
-      VATOSOA Mananjara Jimmy's journey into the world of Machine Learning and Scalable Systems is inspiring. With a Master's degree from Rennes University, he has honed his skills in cloud computing and large-scale systems, with a minor in Innovation and Entrepreneurship. His passion for Deep Learning and large-scale systems is evident in his work, utilizing distributed machines to develop and refine models.
+      Jimmy's journey into the world of Machine Learning and Scalable Systems is inspiring. With a Master's degree from Rennes University, he has honed his skills in cloud computing and large-scale systems, with a minor in Innovation and Entrepreneurship. His passion for Deep Learning and large-scale systems is evident in his work, utilizing distributed machines to develop and refine models.
     </p>
     <p class="dark:text-stone-300">
       Interning at IMT Atlantique Rennes in the summer of 2023 was pivotal, allowing him to contribute to a research project aimed at reducing the energy consumption of 4G and 5G base stations in France using Machine Learning. This project showcases his technical expertise and commitment to creating sustainable solutions. The project is available <a class="text-gray-500 dark:text-stone-300" href="https://github.com/Jimmy586/Cellular_Base_Stations_Power_Consumption_Analysis" target="_blank">here</a>. Supervised by <a class="text-gray-500 dark:text-stone-300" href="https://www.imt-atlantique.fr/en/person/loutfi-nuaymi" target="_blank">Pr Loutfi NYAUMI</a> and Christopher MERLHE, he redesigned the EARTH model, making a more accurate estimation of base stations' power consumption, detecting key factors influencing it, and proposing strategies to save energy seamlessly. The project saved up to 20% of energy consumption for a base station in Rennes.
@@ -29,26 +161,6 @@ permalink: about
   "Having zero background in Cybersecurity, I have learned the biggest lesson in life: nothing is out of reach if you sit and take the time to read from the beginning" - Jimmy.
 </blockquote>
 
-<section id="education" class="my-8">
-  <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Education</h2>
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
-    <p class="text-gray-500 dark:text-gray-300">
-      <strong>Jimmy's academic journey</strong> began with his graduation from high school in Madagascar, achieving the <strong>highest score in the country</strong> for his branch, "Série C" in <strong>2018</strong>. This exceptional accomplishment earned him a <strong>government scholarship</strong> to further his education.
-    </p>
-  </div>
-  
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
-    <p class="text-gray-500 dark:text-gray-300">
-      Pursuing higher education, he attended <strong>Cairo University's Faculty of Computer Science and AI</strong>, where he excelled and obtained his bachelor's degree with the <strong>highest honors</strong> in <strong>2022</strong>. His graduation project, a <em>"Neural-based Car Fuel Consumption Predictor"</em>, showcased his innovative research skills.
-    </p>
-  </div>
-  
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
-    <p class="text-gray-500 dark:text-gray-300">
-      With a <strong>French government scholarship</strong>, Jimmy continued his studies at the <strong>University of Rennes</strong>, completing his Master's degree in <em>"Cloud and Large-scale System"</em> in <strong>2024</strong>. This program, <strong>100% taught in English</strong>, further highlighted his commitment to international academic success.
-    </p>
-  </div>
-</section>
 
 
 <h2 class="dark:text-stone-200">My Curriculum Vitae</h2>

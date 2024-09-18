@@ -32,7 +32,7 @@ permalink: projects
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- SERMA Safety & Security Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo llm ocr python kubernetes fuzzymatching rag devops">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo opencv llm ocr python kubernetes fuzzymatching rag devops">
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4">
