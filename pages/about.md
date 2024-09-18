@@ -141,6 +141,14 @@ permalink: about
   }
 </script>
 
+<style>
+  .icon {
+    width: 50px;  /* Same size for the company logo as the tech icons */
+    height: 50px;
+    margin-right: 10px;
+  }
+</style>
+
 
 <section id="major-projects">
   <h2 class="dark:text-stone-200 mt-32">Personal and Professional Journey</h2>
