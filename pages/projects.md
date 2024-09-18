@@ -16,14 +16,15 @@ permalink: projects
   <select id="tech-filter" class="filter-dropdown" onchange="filterProjects()">
     <option value="all">All</option>
     <option value="python">Python</option>
+    <option value="devops">DevOps</option>
     <option value="pytorch">Pytorch</option>
-    <option value="datavisualization">Dataviz</option>
     <option value="llm">LLM</option>
     <option value="rag">RAG</option>
     <option value="aws">AWS</option>
     <option value="gcp">GCP</option>
     <option value="yolo">YOLO</option>
     <option value="opencv">OpenCV</option>
+    <option value="datavisualization">Dataviz</option>
   </select>
 </section>
 
@@ -31,7 +32,7 @@ permalink: projects
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- SERMA Safety & Security Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo llm ocr python kubernetes fuzzymatching rag docker">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo llm ocr python kubernetes fuzzymatching rag devops">
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4">
@@ -86,7 +87,7 @@ permalink: projects
   </div>
 
   <!-- AZ+ Madagascar Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws kubernetes microservices">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws devops kubernetes microservices">
     <div class="flex items-start">
       <a href="https://www.azplus.mg/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
@@ -178,6 +179,7 @@ permalink: projects
       <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion" loading="lazy">
     </div>
   </div>
 
