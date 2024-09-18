@@ -29,20 +29,27 @@ permalink: about
   "Having zero background in Cybersecurity, I have learned the biggest lesson in life: nothing is out of reach if you sit and take the time to read from the beginning" - Jimmy.
 </blockquote>
 
-<section id="education">
-  <h2 class="dark:text-stone-200">Education</h2>
-  <div class="education-content">
-    <p class="dark:text-stone-300">
+<section id="education" class="my-8">
+  <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Education</h2>
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+    <p class="text-gray-500 dark:text-gray-300">
       <strong>Jimmy's academic journey</strong> began with his graduation from high school in Madagascar, achieving the <strong>highest score in the country</strong> for his branch, "Série C" in <strong>2018</strong>. This exceptional accomplishment earned him a <strong>government scholarship</strong> to further his education.
     </p>
-    <p class="dark:text-stone-300">
-      Pursuing higher education, he attended <strong>Cairo University's Faculty of Computer Science and AI</strong>, where he excelled and obtained his bachelor's degree with the <strong>highest honors</strong> in <strong>2022</strong>. His graduation project, a <em>"Neural-based Car Fuel Consumption Predictor"</em>, was a testament to his innovative research skills.
+  </div>
+  
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+    <p class="text-gray-500 dark:text-gray-300">
+      Pursuing higher education, he attended <strong>Cairo University's Faculty of Computer Science and AI</strong>, where he excelled and obtained his bachelor's degree with the <strong>highest honors</strong> in <strong>2022</strong>. His graduation project, a <em>"Neural-based Car Fuel Consumption Predictor"</em>, showcased his innovative research skills.
     </p>
-    <p class="dark:text-stone-300">
+  </div>
+  
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+    <p class="text-gray-500 dark:text-gray-300">
       With a <strong>French government scholarship</strong>, Jimmy continued his studies at the <strong>University of Rennes</strong>, completing his Master's degree in <em>"Cloud and Large-scale System"</em> in <strong>2024</strong>. This program, <strong>100% taught in English</strong>, further highlighted his commitment to international academic success.
     </p>
   </div>
 </section>
+
 
 <h2 class="dark:text-stone-200">My Curriculum Vitae</h2>
 <p><a href="{{site.baseurl}}/assets/raw/RESUME.pdf" class="dark:text-stone-300" target="_blank">Download my Resume (v.2024.07)</a></p>

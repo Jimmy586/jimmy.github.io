@@ -191,13 +191,11 @@ permalink: projects
   <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="sql powerbi excel datavisualization">
     <div class="flex items-start">
       <a href="https://www.videotron.com/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+        <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4">
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Junior Data Analyst</h3>
-        <div class="flex justify-center">
-          <p class="text-gray-500 dark:text-gray-400 text-center">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
-        </div>
+        <p class="text-gray-500 dark:text-gray-400 text-center">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
       </div>
     </div>
 
