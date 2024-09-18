@@ -12,7 +12,7 @@ permalink: projects
 <section id="experience" class="my-8">
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
-  <!-- First Experience -->
+  <!-- SERMA Safety & Security Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
@@ -20,40 +20,50 @@ permalink: projects
         <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon">
       </a>
       <div>
-        <h3 class="text-gray-700 dark:text-stone-100">Machine Learning Engineer Intern</h3>
+        <h3 class="text-gray-700 dark:text-stone-100">Machine Learning Engineer</h3>
         <div class="flex justify-between items-center">
-          <p class="location-date text-gray-700 dark:text-stone-100">SERMA Safety and Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
+          <p class="location-date text-gray-700 dark:text-stone-100">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
         </div>
       </div>
     </div>
     <ul class="list-disc list-inside text-gray-500 dark:text-stone-100">
       <li>
-        <strong>PCB Components Detector:</strong> Developed a PCB components detector program.
+        <strong>PCB Component Recognition:</strong> Developed a Printed Circuit Board (PCB) component recognizer using YOLO, OCR, and Fuzzy Matching.
         <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Used Yolov8, OCR, and Fuzzy Matching to streamline component detection and reference extraction.</li>
+          <li>Reduced time spent by cybersecurity engineers on hardware inspections by automating the detection process.</li>
         </ul>
       </li>
       <li>
-        <strong>CI/CD Pipelines:</strong> Built automated CI/CD pipelines.
+        <strong>Reverse Engineering with LLM:</strong> Integrated LLM4Decompile to assist in reverse engineering binary files from detected chips.
         <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Used GitLab CI and MLFlow for scalable model deployment.</li>
+          <li>Enhanced binary file analysis efficiency for hardware security assessments.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>CI/CD Automation:</strong> Designed and implemented fully automated CI/CD pipelines with GitLab CI and MLFlow.
+      </li>
+      <li>
+        <strong>RAG and LLM Exploration:</strong> Developed a Proof of Concept (POC) for using GraphRAG with local documents and self-hosted Llama3 on Neo4J.
+        <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
+          <li>Implemented cutting-edge technologies to enhance local document retrieval and analysis.</li>
         </ul>
       </li>
     </ul>
 
     <!-- Tech Stack Icons for this Experience -->
     <div class="tech-icons flex justify-start space-x-4 mt-4">
-      <img src="{{ site.baseurl }}/assets/img/icons/yolov8.png" alt="Yolov8" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/yolo.png" alt="YOLO" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/opencv.png" alt="OpenCV" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/ocr.png" alt="OCR" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/docker.png" alt="Docker" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/neo4j.png" alt="Neo4J" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/llm.png" alt="LLM" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/pytorch.png" alt="Pytorch" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/kubernetes.png" alt="Kubernetes" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/ansible.png" alt="Ansible" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon hover-motion">
     </div>
   </div>
 
-  <!-- Second Experience -->
+  <!-- AZ+ Madagascar Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
@@ -61,37 +71,40 @@ permalink: projects
         <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon">
       </a>
       <div>
-        <h3 class="text-gray-700 dark:text-stone-100">System Architecture and ML Projects</h3>
+        <h3 class="text-gray-700 dark:text-stone-100">Co-Founder</h3>
         <div class="flex justify-between items-center">
-          <p class="location-date text-gray-700 dark:text-stone-100">AZ+ Madagascar • 2022 - Present • Various Projects</p>
+          <p class="location-date text-gray-700 dark:text-stone-100">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
         </div>
       </div>
     </div>
     <ul class="list-disc list-inside text-gray-500 dark:text-stone-100">
       <li>
-        <strong>SuperApp:</strong> Designed and deployed a SuperApp for Madagascar.
+        <strong>SuperApp Development:</strong> Co-founded AZ+, a super app providing e-commerce, food delivery, and ride-hailing services in Madagascar.
         <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Used GCP and microservices architecture for enhanced scalability and performance.</li>
+          <li>Led a team of 13 to design and deploy the app, migrating the infrastructure from Firebase to AWS and GCP.</li>
         </ul>
       </li>
       <li>
-        <strong>Euro Coin Recognizer:</strong> Built a mobile app to recognize Euro coins.
-        <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Developed using YOLO for object detection and OpenCV for image processing.</li>
-        </ul>
+        <strong>Infrastructure Overhaul:</strong> Migrated from Firebase to Cloud services (AWS and GCP) for better scalability and cost optimization.
+      </li>
+      <li>
+        <strong>Service Hosting:</strong> Self-hosted critical services, including GitLab, Minio S3, and Grafana, improving autonomy and control over the infrastructure.
+      </li>
+      <li>
+        <strong>Innovation for Local Solutions:</strong> Developed technical solutions for non-existent tools in Madagascar, such as precise location tracking for delivery management.
       </li>
     </ul>
 
     <!-- Tech Stack Icons for this Experience -->
     <div class="tech-icons flex justify-start space-x-4 mt-4">
+      <img src="{{ site.baseurl }}/assets/img/icons/aws.png" alt="AWS" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/gcp.png" alt="GCP" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/kubernetes.png" alt="Kubernetes" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/opencv.png" alt="OpenCV" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/minio.png" alt="Minio" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/grafana.png" alt="Grafana" class="icon hover-motion">
     </div>
   </div>
 
-  <!-- Third Experience -->
+  <!-- IMT Atlantique Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
@@ -99,7 +112,7 @@ permalink: projects
         <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon">
       </a>
       <div>
-        <h3 class="text-gray-700 dark:text-stone-100">Data Analyst Intern</h3>
+        <h3 class="text-gray-700 dark:text-stone-100">Data Analyst</h3>
         <div class="flex justify-between items-center">
           <p class="location-date text-gray-700 dark:text-stone-100">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
         </div>
@@ -107,30 +120,29 @@ permalink: projects
     </div>
     <ul class="list-disc list-inside text-gray-500 dark:text-stone-100">
       <li>
-        <strong>Energy-Saving Strategies:</strong> Developed strategies for 5G mobile networks.
+        <strong>Data Processing:</strong> Acquired and processed data from ANFR using ETL with PowerBI, Pandas, and Seaborn.
         <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Improved network efficiency by 15%.</li>
+          <li>Analyzed power usage of Base Stations across France since 2015, leading to the identification of key factors influencing power consumption.</li>
         </ul>
       </li>
       <li>
-        <strong>ML Models:</strong> Implemented machine learning models to predict traffic loads.
-        <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Optimized energy consumption based on traffic predictions.</li>
-        </ul>
+        <strong>Energy Optimization:</strong> Proposed 4 energy-saving strategies for mobile networks.
+      </li>
+      <li>
+        <strong>Real-World Impact:</strong> Applied the strategies to traffic load data in Rennes, achieving up to 20% energy savings.
       </li>
     </ul>
 
     <!-- Tech Stack Icons for this Experience -->
     <div class="tech-icons flex justify-start space-x-4 mt-4">
-      <img src="{{ site.baseurl }}/assets/img/icons/5g.png" alt="5G" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon hover-motion">
       <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/matplotlib.png" alt="Matplotlib" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon hover-motion">
     </div>
   </div>
 
-  <!-- Fourth Experience -->
+  <!-- Videotron Experience -->
   <div class="experience-section">
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
@@ -139,34 +151,24 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-gray-700 dark:text-stone-100">Junior Data Analyst</h3>
-        <div class="flex justify-between items-center">
-          <p class="location-date text-gray-700 dark:text-stone-100">Videotron Inc. • 2020 - 2022 • Cairo, Egypt</p>
-        </div>
-      </div>
-    </div>
-    <ul class="list-disc list-inside text-gray-500 dark:text-stone-100">
-      <li>
-        <strong>Customer Satisfaction:</strong> Increased customer satisfaction by 15%.
-        <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Implemented data-driven strategies and process improvements.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>KPI Optimization:</strong> Analyzed agent performance and optimized KPIs.
-        <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5">
-          <li>Increased operational efficiency using data insights.</li>
-        </ul>
-      </li>
-    </ul>
+        <div class="flex justify-between items-center"> 
+        <p class="location-date text-gray-700 dark:text-stone-100">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p> 
+        </div> 
+      </div> 
+      </div> 
+      <ul class="list-disc list-inside text-gray-500 dark:text-stone-100"> <li> <strong>Customer Satisfaction:</strong> Increased customer satisfaction from 80% to 95%. 
+      <ul class="list-disc list-inside text-gray-500 dark:text-stone-100 ml-5"> 
+      <li>Identified and resolved key issues causing customer dissatisfaction.</li> 
+      </ul> </li> 
+      <li> <strong>KPI Analysis:</strong> Analyzed agent performance and proposed improvements in KPI achievement. </li> 
+      <li> <strong>Process Optimization:</strong> Developed data-driven strategies to streamline processes and resource management. </li> </ul>
 
-    <!-- Tech Stack Icons for this Experience -->
-    <div class="tech-icons flex justify-start space-x-4 mt-4">
-      <img src="{{ site.baseurl }}/assets/img/icons/sql.png" alt="SQL" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/excel.png" alt="Excel" class="icon hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon hover-motion">
-    </div>
-  </div>
-</section>
+  <!-- Tech Stack Icons for this Experience -->
+<div class="tech-icons flex justify-start space-x-4 mt-4">
+  <img src="{{ site.baseurl }}/assets/img/icons/sql.png" alt="SQL" class="icon hover-motion">
+  <img src="{{ site.baseurl }}/assets/img/icons/excel.png" alt="Excel" class="icon hover-motion">
+  <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon hover-motion">
+</div>
 
 
 </div>
