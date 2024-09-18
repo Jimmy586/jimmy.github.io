@@ -25,6 +25,7 @@ permalink: about
 </section>
 
 <section id="education" class="my-8">
+<h2 class="dark:text-stone-200 mt-32">Education Background</h2>
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- Université de Rennes -->
@@ -168,6 +169,7 @@ permalink: about
     padding-left: 1.5rem;
   }
 </style>
+
 
 
 <section id="major-projects">
