@@ -17,7 +17,9 @@ permalink: projects
     <option value="all">All</option>
     <option value="python">Python</option>
     <option value="pytorch">Pytorch</option>
+    <option value="datavisualization">Dataviz</option>
     <option value="llm">LLM</option>
+    <option value="rag">RAG</option>
     <option value="aws">AWS</option>
     <option value="gcp">GCP</option>
     <option value="yolo">YOLO</option>
@@ -29,7 +31,7 @@ permalink: projects
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- SERMA Safety & Security Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo llm ocr">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo llm ocr python kubernetes fuzzymatching rag docker">
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4" loading="lazy">
@@ -86,7 +88,7 @@ permalink: projects
   </div>
 
   <!-- AZ+ Madagascar Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws kubernetes">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws kubernetes microservices">
     <div class="flex items-start">
       <a href="https://www.azplus.mg/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4" loading="lazy">
@@ -140,7 +142,7 @@ permalink: projects
   </div>
 
   <!-- IMT Atlantique Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="etl powerbi pandas python">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="etl powerbi pandas python datavisualization">
     <div class="flex items-start">
       <a href="https://www.imt-atlantique.fr/en" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4" loading="lazy">
@@ -186,7 +188,7 @@ permalink: projects
   </div>
 
   <!-- Videotron Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="sql powerbi excel">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="sql powerbi excel datavisualization">
     <div class="flex items-start">
       <a href="https://www.videotron.com/en" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4" loading="lazy">
