@@ -28,97 +28,84 @@ permalink: about
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- Université de Rennes -->
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="rennes">
-    <div class="flex items-start">
-      <a href="http://cni.istic.univ-rennes1.fr/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/cni.png" alt="Université de Rennes Logo" class="icon w-12 h-12 mr-4" loading="lazy">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Université de Rennes</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">Master's degree, Cloud and Network Infrastructures • Sept. 2022 - Aug. 2024 • Brittany, France</p>
-        <ul class="task-list mt-4">
-          <li>Specialized in smart city services, big data, distributed systems, advanced cloud infrastructure, and fog computing.</li>
-          <li>Grade: Good</li>
-        </ul>
-      </div>
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 flex" data-edu="rennes">
+    <a href="http://cni.istic.univ-rennes1.fr/" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/cni.png" alt="Université de Rennes Logo" class="icon mr-6">
+    </a>
+    <div>
+      <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Université de Rennes</h3>
+      <p class="text-gray-500 dark:text-gray-400">Master's degree, Cloud and Network Infrastructures • Sept. 2022 - Aug. 2024 • Brittany, France</p>
+      <ul class="list-disc list-inside mt-4">
+        <li>Specialized in smart city services, big data, distributed systems, advanced cloud infrastructure, and fog computing.</li>
+        <li>Grade: Good</li>
+      </ul>
     </div>
   </div>
 
   <!-- EIT Digital -->
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="eit">
-    <div class="flex items-start">
-      <a href="https://masterschool.eitdigital.eu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/eit.png" alt="EIT Digital Master School Logo" class="icon w-12 h-12 mr-4" loading="lazy">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">EIT Digital Master School</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">International Master's Student • Sept. 2022 - July 2024 • Brittany, France</p>
-        <ul class="task-list mt-4">
-          <li>Double Masters in Cloud Computing from Université de Rennes and Innovation & Entrepreneurship at EIT Digital.</li>
-          <li>Coached by renowned European entrepreneurs.</li>
-        </ul>
-      </div>
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 flex" data-edu="eit">
+    <a href="https://masterschool.eitdigital.eu/" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/eit.png" alt="EIT Digital Master School Logo" class="icon mr-6">
+    </a>
+    <div>
+      <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">EIT Digital Master School</h3>
+      <p class="text-gray-500 dark:text-gray-400">International Master's Student • Sept. 2022 - July 2024 • Brittany, France</p>
+      <ul class="list-disc list-inside mt-4">
+        <li>Double Masters in Cloud Computing from Université de Rennes and Innovation & Entrepreneurship at EIT Digital.</li>
+        <li>Coached by renowned European entrepreneurs.</li>
+      </ul>
     </div>
   </div>
-
   <!-- ELTE University -->
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="elte">
-    <div class="flex items-start">
-      <a href="https://www.elte.hu/en/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/elte.png" alt="ELTE University Logo" class="icon w-12 h-12 mr-4" loading="lazy">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">ELTE University, Informatics Faculty</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">Summer Class, Erasmus+ (Scholarship) • Jun. 2023 - July 2023 • Budapest, Hungary</p>
-        <ul class="task-list mt-4">
-          <li>Showcased V2V Grids project and delivered an engaging pitch.</li>
-          <li>Grade: Excellent</li>
-          <li>Core Values: Leadership, teamwork, pitching, innovation, technology watch, project management.</li>
-        </ul>
-      </div>
-    </div>
+  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 flex" data-edu="elte">
+  <a href="https://www.elte.hu/en/" target="_blank">
+    <img src="{{ site.baseurl }}/assets/img/icons/elte.png" alt="ELTE University Logo" class="icon mr-6">
+  </a>
+  <div>
+    <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">ELTE University, Informatics Faculty</h3>
+    <p class="text-gray-500 dark:text-gray-400">Summer Class, Erasmus+ (Scholarship) • Jun. 2023 - July 2023 • Budapest, Hungary</p>
+    <ul class="list-disc list-inside mt-4">
+      <li>Showcased V2V Grids project and delivered an engaging pitch.</li>
+      <li>Grade: Excellent</li>
+      <li>Core Values: Leadership, teamwork, pitching, innovation, technology watch, project management.</li>
+    </ul>
   </div>
+</div>
 
   <!-- Cairo University -->
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="cairo">
-    <div class="flex items-start">
-      <a href="https://fcai.cu.edu.eg/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/fcai.png" alt="Cairo University Logo" class="icon w-12 h-12 mr-4" loading="lazy">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Cairo University</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">Bachelor of Engineering, Computer Science & AI • Sept. 2016 - Aug. 2020 • Cairo, Egypt</p>
-        <ul class="task-list mt-4">
-          <li>Secured a mixed Egyptian and Malagasy Government Scholarship for outstanding grades.</li>
-          <li>Grade: Very Good</li>
-        </ul>
-      </div>
+ <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 flex" data-edu="cairo univerisity">
+    <a href="https://fcai.cu.edu.eg/" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/fcai.png" alt="Cairo University Logo" class="icon mr-6">
+    </a>
+    <div>
+      <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Cairo University</h3>
+      <p class="text-gray-500 dark:text-gray-400">Bachelor of Engineering, Computer Science & AI • Sept. 2016 - Aug. 2020 • Cairo, Egypt</p>
+      <ul class="list-disc list-inside mt-4">
+        <li>Secured a mixed Egyptian and Malagasy Government Scholarship for outstanding grades.</li>
+        <li>Grade: Very Good</li>
+      </ul>
     </div>
   </div>
 
   <!-- Ecole Superieur de Polytechnique Madagascar -->
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="madagascar">
-    <div class="flex items-start">
-      <a href="https://www.polytechnique.mg/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/fcai.png" alt="Ecole Superieur de Polytechnique Madagascar Logo" class="icon w-12 h-12 mr-4" loading="lazy">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Ecole Superieur de Polytechnique Madagascar</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">Bachelor of Engineering, Telecommunications Engineering • 2014 - 2016 • Madagascar</p>
-      </div>
+   <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 flex" data-edu="Ecole Superieur Polytech">
+    <a href="https://www.polytechnique.mg/" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/fcai.png" alt="Ecole Superieur de Polytechnique Madagascar Logo" class="icon mr-6">
+    </a>
+    <div>
+      <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Ecole Superieur de Polytechnique Madagascar</h3>
+      <p class="text-gray-500 dark:text-gray-400">Bachelor of Engineering, Telecommunications Engineering • 2014 - 2016 • Madagascar</p>
     </div>
   </div>
 
   <!-- Saint François Xavier -->
-  <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-edu="sfx">
-    <div class="flex items-start">
-      <a href="https://vatosoamananjara-jimmy.com/about" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/sfx.png" alt="Saint François Xavier Logo" class="icon w-12 h-12 mr-4" loading="lazy">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Saint François Xavier</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">Baccalauréat, Serie C, Mention très Bien • Sept. 2011 - Aug. 2014 • Fianarantsoa, Madagascar</p>
-      </div>
+    <div class="education-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 flex" data-edu="sfx">
+    <a href="https://vatosoamananjara-jimmy.com/about" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/sfx.png" alt="Saint François Xavier Logo" class="icon mr-6">
+    </a>
+    <div>
+      <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Saint François Xavier</h3>
+      <p class="text-gray-500 dark:text-gray-400">Baccalauréat, Serie C, Mention très Bien • Sept. 2011 - Aug. 2014 • Fianarantsoa, Madagascar</p>
     </div>
   </div>
 
@@ -143,9 +130,36 @@ permalink: about
 
 <style>
   .icon {
-    width: 50px;  /* Same size for the company logo as the tech icons */
+    width: 50px;
     height: 50px;
-    margin-right: 10px;
+    object-fit: contain;
+    margin-right: 1.5rem; /* Adjust spacing between logo and content */
+  }
+
+  .education-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    background-color: white;
+  }
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    margin-top: 1rem;
+  }
+
+  .list-disc {
+    list-style-type: disc;
+  }
+
+  .list-inside {
+    padding-left: 1.5rem;
   }
 </style>
 
