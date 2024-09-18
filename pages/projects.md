@@ -9,7 +9,7 @@ permalink: projects
   <p class="!py-0 !mb-0 dark:text-slate-300">Let's be in touch to achieve greatness together.</p>
   <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">Greatness is not achieved overnight, the only way to get there is by providing yourself all manners to hit your best potential.</p>
   
- <section id="experience" class="my-8">
+<section id="experience" class="my-8">
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- First Experience -->
@@ -17,7 +17,7 @@ permalink: projects
     <div class="timeline-dot"></div> <!-- Blue timeline dot -->
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon">
+        <img src="{{ site.baseurl }}/assets/img/icons/ml-icon.png" alt="SERMA Safety and Security Logo" class="icon">
       </a>
       <div>
         <h3 class="text-gray-700 dark:text-stone-100">Machine Learning Engineer Intern</h3>
@@ -42,6 +42,8 @@ permalink: projects
       <img src="{{ site.baseurl }}/assets/img/icons/ansible.png" alt="Ansible" class="icon">
     </div>
   </div>
+</section>
+
 
   <!-- Third Experience -->
   <div class="experience-section">
