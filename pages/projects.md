@@ -26,16 +26,14 @@ permalink: projects
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- SERMA Safety & Security Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" role="region" aria-labelledby="serma-experience">
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4" loading="lazy">
+        <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4">
       </a>
       <div>
-        <h3 id="serma-experience" class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
-        <div class="flex justify-center">
-          <p class="text-gray-500 dark:text-gray-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
-        </div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
       </div>
     </div>
     
@@ -95,17 +93,15 @@ permalink: projects
 
 
   <!-- AZ+ Madagascar Experience -->
-<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" role="region" aria-labelledby="azplus-experience">
-  <div class="flex items-start">
-    <a href="https://www.azplus.mg/" target="_blank">
-      <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4" loading="lazy">
-    </a>
-    <div>
-      <h3 id="azplus-experience" class="text-xl font-semibold text-gray-800 dark:text-white">Co-Founder</h3>
-      <div class="flex justify-center">
+<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+    <div class="flex items-start">
+      <a href="https://www.azplus.mg/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Co-Founder</h3>
         <p class="text-gray-500 dark:text-gray-400 text-center">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
       </div>
-    </div>
   </div>
 
   <ul class="task-list mt-4">
@@ -161,16 +157,14 @@ permalink: projects
 
  <!-- IMT Atlantique Experience -->
 <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
-  <div class="flex items-start">
-    <a href="https://www.imt-atlantique.fr/en" target="_blank">
-      <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4">
-    </a>
-    <div>
-      <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
-      <div class="flex justify-center">
+    <div class="flex items-start">
+      <a href="https://www.imt-atlantique.fr/en" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
         <p class="text-gray-500 dark:text-gray-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
       </div>
-    </div>
   </div>
 
   <ul class="task-list mt-4">
@@ -211,6 +205,8 @@ permalink: projects
   </div>
 </div>
 
+
+ <!-- VIDEOTRON -->
 
 <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
   <div class="flex items-start">
@@ -261,5 +257,3 @@ permalink: projects
 </div>
 
 </div>
-
-</section>
