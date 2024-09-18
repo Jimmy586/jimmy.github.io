@@ -90,21 +90,20 @@ permalink: projects
     </div>
   </div>
 
-  <!-- Additional experiences here... -->
 </section>
 
 
 
   <!-- AZ+ Madagascar Experience -->
-<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" role="region" aria-labelledby="imt-experience">
   <div class="flex items-start">
-    <a href="https://www.azplus.mg/" target="_blank">
-      <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
+    <a href="https://www.imt-atlantique.fr/en" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4" loading="lazy">
     </a>
     <div>
-      <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Co-Founder</h3>
+      <h3 id="imt-experience" class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
       <div class="flex justify-center">
-        <p class="text-gray-500 dark:text-gray-400 text-center">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
+        <p class="text-gray-500 dark:text-gray-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
       </div>
     </div>
   </div>
@@ -112,50 +111,41 @@ permalink: projects
   <ul class="task-list mt-4">
     <!-- Task 1 -->
     <li class="task-item">
-      <strong class="task-title">SuperApp Development</strong> 
-      <span class="task-tech">(Technologies: GCP, AWS, Microservices)</span>:
+      <strong class="task-title">Data Acquisition & Processing</strong> 
+      <span class="task-tech">(Technologies: ETL, PowerBI, Pandas)</span>:
       <ul class="task-details">
-        <li>Led a team of 13 to design and deploy the SuperApp AZ+ in Madagascar, providing e-commerce, food delivery, and ride-hailing services.</li>
+        <li>Acquired and processed data from ANFR to analyze power usage of mobile Base Stations in France since 2015.</li>
       </ul>
     </li>
 
     <!-- Task 2 -->
     <li class="task-item">
-      <strong class="task-title">Cloud Migration</strong> 
-      <span class="task-tech">(Technologies: GCP, AWS, Kubernetes)</span>:
+      <strong class="task-title">Energy-Saving Strategies</strong> 
+      <span class="task-tech">(Technologies: Seaborn, Pandas, Python)</span>:
       <ul class="task-details">
-        <li>Migrated infrastructure from Firebase to AWS and GCP for better scalability and reduced costs.</li>
+        <li>Proposed 4 strategies to save energy in mobile networks, based on key factors affecting power consumption.</li>
       </ul>
     </li>
 
     <!-- Task 3 -->
     <li class="task-item">
-      <strong class="task-title">Self-hosted Services</strong> 
-      <span class="task-tech">(Technologies: GitLab, Minio S3, Grafana)</span>:
+      <strong class="task-title">Real-World Application</strong> 
+      <span class="task-tech">(Technologies: PowerBI, Python)</span>:
       <ul class="task-details">
-        <li>Self-hosted various services on our own servers, including GitLab, Minio S3, and Grafana, ensuring full control over our infrastructure.</li>
-      </ul>
-    </li>
-
-    <!-- Task 4 -->
-    <li class="task-item">
-      <strong class="task-title">Technical Innovations for Local Solutions</strong> 
-      <span class="task-tech">(Technologies: Custom Location Services)</span>:
-      <ul class="task-details">
-        <li>Developed innovative technical solutions for non-existent tools in Madagascar, such as precise location tracking for delivery management.</li>
+        <li>Applied energy-saving strategies to real traffic load data in Rennes, achieving up to 20% energy savings.</li>
       </ul>
     </li>
   </ul>
 
-  <!-- Centered Tech Stack Icons -->
+  <!-- Centered Tech Stack Icons with Animation -->
   <div class="tech-icons flex justify-center space-x-4 mt-6">
-    <img src="{{ site.baseurl }}/assets/img/icons/gcp.png" alt="GCP" class="icon w-10 h-10 hover-motion">
-    <img src="{{ site.baseurl }}/assets/img/icons/aws.png" alt="AWS" class="icon w-10 h-10 hover-motion">
-    <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion">
-    <img src="{{ site.baseurl }}/assets/img/icons/minio.png" alt="Minio" class="icon w-10 h-10 hover-motion">
-    <img src="{{ site.baseurl }}/assets/img/icons/grafana.png" alt="Grafana" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion" loading="lazy">
+    <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon w-10 h-10 hover-motion" loading="lazy">
+    <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon w-10 h-10 hover-motion" loading="lazy">
+    <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion" loading="lazy">
   </div>
 </div>
+
 
 
  <!-- IMT Atlantique Experience -->
@@ -211,14 +201,13 @@ permalink: projects
 </div>
 
 
-<!-- Videotron Experience -->
-<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" role="region" aria-labelledby="videotron-experience">
   <div class="flex items-start">
     <a href="https://www.videotron.com/en" target="_blank">
-      <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4">
+      <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4" loading="lazy">
     </a>
     <div>
-      <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Junior Data Analyst</h3>
+      <h3 id="videotron-experience" class="text-xl font-semibold text-gray-800 dark:text-white">Junior Data Analyst</h3>
       <div class="flex justify-center">
         <p class="text-gray-500 dark:text-gray-400 text-center">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
       </div>
@@ -254,7 +243,7 @@ permalink: projects
     </li>
   </ul>
 
-  <!-- Centered Tech Stack Icons -->
+  <!-- Centered Tech Stack Icons with Animation -->
   <div class="tech-icons flex justify-center space-x-4 mt-6">
     <img src="{{ site.baseurl }}/assets/img/icons/sql.png" alt="SQL" class="icon w-10 h-10 hover-motion">
     <img src="{{ site.baseurl }}/assets/img/icons/excel.png" alt="Excel" class="icon w-10 h-10 hover-motion">
