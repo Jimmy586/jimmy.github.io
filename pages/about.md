@@ -18,8 +18,8 @@ permalink: about
     <option value="rennes">Université de Rennes</option>
     <option value="eit">EIT Digital</option>
     <option value="elte">ELTE University</option>
-    <option value="cairo">Cairo University</option>
-    <option value="polytech">Ecole Superieur de Politechnique Madagascar</option>
+    <option value="cairo univerisity">Cairo University</option>
+    <option value="pEcole Superieur Polytech">Ecole Superieur de Politechnique Madagascar</option>
     <option value="sfx">Saint François Xavier</option>
   </select>
 </section>
