@@ -1825,12 +1825,6 @@ strong.dark {
   flex-wrap: wrap;
 }
 
-/* Icon Styling */
-.icon {
-  width: 50px;  /* Same size for the company logo as the tech icons */
-  height: 50px;
-  margin-right: 10px;
-}
 
 
 /* Company Name Styling */
@@ -1896,12 +1890,6 @@ strong.dark {
   opacity: 0.9; /* Slight opacity to differentiate */
 }
 
-/* Icon Styling */
-.icon {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
 
 /* Hover Effect */
 .experience-section:hover {
@@ -1925,25 +1913,52 @@ ul ul {
   list-style-type: disc; /* Keep the bullet style consistent */
 }
 
-/* Styles for tasks and technologies */
+/* Logo and content alignment */
+.experience-section .flex.items-start {
+  align-items: flex-start;
+}
+
+.icon {
+  display: block;
+  margin-right: 1rem; /* Adds spacing between the logo and the text */
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* Task list styling */
 .task-list {
-  list-style: none;
-  padding: 0;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .task-item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .task-title {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #333;
 }
 
 .task-tech {
   font-style: italic;
   color: #777;
+}
+
+/* Adjustments for dark mode */
+.dark .task-title {
+  color: #e0e0e0;
+}
+
+.dark .task-tech {
+  color: #a0a0a0;
+}
+
+.dark .task-details li {
+  color: #cccccc;
 }
 
 .task-details {
@@ -1970,17 +1985,4 @@ ul ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/* Optional improvements for dark mode */
-.dark .task-title {
-  color: #e0e0e0;
-}
-
-.dark .task-tech {
-  color: #a0a0a0;
-}
-
-.dark .task-details li {
-  color: #cccccc;
 }
