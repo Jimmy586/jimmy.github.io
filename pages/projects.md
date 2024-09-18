@@ -39,7 +39,7 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
       </div>
     </div>
     
@@ -53,22 +53,22 @@ permalink: projects
       </li>
       <li class="task-item">
         <strong class="task-title">Reverse Engineering with LLM4Decompile</strong> 
-        <span class="task-tech">(Technologies: LLM4Decompile)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: LLM4Decompile)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Implemented LLM4Decompile to assist in reverse engineering binary files from detected chips.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">CI/CD Automation</strong> 
-        <span class="task-tech">(Technologies: GitLab CI, MLFlow)</span>:
-        <ul class="task-details">
-          <li>Designed and implemented fully automated CI/CD pipelines using GitLab CI and MLFlow for scalable model deployment.</li>
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GitLab CI, MLFlow)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
+          <li>Designed and implemented fully automated CI/CD pipelines using GitLabCI and MLFlow for scalable model deployment.</li>
         </ul>
       </li>
       <li class="task-item">
-        <strong class="task-title">Graph RAG & LLM Exploration</strong> 
-        <span class="task-tech">(Technologies: GraphRAG, Neo4J, Llama3)</span>:
-        <ul class="task-details">
+        <strong class="task-title">Graph RAG & LLM POC</strong> 
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GraphRAG, Neo4J, Llama3.1)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Developed a POC using GraphRAG to improve document retrieval with self-hosted Llama3 and Neo4J integration.</li>
         </ul>
       </li>
@@ -94,36 +94,36 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Co-Founder</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
+        <p class="text-gray-500 dark:text-slate-400  text-center">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
       </div>
     </div>
 
     <ul class="task-list mt-4">
       <li class="task-item">
         <strong class="task-title">SuperApp Development</strong> 
-        <span class="task-tech">(Technologies: GCP, AWS, Microservices)</span>:
-        <ul class="task-details">
+        <span class="task-techtext-gray-500 dark:text-slate-400 ">(Technologies: GCP, AWS, Microservices)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Led a team of 13 to design and deploy the SuperApp AZ+ in Madagascar, providing e-commerce, food delivery, and ride-hailing services.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">Cloud Migration</strong> 
-        <span class="task-tech">(Technologies: GCP, AWS, Kubernetes)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GCP, AWS, Kubernetes)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Migrated infrastructure from Firebase to AWS and GCP for better scalability and reduced costs.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">Self-hosted Services</strong> 
-        <span class="task-tech">(Technologies: GitLab, Minio S3, Grafana)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GitLab, Minio S3, Grafana)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Self-hosted various services on our own servers, including GitLab, Minio S3, and Grafana, ensuring full control over our infrastructure.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">Technical Innovations for Local Solutions</strong> 
-        <span class="task-tech">(Technologies: Custom Location Services)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: Custom Location Services)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Developed innovative technical solutions for non-existent tools in Madagascar, such as precise location tracking for delivery management.</li>
         </ul>
       </li>
@@ -146,29 +146,29 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
       </div>
     </div>
 
     <ul class="task-list mt-4">
       <li class="task-item">
         <strong class="task-title">Data Acquisition & Processing</strong> 
-        <span class="task-tech">(Technologies: ETL, PowerBI, Pandas)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: ETL, PowerBI, Pandas)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Acquired and processed data from ANFR to analyze power usage of mobile Base Stations in France since 2015.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">Energy-Saving Strategies</strong> 
-        <span class="task-tech">(Technologies: Seaborn, Pandas, Python)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: Seaborn, Pandas, Python)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Proposed 4 strategies to save energy in mobile networks, based on key factors affecting power consumption.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">Real-World Application</strong> 
-        <span class="task-tech">(Technologies: PowerBI, Python)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: PowerBI, Python)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Applied energy-saving strategies to real traffic load data in Rennes, achieving up to 20% energy savings.</li>
         </ul>
       </li>
@@ -191,29 +191,29 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Junior Data Analyst</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-center">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
       </div>
     </div>
 
     <ul class="task-list mt-4">
       <li class="task-item">
         <strong class="task-title">Customer Satisfaction</strong> 
-        <span class="task-tech">(Technologies: Excel, SQL)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: Excel, SQL)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Increased customer satisfaction from 80% to 95% by identifying key issues and developing strategies to address them.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">KPI Analysis</strong> 
-        <span class="task-tech">(Technologies: PowerBI, SQL)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: PowerBI, SQL)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Analyzed agent performance and improved KPI achievements, leading to better operational efficiency.</li>
         </ul>
       </li>
       <li class="task-item">
         <strong class="task-title">Process Optimization</strong> 
-        <span class="task-tech">(Technologies: PowerBI, Excel, SQL)</span>:
-        <ul class="task-details">
+        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: PowerBI, Excel, SQL)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400 ">
           <li>Developed data-driven strategies to streamline processes and optimize resource management across teams.</li>
         </ul>
       </li>
