@@ -1924,3 +1924,63 @@ ul ul {
   margin-left: 20px; /* Indent second level */
   list-style-type: disc; /* Keep the bullet style consistent */
 }
+
+/* Styles for tasks and technologies */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  margin-bottom: 1.5rem;
+}
+
+.task-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.task-tech {
+  font-style: italic;
+  color: #777;
+}
+
+.task-details {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #555;
+}
+
+.task-details li {
+  margin-top: 0.5rem;
+}
+
+/* Icon Hover Motion */
+.hover-motion {
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.hover-motion:hover {
+  transform: translateY(-10px); /* Move the icon up on hover */
+}
+
+/* Centered Content */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional improvements for dark mode */
+.dark .task-title {
+  color: #e0e0e0;
+}
+
+.dark .task-tech {
+  color: #a0a0a0;
+}
+
+.dark .task-details li {
+  color: #cccccc;
+}

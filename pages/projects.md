@@ -20,31 +20,46 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
-        <div class="flex justify-between items-center">
-          <p class="text-gray-500 dark:text-gray-400">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
+        <div class="flex justify-center">
+          <p class="text-gray-500 dark:text-gray-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
         </div>
       </div>
     </div>
-    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mt-4">
-      <li>
-        <strong class="text-lg">PCB Component Recognition:</strong> Developed a Printed Circuit Board (PCB) component recognizer using YOLO, OCR, and Fuzzy Matching.
-        <ul class="list-disc list-inside ml-6 text-gray-500 dark:text-gray-400 mt-1">
-          <li>Reduced time spent by cybersecurity engineers on hardware inspections by automating the detection process.</li>
+    
+    <ul class="task-list mt-4">
+      <!-- Task 1 -->
+      <li class="task-item">
+        <strong class="task-title">PCB Component Recognition</strong> 
+        <span class="task-tech">(Technologies: YOLO, OCR, Fuzzy Matching)</span>:
+        <ul class="task-details">
+          <li>Developed a system to detect PCB components using YOLO and OCR, reducing manual inspection time.</li>
         </ul>
       </li>
-      <li class="mt-3">
-        <strong class="text-lg">Reverse Engineering with LLM:</strong> Integrated LLM4Decompile to assist in reverse engineering binary files from detected chips.
-        <ul class="list-disc list-inside ml-6 text-gray-500 dark:text-gray-400 mt-1">
-          <li>Enhanced binary file analysis efficiency for hardware security assessments.</li>
+
+      <!-- Task 2 -->
+      <li class="task-item">
+        <strong class="task-title">Reverse Engineering with LLM4Decompile</strong> 
+        <span class="task-tech">(Technologies: LLM4Decompile)</span>:
+        <ul class="task-details">
+          <li>Implemented LLM4Decompile to assist in reverse engineering binary files from detected chips.</li>
         </ul>
       </li>
-      <li class="mt-3">
-        <strong class="text-lg">CI/CD Automation:</strong> Designed and implemented fully automated CI/CD pipelines with GitLab CI and MLFlow.
+
+      <!-- Task 3 -->
+      <li class="task-item">
+        <strong class="task-title">CI/CD Automation</strong> 
+        <span class="task-tech">(Technologies: GitLab CI, MLFlow)</span>:
+        <ul class="task-details">
+          <li>Designed and implemented fully automated CI/CD pipelines using GitLab CI and MLFlow for scalable model deployment.</li>
+        </ul>
       </li>
-      <li class="mt-3">
-        <strong class="text-lg">RAG and LLM Exploration:</strong> Developed a Proof of Concept (POC) for using GraphRAG with local documents and self-hosted Llama3 on Neo4J.
-        <ul class="list-disc list-inside ml-6 text-gray-500 dark:text-gray-400 mt-1">
-          <li>Implemented cutting-edge technologies to enhance local document retrieval and analysis.</li>
+
+      <!-- Task 4 -->
+      <li class="task-item">
+        <strong class="task-title">Graph RAG & LLM Exploration</strong> 
+        <span class="task-tech">(Technologies: GraphRAG, Neo4J, Llama3)</span>:
+        <ul class="task-details">
+          <li>Developed a POC using GraphRAG to improve document retrieval with self-hosted Llama3 and Neo4J integration.</li>
         </ul>
       </li>
     </ul>
@@ -62,120 +77,176 @@ permalink: projects
     </div>
   </div>
 
-  <!-- AZ+ Madagascar Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
-    <div class="flex items-start">
-      <a href="https://www.azplus.mg/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Co-Founder</h3>
-        <div class="flex justify-between items-center">
-          <p class="text-gray-500 dark:text-gray-400">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
-        </div>
-      </div>
-    </div>
-    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mt-4">
-      <li>
-        <strong class="text-lg">SuperApp Development:</strong> Co-founded AZ+, a super app providing e-commerce, food delivery, and ride-hailing services in Madagascar.
-        <ul class="list-disc list-inside ml-6 text-gray-500 dark:text-gray-400 mt-1">
-          <li>Led a team of 13 to design and deploy the app, migrating the infrastructure from Firebase to AWS and GCP.</li>
-        </ul>
-      </li>
-      <li class="mt-3">
-        <strong class="text-lg">Infrastructure Overhaul:</strong> Migrated from Firebase to Cloud services (AWS and GCP) for better scalability and cost optimization.
-      </li>
-      <li class="mt-3">
-        <strong class="text-lg">Service Hosting:</strong> Self-hosted critical services, including GitLab, Minio S3, and Grafana, improving autonomy and control over the infrastructure.
-      </li>
-      <li class="mt-3">
-        <strong class="text-lg">Innovation for Local Solutions:</strong> Developed technical solutions for non-existent tools in Madagascar, such as precise location tracking for delivery management.
-      </li>
-    </ul>
-
-    <!-- Centered Tech Stack Icons -->
-    <div class="tech-icons flex justify-center space-x-4 mt-6">
-      <img src="{{ site.baseurl }}/assets/img/icons/aws.png" alt="AWS" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/gcp.png" alt="GCP" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/minio.png" alt="Minio" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/grafana.png" alt="Grafana" class="icon w-10 h-10 hover-motion">
-    </div>
-  </div>
-
-  <!-- IMT Atlantique Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
-    <div class="flex items-start">
-      <a href="https://www.imt-atlantique.fr/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
-        <div class="flex justify-between items-center">
-          <p class="text-gray-500 dark:text-gray-400">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
-        </div>
-      </div>
-    </div>
-    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mt-4">
-      <li>
-        <strong class="text-lg">Data Processing:</strong> Acquired and processed data from ANFR using ETL with PowerBI, Pandas, and Seaborn.
-        <ul class="list-disc list-inside ml-6 text-gray-500 dark:text-gray-400 mt-1">
-          <li>Analyzed power usage of Base Stations across France since 2015, leading to the identification of key factors influencing power consumption.</li>
-        </ul>
-      </li>
-      <li class="mt-3">
-        <strong class="text-lg">Energy Optimization:</strong> Proposed 4 energy-saving strategies for mobile networks.
-      </li>
-      <li class="mt-3">
-        <strong class="text-lg">Real-World Impact:</strong> Applied the strategies to traffic load data in Rennes, achieving up to 20% energy savings.
-      </li>
-    </ul>
-
-    <!-- Centered Tech Stack Icons -->
-    <div class="tech-icons flex justify-center space-x-4 mt-6">
-      <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/matplotlib.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion">
-    </div>
-  </div>
-
-  <!-- Videotron Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
-    <div class="flex items-start">
-      <a href="https://www.videotron.com/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Junior Data Analyst</h3>
-        <div class="flex justify-between items-center">
-          <p class="text-gray-500 dark:text-gray-400">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
-        </div>
-      </div>
-    </div>
-    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mt-4">
-      <li>
-        <strong class="text-lg">Customer Satisfaction:</strong> Increased customer satisfaction from 80% to 95%.
-        <ul class="list-disc list-inside ml-6 text-gray-500 dark:text-gray-400 mt-1">
-          <li>Identified and resolved key issues causing customer dissatisfaction.</li>
-        </ul>
-      </li>
-      <li class="mt-3">
-        <strong class="text-lg">KPI Analysis:</strong> Analyzed agent performance and proposed improvements in KPI achievement.
-      </li>
-      <li class="mt-3">
-        <strong class="text-lg">Process Optimization:</strong> Developed data-driven strategies to streamline processes and resource management.
-      </li>
-    </ul>
-
-    <!-- Centered Tech Stack Icons -->
-    <div class="tech-icons flex justify-center space-x-4 mt-6">
-      <img src="{{ site.baseurl }}/assets/img/icons/sql.png" alt="SQL" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/excel.png" alt="Excel" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
-    </div>
-  </div>
+  <!-- Additional experiences here... -->
 </section>
+
+  <!-- AZ+ Madagascar Experience -->
+<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+  <div class="flex items-start">
+    <a href="https://www.azplus.mg/" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
+    </a>
+    <div>
+      <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Co-Founder</h3>
+      <div class="flex justify-center">
+        <p class="text-gray-500 dark:text-gray-400 text-center">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
+      </div>
+    </div>
+  </div>
+
+  <ul class="task-list mt-4">
+    <!-- Task 1 -->
+    <li class="task-item">
+      <strong class="task-title">SuperApp Development</strong> 
+      <span class="task-tech">(Technologies: GCP, AWS, Microservices)</span>:
+      <ul class="task-details">
+        <li>Led a team of 13 to design and deploy the SuperApp AZ+ in Madagascar, providing e-commerce, food delivery, and ride-hailing services.</li>
+      </ul>
+    </li>
+
+    <!-- Task 2 -->
+    <li class="task-item">
+      <strong class="task-title">Cloud Migration</strong> 
+      <span class="task-tech">(Technologies: GCP, AWS, Kubernetes)</span>:
+      <ul class="task-details">
+        <li>Migrated infrastructure from Firebase to AWS and GCP for better scalability and reduced costs.</li>
+      </ul>
+    </li>
+
+    <!-- Task 3 -->
+    <li class="task-item">
+      <strong class="task-title">Self-hosted Services</strong> 
+      <span class="task-tech">(Technologies: GitLab, Minio S3, Grafana)</span>:
+      <ul class="task-details">
+        <li>Self-hosted various services on our own servers, including GitLab, Minio S3, and Grafana, ensuring full control over our infrastructure.</li>
+      </ul>
+    </li>
+
+    <!-- Task 4 -->
+    <li class="task-item">
+      <strong class="task-title">Technical Innovations for Local Solutions</strong> 
+      <span class="task-tech">(Technologies: Custom Location Services)</span>:
+      <ul class="task-details">
+        <li>Developed innovative technical solutions for non-existent tools in Madagascar, such as precise location tracking for delivery management.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Centered Tech Stack Icons -->
+  <div class="tech-icons flex justify-center space-x-4 mt-6">
+    <img src="{{ site.baseurl }}/assets/img/icons/gcp.png" alt="GCP" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/aws.png" alt="AWS" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/minio.png" alt="Minio" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/grafana.png" alt="Grafana" class="icon w-10 h-10 hover-motion">
+  </div>
+</div>
+
+
+ <!-- IMT Atlantique Experience -->
+<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+  <div class="flex items-start">
+    <a href="https://www.imt-atlantique.fr/en" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4">
+    </a>
+    <div>
+      <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
+      <div class="flex justify-center">
+        <p class="text-gray-500 dark:text-gray-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
+      </div>
+    </div>
+  </div>
+
+  <ul class="task-list mt-4">
+    <!-- Task 1 -->
+    <li class="task-item">
+      <strong class="task-title">Data Acquisition & Processing</strong> 
+      <span class="task-tech">(Technologies: ETL, PowerBI, Pandas)</span>:
+      <ul class="task-details">
+        <li>Acquired and processed data from ANFR to analyze power usage of mobile Base Stations in France since 2015.</li>
+      </ul>
+    </li>
+
+    <!-- Task 2 -->
+    <li class="task-item">
+      <strong class="task-title">Energy-Saving Strategies</strong> 
+      <span class="task-tech">(Technologies: Seaborn, Pandas, Python)</span>:
+      <ul class="task-details">
+        <li>Proposed 4 strategies to save energy in mobile networks, based on key factors affecting power consumption.</li>
+      </ul>
+    </li>
+
+    <!-- Task 3 -->
+    <li class="task-item">
+      <strong class="task-title">Real-World Application</strong> 
+      <span class="task-tech">(Technologies: PowerBI, Python)</span>:
+      <ul class="task-details">
+        <li>Applied energy-saving strategies to real traffic load data in Rennes, achieving up to 20% energy savings.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Centered Tech Stack Icons -->
+  <div class="tech-icons flex justify-center space-x-4 mt-6">
+    <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion">
+  </div>
+</div>
+
+
+<!-- Videotron Experience -->
+<div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+  <div class="flex items-start">
+    <a href="https://www.videotron.com/en" target="_blank">
+      <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4">
+    </a>
+    <div>
+      <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Junior Data Analyst</h3>
+      <div class="flex justify-center">
+        <p class="text-gray-500 dark:text-gray-400 text-center">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
+      </div>
+    </div>
+  </div>
+
+  <ul class="task-list mt-4">
+    <!-- Task 1 -->
+    <li class="task-item">
+      <strong class="task-title">Customer Satisfaction</strong> 
+      <span class="task-tech">(Technologies: Excel, SQL)</span>:
+      <ul class="task-details">
+        <li>Increased customer satisfaction from 80% to 95% by identifying key issues and developing strategies to address them.</li>
+      </ul>
+    </li>
+
+    <!-- Task 2 -->
+    <li class="task-item">
+      <strong class="task-title">KPI Analysis</strong> 
+      <span class="task-tech">(Technologies: PowerBI, SQL)</span>:
+      <ul class="task-details">
+        <li>Analyzed agent performance and improved KPI achievements, leading to better operational efficiency.</li>
+      </ul>
+    </li>
+
+    <!-- Task 3 -->
+    <li class="task-item">
+      <strong class="task-title">Process Optimization</strong> 
+      <span class="task-tech">(Technologies: PowerBI, Excel, SQL)</span>:
+      <ul class="task-details">
+        <li>Developed data-driven strategies to streamline processes and optimize resource management across teams.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Centered Tech Stack Icons -->
+  <div class="tech-icons flex justify-center space-x-4 mt-6">
+    <img src="{{ site.baseurl }}/assets/img/icons/sql.png" alt="SQL" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/excel.png" alt="Excel" class="icon w-10 h-10 hover-motion">
+    <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
+  </div>
+</div>
+
 
 
 </div>
