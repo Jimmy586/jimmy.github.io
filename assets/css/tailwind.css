@@ -1818,6 +1818,20 @@ strong.dark {
   margin-right: 15px;  /* Add spacing between the icons */
 }
 
+@media (max-width: 768px) {
+  .tech-icons img {
+    width: 40px; /* Adjust for tablet size */
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-icons img {
+    width: 30px; /* Adjust for mobile size */
+    height: 30px;
+  }
+}
+
 .tech-icons {
   margin-top: 20px;  /* Provide space between content and icons */
   display: flex;
@@ -1832,6 +1846,19 @@ strong.dark {
   margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 
 /* Company Name Styling */
 .company-name {
@@ -1896,13 +1923,6 @@ strong.dark {
   opacity: 0.9; /* Slight opacity to differentiate */
 }
 
-/* Icon Styling */
-.icon {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
 /* Hover Effect */
 .experience-section:hover {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
@@ -1925,9 +1945,7 @@ ul ul {
   list-style-type: disc; /* Keep the bullet style consistent */
 }
 
-/*
-1. Section-Specific Styling for Readability
-*/
+/* Section-Specific Styling for Readability */
 .section-header {
   font-size: 1.75rem;
   font-weight: bold;
@@ -1936,9 +1954,7 @@ ul ul {
   color: #333;
 }
 
-/*
-2. Loading Animation for Tech Icons
-*/
+/* Loading Animation for Tech Icons */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -1946,69 +1962,4 @@ ul ul {
 
 .tech-icons img {
   animation: fadeIn 1.2s ease-in-out;
-}
-
-/*
-3. Filter Dropdown Styling
-*/
-.filter-dropdown {
-  margin: 10px 0;
-  padding: 5px;
-  font-size: 0.9rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-/*
-5. Improve Typography for Readability
-*/
-h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-ul {
-  font-size: 0.9rem;
-}
-
-/*
-8. Use Lazy Loading for Images
-*/
-.icon {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  margin-right: 15px;
-}
-
-/*
-9. Hover Effects for Project Links and Icons
-*/
-.experience-section h3:hover {
-  color: #007BFF;
-  text-decoration: underline;
-}
-
-.icon:hover {
-  transform: scale(1.1);
-}
-
-.hover-motion {
-  transition: transform 0.3s ease-in-out;
-}
-
-.hover-motion:hover {
-  transform: translateY(-10px); /* Move the icon up on hover */
-}
-
-/* Indented Second-Level Bullet Points */
-ul ul {
-  margin-top: 5px;  /* Space between levels */
-  margin-left: 20px; /* Indent second level */
-  list-style-type: disc; /* Keep the bullet style consistent */
 }
