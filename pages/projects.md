@@ -65,7 +65,7 @@ permalink: projects
   <!-- CI/CD Automation -->
   <li class="task-item">
     <strong class="task-title">Machine Clustering and CI/CD Automation</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(GitLab CI, MLFlow, Ansible, K8S Kubernetes)</span>:
+    <span class="task-tech text-gray-500 dark:text-slate-400">(GitLabCI, MLFlow, Ansible, K8s)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
       <li>Clustered a set of 5 spare machines with K8S and implemented fully automated CI/CD pipelines using GitLabCI and MLFlow, automating the deployment and monitoring of ML models.</li>
     </ul>
