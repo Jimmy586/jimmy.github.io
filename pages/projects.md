@@ -94,6 +94,59 @@ permalink: projects
     </div>
   </div>
 
+
+  <!-- IMT Atlantique Experience -->
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="etl powerbi pandas python datavisualization">
+    <div class="flex items-start">
+      <a href="https://www.imt-atlantique.fr/en" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
+        <p class="text-gray-500 dark:text-slate-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
+      </div>
+    </div>
+
+    <ul class="task-list mt-4">
+  <!-- Data Acquisition & Processing -->
+  <li class="task-item">
+    <strong class="task-title">Data Acquisition & Processing</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(ETL, PowerBI, Pandas, Seaborn, Python)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Acquired and processed data from ANFR (French National Frequency Agency) using ETL pipelines with PowerBI to analyze the power usage of mobile Base Stations (antennas) across France since 2015.</li>
+    </ul>
+  </li>
+  
+  <!-- Energy-Saving Strategies -->
+  <li class="task-item">
+    <strong class="task-title">Energy-Saving Strategies</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Seaborn, Pandas, Python)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Proposed four targeted strategies to save energy in mobile networks, based on key factors such as traffic load, antenna's type.</li>
+    </ul>
+  </li>
+  
+  <!-- Real-World Application -->
+  <li class="task-item">
+    <strong class="task-title">Real-World Application</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(PowerBI, Python)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Applied energy-saving strategies to real traffic load data in Rennes, achieving up to 20% energy savings in mobile networks.</li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div class="tech-icons flex justify-center space-x-4 mt-6">
+      <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion">
+      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion" loading="lazy">
+    </div>
+  </div>
+
+
   <!-- AZ+ Madagascar Experience -->
   <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws devops kubernetes microservices">
     <div class="flex items-start">
@@ -159,57 +212,6 @@ permalink: projects
       <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion" loading="lazy">
       <img src="{{ site.baseurl }}/assets/img/icons/minio.png" alt="Minio" class="icon w-10 h-10 hover-motion" loading="lazy">
       <img src="{{ site.baseurl }}/assets/img/icons/grafana.png" alt="Grafana" class="icon w-10 h-10 hover-motion" loading="lazy">
-    </div>
-  </div>
-
-  <!-- IMT Atlantique Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="etl powerbi pandas python datavisualization">
-    <div class="flex items-start">
-      <a href="https://www.imt-atlantique.fr/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Analyst</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
-      </div>
-    </div>
-
-    <ul class="task-list mt-4">
-  <!-- Data Acquisition & Processing -->
-  <li class="task-item">
-    <strong class="task-title">Data Acquisition & Processing</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(ETL, PowerBI, Pandas, Seaborn, Python)</span>:
-    <ul class="task-details text-gray-500 dark:text-slate-400">
-      <li>Acquired and processed data from ANFR (French National Frequency Agency) using ETL pipelines with PowerBI to analyze the power usage of mobile Base Stations (antennas) across France since 2015.</li>
-    </ul>
-  </li>
-  
-  <!-- Energy-Saving Strategies -->
-  <li class="task-item">
-    <strong class="task-title">Energy-Saving Strategies</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Seaborn, Pandas, Python)</span>:
-    <ul class="task-details text-gray-500 dark:text-slate-400">
-      <li>Proposed four targeted strategies to save energy in mobile networks, based on key factors such as traffic load, antenna's type.</li>
-    </ul>
-  </li>
-  
-  <!-- Real-World Application -->
-  <li class="task-item">
-    <strong class="task-title">Real-World Application</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(PowerBI, Python)</span>:
-    <ul class="task-details text-gray-500 dark:text-slate-400">
-      <li>Applied energy-saving strategies to real traffic load data in Rennes, achieving up to 20% energy savings in mobile networks.</li>
-    </ul>
-  </li>
-</ul>
-
-
-    <div class="tech-icons flex justify-center space-x-4 mt-6">
-      <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/pandas.png" alt="Pandas" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/seaborn.png" alt="Seaborn" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion">
-      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion" loading="lazy">
     </div>
   </div>
 
