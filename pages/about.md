@@ -137,68 +137,92 @@ permalink: about
 
 <style>
   /* Icon styles for responsiveness */
+ /* Icon Styling */
+.icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 1.5rem; /* Adjust spacing between logo and content */
+}
+
+@media (max-width: 768px) {
   .icon {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    margin-right: 1.5rem; /* Adjust spacing between logo and content */
+    width: 40px; /* Adjust for tablet size */
+    height: 40px;
+    margin-right: 0; /* Remove side margin for stacked layout */
+    margin-bottom: 1rem; /* Add space between icon and text */
   }
+}
 
-  /* Responsive adjustments for smaller screens */
-  @media (max-width: 768px) {
-    .icon {
-      width: 40px;
-      height: 40px;
-    }
+@media (max-width: 480px) {
+  .icon {
+    width: 30px; /* Adjust for mobile size */
+    height: 30px;
   }
+}
 
-  @media (max-width: 480px) {
-    .icon {
-      width: 30px;
-      height: 30px;
-    }
-  }
+/* Education section container */
+.education-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  background-color: white;
+  transition: box-shadow 0.3s ease; /* Smooth hover effect */
+}
 
-  /* Education section container */
+/* Stack content vertically on smaller screens */
+@media (max-width: 768px) {
   .education-section {
-    display: flex;
-    align-items: flex-start;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1.5rem;
-    background-color: white;
+    flex-direction: column;
+    align-items: center; /* Center content when stacked */
   }
+}
 
-  /* Stack content vertically on smaller screens */
-  @media (max-width: 768px) {
-    .education-section {
-      flex-direction: column;
-      align-items: center; /* Center content when stacked */
-    }
-    
-    .icon {
-      margin-bottom: 1rem; /* Add space between icon and text */
-      margin-right: 0; /* Remove side margin when stacked */
-    }
+@media (max-width: 480px) {
+  .education-section {
+    padding: 15px; /* Adjust padding for smaller screens */
   }
+}
 
-  /* Title and text styling */
-  h3 {
-    margin-bottom: 0.5rem;
-  }
+/* Hover Effect */
+.education-section:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
 
-  ul {
-    margin-top: 1rem;
-  }
+/* Title and text styling */
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--text-color); /* Use consistent color for text */
+}
 
-  .list-disc {
-    list-style-type: disc;
-  }
+ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
 
-  .list-inside {
-    padding-left: 1.5rem;
-  }
+.list-inside {
+  padding-left: 1.5rem;
+}
+
+.location-date {
+  font-style: italic;
+  color: var(--border-color); /* Lighter color for date and location */
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+/* Ensure consistent hover effects */
+h3:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
 </style>
 
 

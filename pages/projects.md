@@ -44,35 +44,48 @@ permalink: projects
     </div>
     
     <ul class="task-list mt-4">
-      <li class="task-item">
-        <strong class="task-title">PCB Component Recognition</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: YOLO, OCR, Fuzzy Matching)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Developed a system to detect PCB components using YOLO and OCR, reducing manual inspection time.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Reverse Engineering with LLM4Decompile</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: LLM4Decompile)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Implemented LLM4Decompile to assist in reverse engineering binary files from detected chips.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">CI/CD Automation</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GitLab CI, MLFlow)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Designed and implemented fully automated CI/CD pipelines using GitLabCI and MLFlow for scalable model deployment.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Graph RAG & LLM POC</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GraphRAG, Neo4J, Llama3.1)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Developed a POC using GraphRAG to improve document retrieval with self-hosted Llama3 and Neo4J integration.</li>
-        </ul>
-      </li>
+  <!-- PCB Component Recognition -->
+  <li class="task-item">
+    <strong class="task-title">PCB Component Recognition</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: YOLO, OCR, Fuzzy Matching, OpenCV)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Developed a system to recognize Printed Circuit Board (PCB) components using YOLO (object detection), OCR (Optical Character Recognition), and Fuzzy Matching techniques, reducing component misidentification by 35%.</li>
+      <li>Enhanced data retrieval accuracy for hardware inspections, significantly decreasing manual review time by cybersecurity engineers.</li>
+      <li>Reduced the time spent by hardware pentesters on security assessments by 25%, improving overall operational efficiency.</li>
     </ul>
+  </li>
+  
+  <!-- Reverse Engineering with LLM4Decompile -->
+  <li class="task-item">
+    <strong class="task-title">Reverse Engineering with LLM4Decompile</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: LLM4Decompile)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Integrated LLM4Decompile to automate the reverse engineering of binary files from detected hardware components, streamlining the process of extracting and analyzing firmware from embedded chips.</li>
+      <li>Improved the efficiency of reverse engineering tasks, reducing the manual effort required by engineers.</li>
+    </ul>
+  </li>
+  
+  <!-- CI/CD Automation -->
+  <li class="task-item">
+    <strong class="task-title">CI/CD Automation</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GitLab CI, MLFlow, Ansible, Kubernetes)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Designed and implemented fully automated CI/CD (Continuous Integration/Continuous Deployment) pipelines using GitLabCI and MLFlow, automating the deployment and monitoring of machine learning models.</li>
+      <li>Reduced deployment time and enhanced scalability, ensuring seamless updates and continuous integration in the development lifecycle.</li>
+    </ul>
+  </li>
+
+  <!-- Graph RAG & LLM POC -->
+  <li class="task-item">
+    <strong class="task-title">Graph RAG & LLM POC</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GraphRAG, Neo4J, Llama3, Python, Pytorch)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Developed a Proof of Concept (POC) that uses Graph-based Retrieval-Augmented Generation (GraphRAG) for enhanced document retrieval and analysis, leveraging self-hosted Llama3 and Neo4J for local document integration.</li>
+      <li>Improved the efficiency of document-based queries, enabling faster and more accurate information retrieval from unstructured data sources.</li>
+    </ul>
+  </li>
+</ul>
+
 
     <div class="tech-icons flex justify-center space-x-4 mt-6">
       <img src="{{ site.baseurl }}/assets/img/icons/yolov8.png" alt="YOLO" class="icon w-10 h-10 hover-motion" loading="lazy">
