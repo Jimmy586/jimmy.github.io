@@ -60,7 +60,7 @@ permalink: projects
     <span class="task-tech text-gray-500 dark:text-slate-400">(LLM4Decompile, Assembly Code)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
       <li>Integrated LLM4Decompile to automate the reverse engineering of binary files from detected hardware components, streamlining the process of extracting and analyzing firmware from embedded chips.</li>
-      <li>Improved the efficiency of reverse engineering tasks, reducing the manual effort required by engineers.</li>
+      <li>Reduced the manual effort and time required by engineers.</li>
     </ul>
   </li>
   
@@ -70,7 +70,7 @@ permalink: projects
     <span class="task-tech text-gray-500 dark:text-slate-400">(GitLab CI, MLFlow, Ansible, K8S Kubernetes)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
       <li>Clustered a set of 5 spare machines with K8S and implemented fully automated CI/CD pipelines using GitLabCI and MLFlow, automating the deployment and monitoring of ML models.</li>
-      <li>Ensuring seamless updates and continuous integration for the Model to be used by localy.</li>
+      <li>Ensuring seamless updates and continuous integration for the Model</li>
     </ul>
   </li>
 
@@ -113,8 +113,8 @@ permalink: projects
 <ul class="task-list mt-4">
   <!-- SuperApp Development and Management -->
   <li class="task-item">
-    <strong class="task-title">SuperApp Development</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GCP, AWS, Microservices)</span>:
+    <strong class="task-title">AZ+ : SuperApp Development and Management</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(system Architect, Microservices)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
       <li>Led a team of 13 in the design and deployment of the SuperApp AZ+ for Madagascar, offering services such as e-commerce, food delivery, and ride-hailing under one platform.</li>
       <li>Ensured a smooth transition to cloud-based microservices architecture, utilizing GCP and AWS for scalability, reliability, and performance.</li>
@@ -124,7 +124,7 @@ permalink: projects
   <!-- Cloud Migration -->
   <li class="task-item">
     <strong class="task-title">Cloud Migration</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GCP, AWS, Kubernetes)</span>:
+    <span class="task-tech text-gray-500 dark:text-slate-400">(GCP, AWS, Kubernetes)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
       <li>Executed the migration of infrastructure from Firebase to AWS and GCP, improving scalability, reducing costs, and increasing control over the deployment process.</li>
       <li>Utilized Kubernetes for managing containerized applications, allowing for flexible scaling and faster deployment times.</li>
@@ -134,9 +134,9 @@ permalink: projects
   <!-- Self-hosted Services -->
   <li class="task-item">
     <strong class="task-title">Self-hosted Services</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GitLab, Minio S3, Grafana)</span>:
+    <span class="task-tech text-gray-500 dark:text-slate-400">(PostgreSQL ,GitLab, Minio S3, Grafana)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
-      <li>Set up and managed self-hosted services on internal servers, including GitLab (version control), Minio S3 (object storage), and Grafana (monitoring and analytics), ensuring full ownership and cost control over the infrastructure.</li>
+      <li>Set up and managed self-hosted services on internal servers, including GitLab, Minio S3 (object storage), and Grafana (monitoring and analytics), ensuring full ownership and cost control over the infrastructure.</li>
     </ul>
   </li>
   
@@ -152,7 +152,7 @@ permalink: projects
   <!-- Euro Coin Recognizer -->
   <li class="task-item">
     <strong class="task-title">Euro Coin Recognizer</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: OpenCV, YOLO)</span>:
+    <span class="task-tech text-gray-500 dark:text-slate-400">(FastAPI,Python, OpenCV, YOLO)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
       <li>Developed a Euro coin recognition application using OpenCV and YOLO, allowing for fast and accurate identification of coins through a mobile device, designed as a personal project for organizing a coin collection.</li>
     </ul>
