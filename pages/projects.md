@@ -182,28 +182,47 @@ permalink: projects
     </div>
 
     <ul class="task-list mt-4">
-      <li class="task-item">
-        <strong class="task-title">Data Acquisition & Processing</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: ETL, PowerBI, Pandas)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Acquired and processed data from ANFR to analyze power usage of mobile Base Stations in France since 2015.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Energy-Saving Strategies</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: Seaborn, Pandas, Python)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Proposed 4 strategies to save energy in mobile networks, based on key factors affecting power consumption.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Real-World Application</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: PowerBI, Python)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Applied energy-saving strategies to real traffic load data in Rennes, achieving up to 20% energy savings.</li>
-        </ul>
-      </li>
+  <!-- Data Acquisition & Processing -->
+  <li class="task-item">
+    <strong class="task-title">Data Acquisition & Processing</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: ETL, PowerBI, Pandas, Seaborn, Python)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Acquired and processed data from ANFR (French National Frequency Agency) using ETL pipelines with PowerBI to analyze the power usage of mobile Base Stations (antennas) across France since 2015.</li>
+      <li>Utilized Pandas, Seaborn, and Pyplot to visualize and analyze the data, identifying trends and patterns in power consumption across different regions and time periods.</li>
+      <li>Overcame challenges in data quality by automating data cleaning processes, reducing data processing time by over 90%.</li>
     </ul>
+  </li>
+  
+  <!-- Energy-Saving Strategies -->
+  <li class="task-item">
+    <strong class="task-title">Energy-Saving Strategies</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: Seaborn, Pandas, Python)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Proposed four targeted strategies to save energy in mobile networks, based on key factors such as traffic load, antenna power usage, and time of day.</li>
+      <li>Collaborated with network engineers to refine and implement these strategies, optimizing energy usage across cellular networks.</li>
+    </ul>
+  </li>
+  
+  <!-- Real-World Application -->
+  <li class="task-item">
+    <strong class="task-title">Real-World Application</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: PowerBI, Python)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Applied energy-saving strategies to real traffic load data in Rennes, achieving up to 20% energy savings in mobile networks.</li>
+      <li>Worked closely with network engineers to ensure seamless implementation of the strategies, improving overall network efficiency and reducing operational costs.</li>
+    </ul>
+  </li>
+
+  <!-- Data Collaboration & Process Improvement -->
+  <li class="task-item">
+    <strong class="task-title">Data Collaboration & Process Improvement</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: Pandas, Python)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Streamlined the data-sharing process between analysts and network engineers, improving collaboration and accelerating the implementation of energy-saving strategies.</li>
+    </ul>
+  </li>
+</ul>
+
 
     <div class="tech-icons flex justify-center space-x-4 mt-6">
       <img src="{{ site.baseurl }}/assets/img/icons/powerbi.png" alt="PowerBI" class="icon w-10 h-10 hover-motion">
@@ -227,28 +246,36 @@ permalink: projects
     </div>
 
     <ul class="task-list mt-4">
-      <li class="task-item">
-        <strong class="task-title">Customer Satisfaction</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: Excel, SQL)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Increased customer satisfaction from 80% to 95% by identifying key issues and developing strategies to address them.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">KPI Analysis</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: PowerBI, SQL)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Analyzed agent performance and improved KPI achievements, leading to better operational efficiency.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Process Optimization</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: PowerBI, Excel, SQL)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Developed data-driven strategies to streamline processes and optimize resource management across teams.</li>
-        </ul>
-      </li>
+  <!-- Customer Satisfaction -->
+  <li class="task-item">
+    <strong class="task-title">Customer Satisfaction Improvement</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: Excel, SQL)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Developed data-driven strategies that increased customer satisfaction from 80% to 95% over a one-year period by identifying key factors contributing to dissatisfaction and addressing them through targeted interventions.</li>
+      <li>Improved overall customer engagement and loyalty through personalized solutions and proactive issue resolution.</li>
     </ul>
+  </li>
+  
+  <!-- KPI Analysis -->
+  <li class="task-item">
+    <strong class="task-title">KPI Analysis & Agent Performance</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: PowerBI, SQL)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Conducted in-depth analysis of agent performance, resulting in a 20% improvement in key performance indicators (KPIs) by identifying areas for training and skill development.</li>
+      <li>Provided actionable insights to management, leading to more effective performance management and agent support strategies.</li>
+    </ul>
+  </li>
+
+  <!-- Process Optimization -->
+  <li class="task-item">
+    <strong class="task-title">Process Optimization</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: PowerBI, Excel, SQL)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Streamlined resource management and optimized workflows by analyzing callback data and process inefficiencies, enhancing decision-making and improving response times within a seven-day period.</li>
+      <li>Leveraged data insights to reduce bottlenecks and improve team collaboration, boosting overall productivity and process efficiency.</li>
+    </ul>
+  </li>
+</ul>
 
     <div class="tech-icons flex justify-center space-x-4 mt-6">
       <img src="{{ site.baseurl }}/assets/img/icons/sql.png" alt="SQL" class="icon w-10 h-10 hover-motion">
