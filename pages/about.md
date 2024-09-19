@@ -136,6 +136,7 @@ permalink: about
 </script>
 
 <style>
+  /* Icon styles for responsiveness */
   .icon {
     width: 50px;
     height: 50px;
@@ -143,6 +144,22 @@ permalink: about
     margin-right: 1.5rem; /* Adjust spacing between logo and content */
   }
 
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  /* Education section container */
   .education-section {
     display: flex;
     align-items: flex-start;
@@ -153,6 +170,20 @@ permalink: about
     background-color: white;
   }
 
+  /* Stack content vertically on smaller screens */
+  @media (max-width: 768px) {
+    .education-section {
+      flex-direction: column;
+      align-items: center; /* Center content when stacked */
+    }
+    
+    .icon {
+      margin-bottom: 1rem; /* Add space between icon and text */
+      margin-right: 0; /* Remove side margin when stacked */
+    }
+  }
+
+  /* Title and text styling */
   h3 {
     margin-bottom: 0.5rem;
   }
@@ -169,7 +200,6 @@ permalink: about
     padding-left: 1.5rem;
   }
 </style>
-
 
 
 <section id="major-projects">
