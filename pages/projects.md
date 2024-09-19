@@ -47,18 +47,17 @@ permalink: projects
   <!-- PCB Component Recognition -->
   <li class="task-item">
     <strong class="task-title">PCB Component Recognition</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: YOLO, OCR, Fuzzy Matching, OpenCV)</span>:
+    <span class="task-tech text-gray-500 dark:text-slate-400">(YOLO, OCR, Fuzzy Matching, OpenCV)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
-      <li>Developed a system to recognize Printed Circuit Board (PCB) components using YOLO (object detection), OCR (Optical Character Recognition), and Fuzzy Matching techniques, reducing component misidentification by 35%.</li>
+      <li>Developed a system to recognize Printed Circuit Board (PCB) components using YOLO (object detection), OCR, and Fuzzy Matching techniques, reducing component misidentification by 35%.</li>
       <li>Enhanced data retrieval accuracy for hardware inspections, significantly decreasing manual review time by cybersecurity engineers.</li>
-      <li>Reduced the time spent by hardware pentesters on security assessments by 25%, improving overall operational efficiency.</li>
     </ul>
   </li>
   
   <!-- Reverse Engineering with LLM4Decompile -->
   <li class="task-item">
     <strong class="task-title">Reverse Engineering with LLM4Decompile</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: LLM4Decompile)</span>:
+    <span class="task-tech text-gray-500 dark:text-slate-400">(LLM4Decompile, Assembly Code)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
       <li>Integrated LLM4Decompile to automate the reverse engineering of binary files from detected hardware components, streamlining the process of extracting and analyzing firmware from embedded chips.</li>
       <li>Improved the efficiency of reverse engineering tasks, reducing the manual effort required by engineers.</li>
@@ -67,20 +66,20 @@ permalink: projects
   
   <!-- CI/CD Automation -->
   <li class="task-item">
-    <strong class="task-title">CI/CD Automation</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GitLab CI, MLFlow, Ansible, Kubernetes)</span>:
+    <strong class="task-title">Machine Clustering and CI/CD Automation</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(GitLab CI, MLFlow, Ansible, K8S Kubernetes)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
-      <li>Designed and implemented fully automated CI/CD (Continuous Integration/Continuous Deployment) pipelines using GitLabCI and MLFlow, automating the deployment and monitoring of machine learning models.</li>
-      <li>Reduced deployment time and enhanced scalability, ensuring seamless updates and continuous integration in the development lifecycle.</li>
+      <li>Clustered a set of 5 spare machines with K8S and implemented fully automated CI/CD pipelines using GitLabCI and MLFlow, automating the deployment and monitoring of ML models.</li>
+      <li>Ensuring seamless updates and continuous integration for the Model to be used by localy.</li>
     </ul>
   </li>
 
   <!-- Graph RAG & LLM POC -->
   <li class="task-item">
     <strong class="task-title">Graph RAG & LLM POC</strong>
-    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GraphRAG, Neo4J, Llama3, Python, Pytorch)</span>:
+    <span class="task-tech text-gray-500 dark:text-slate-400">(GraphRAG, Neo4J, Llama3)</span>:
     <ul class="task-details text-gray-500 dark:text-slate-400">
-      <li>Developed a Proof of Concept (POC) that uses Graph-based Retrieval-Augmented Generation (GraphRAG) for enhanced document retrieval and analysis, leveraging self-hosted Llama3 and Neo4J for local document integration.</li>
+      <li>Developed a POC that uses GraphRAG for enhanced document retrieval and analysis, leveraging self-hosted Llama3 and Neo4J for local document integration, running on local machines.</li>
       <li>Improved the efficiency of document-based queries, enabling faster and more accurate information retrieval from unstructured data sources.</li>
     </ul>
   </li>
@@ -106,41 +105,60 @@ permalink: projects
         <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
       </a>
       <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Co-Founder</h3>
-        <p class="text-gray-500 dark:text-slate-400  text-center">AZ+ Madagascar • Jan. 2024 - Present • Madagascar</p>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Personal Projects</h3>
+        <p class="text-gray-500 dark:text-slate-400  text-center">AZ+ | Euro Coin recognizer  • Jan. 2024 - Present • </p>
       </div>
     </div>
 
-    <ul class="task-list mt-4">
-      <li class="task-item">
-        <strong class="task-title">SuperApp Development</strong> 
-        <span class="task-techtext-gray-500 dark:text-slate-400 ">(Technologies: GCP, AWS, Microservices)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Led a team of 13 to design and deploy the SuperApp AZ+ in Madagascar, providing e-commerce, food delivery, and ride-hailing services.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Cloud Migration</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GCP, AWS, Kubernetes)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Migrated infrastructure from Firebase to AWS and GCP for better scalability and reduced costs.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Self-hosted Services</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: GitLab, Minio S3, Grafana)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Self-hosted various services on our own servers, including GitLab, Minio S3, and Grafana, ensuring full control over our infrastructure.</li>
-        </ul>
-      </li>
-      <li class="task-item">
-        <strong class="task-title">Technical Innovations for Local Solutions</strong> 
-        <span class="task-tech text-gray-500 dark:text-slate-400 ">(Technologies: Custom Location Services)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400 ">
-          <li>Developed innovative technical solutions for non-existent tools in Madagascar, such as precise location tracking for delivery management.</li>
-        </ul>
-      </li>
+<ul class="task-list mt-4">
+  <!-- SuperApp Development and Management -->
+  <li class="task-item">
+    <strong class="task-title">SuperApp Development</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GCP, AWS, Microservices)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Led a team of 13 in the design and deployment of the SuperApp AZ+ for Madagascar, offering services such as e-commerce, food delivery, and ride-hailing under one platform.</li>
+      <li>Ensured a smooth transition to cloud-based microservices architecture, utilizing GCP and AWS for scalability, reliability, and performance.</li>
     </ul>
+  </li>
+  
+  <!-- Cloud Migration -->
+  <li class="task-item">
+    <strong class="task-title">Cloud Migration</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GCP, AWS, Kubernetes)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Executed the migration of infrastructure from Firebase to AWS and GCP, improving scalability, reducing costs, and increasing control over the deployment process.</li>
+      <li>Utilized Kubernetes for managing containerized applications, allowing for flexible scaling and faster deployment times.</li>
+    </ul>
+  </li>
+  
+  <!-- Self-hosted Services -->
+  <li class="task-item">
+    <strong class="task-title">Self-hosted Services</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: GitLab, Minio S3, Grafana)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Set up and managed self-hosted services on internal servers, including GitLab (version control), Minio S3 (object storage), and Grafana (monitoring and analytics), ensuring full ownership and cost control over the infrastructure.</li>
+    </ul>
+  </li>
+  
+  <!-- Technical Innovations for Local Solutions -->
+  <li class="task-item">
+    <strong class="task-title">Technical Innovations for Local Solutions</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: Custom Location Services)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Developed innovative location tracking solutions specifically tailored for Madagascar, enabling more accurate delivery management and solving challenges not addressed by existing tools in the region.</li>
+    </ul>
+  </li>
+
+  <!-- Euro Coin Recognizer -->
+  <li class="task-item">
+    <strong class="task-title">Euro Coin Recognizer</strong>
+    <span class="task-tech text-gray-500 dark:text-slate-400">(Technologies: OpenCV, YOLO)</span>:
+    <ul class="task-details text-gray-500 dark:text-slate-400">
+      <li>Developed a Euro coin recognition application using OpenCV and YOLO, allowing for fast and accurate identification of coins through a mobile device, designed as a personal project for organizing a coin collection.</li>
+    </ul>
+  </li>
+</ul>
+
 
     <div class="tech-icons flex justify-center space-x-4 mt-6">
       <img src="{{ site.baseurl }}/assets/img/icons/gcp.png" alt="GCP" class="icon w-10 h-10 hover-motion" loading="lazy">
