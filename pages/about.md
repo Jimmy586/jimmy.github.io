@@ -255,24 +255,17 @@ h3:hover {
 <p><a href="{{site.baseurl}}/assets/raw/RESUME.pdf" class="dark:text-stone-300" target="_blank">Download my Resume (v.2024.07)</a></p>
 <iframe src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/RESUME.pdf" width="100%" height="300px" style="border: none;"></iframe>
 
-<h2 class="dark:text-stone-200">Some Projects</h2>
+<h2 class="dark:text-stone-200">Some of my Projects</h2>
 <div>
   {% for project in site.projects %}
     <div>
-      <h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
+      <h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a>
+      </h4>
       <p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
     </div>
   {% endfor %}
 </div>
 
-<h2 class="dark:text-stone-200">Some Academic Projects (Contribution with Henri)</h2>
-<div>
-  {% for project in site.academics %}
-    <div>
-      <h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
-      <p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
-    </div>
-  {% endfor %}
-</div>
+
 
 </div>
