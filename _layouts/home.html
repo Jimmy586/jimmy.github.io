@@ -55,7 +55,25 @@ layout: default
       💻 I have worked on various projects involving Machine Learning, NLP, Computer Vision, Data Visualization, CI/CD, and Cloud-based projects.
     </p>
   </section>
-  
+
+  <section id="contact" class="my-6"></section>
+    <h2 class="text-2xl font-bold">Get in Touch</h2>
+    <form id="contact-form" class="mt-4">
+      <div class="mb-4">
+        <label for="name" class="block text-left font-semibold">Name</label>
+        <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-lg p-2" placeholder="Your name" required>
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-left font-semibold">Email</label>
+        <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-lg p-2" placeholder="Your email" required>
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-left font-semibold">Message</label>
+        <textarea id="message" name="message" rows="5" class="w-full border border-gray-300 rounded-lg p-2" placeholder="Your message" required></textarea>
+      </div>
+      <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-lg">Send Message</button>
+    </form>
+  </section>
   {% endif %}
 </div>
 
@@ -87,6 +105,42 @@ layout: default
   }
 </script>
 
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init("7O1Vb2aBpczdV5Vlw"); // Add your EmailJS public key here
+  })();
+
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Collecting the form data
+    // Collecting the form data
+    const name = document.getElementById('name').value;
+    const lastname = document.getElementById('lastname').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    // EmailJS parameters
+       // EmailJS parameters
+    const templateParams = {
+      name: name,
+      lastname: lastname,
+      email: email,
+      phone: phone,
+      demande: message,
+    };
+
+    // Sending email through EmailJS
+    emailjs.send('dservice_9t8nfqo', 'template_b6ihb0m', templateParams)
+      .then(function(response) {
+        alert('Message sent successfully!');
+      }, function(error) {
+        alert('Failed to send message, please try again.');
+      });
+  });
+</script>
 
 
 {% include social-media.html %}
