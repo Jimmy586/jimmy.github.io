@@ -55,20 +55,6 @@ layout: default
       💻 I have worked on various projects involving Machine Learning, NLP, Computer Vision, Data Visualization, CI/CD, and Cloud-based projects.
     </p>
   </section>
-
-  <!-- Contact Form Section -->
-  <section id="contact" class="my-6">
-    <h2 class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">Contact Me</h2>
-    
-    <form id="contact-form">
-      <input type="text" id="name" name="name" placeholder="Name" required class="my-2 p-2 border" />
-      <input type="text" id="lastname" name="lastname" placeholder="Last Name" required class="my-2 p-2 border" />
-      <input type="email" id="email" name="email" placeholder="Email" required class="my-2 p-2 border" />
-      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required class="my-2 p-2 border" />
-      <textarea id="message" name="message" placeholder="Message" required class="my-2 p-2 border"></textarea>
-      <button type="submit" class="my-2 p-2 bg-blue-500 text-white">Send Message</button>
-    </form>
-  </section>
   
   {% endif %}
 </div>
@@ -101,40 +87,8 @@ layout: default
   }
 </script>
 
-<!-- EmailJS Integration -->
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-  (function(){
-    emailjs.init("7O1Vb2aBpczdV5Vlw");  // Your EmailJS public key
-  })();
 
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    const name = document.getElementById('name').value;
-    const lastname = document.getElementById('lastname').value;
-    const email = document.getElementById('email').value;
-    const phone = document.getElementById('phone').value;
-    const message = document.getElementById('message').value;
-
-    // Template parameters for EmailJS
-    const templateParams = {
-      name: name,
-      lastname: lastname,
-      email: email,
-      phone: phone,
-      demande: message,
-    };
-
-    // Sending email via EmailJS
-    emailjs.send('dservice_9t8nfqo', 'template_b6ihb0m', templateParams)
-      .then(function(response) {
-        alert('Message sent successfully!');
-      }, function(error) {
-        alert('Failed to send message, please try again.');
-      });
-  });
-</script>
 
 {% include social-media.html %}
+
 {% include footer.html %}
