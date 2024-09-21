@@ -13,8 +13,9 @@ layout: default
   </div>
   
   {% if site.author-bio %}
-  
-  <p class="font-mono font-semibold text-lg xl:text-2xl lg:py-3 dark:text-white mx-5 md:mx-auto"><span id="typing"></span></p>
+  {% include social-media.html %}
+  <p class="font-mono font-semibold text-lg xl:text-2xl lg:py-3 dark:text-white mx-5 md:mx-auto">
+    <span id="typing"></span></p>
   
   <section id="professional-summary" class="my-6">
     <div class="summary-content">
@@ -88,7 +89,5 @@ layout: default
 </script>
 
 
-
-{% include social-media.html %}
 
 {% include footer.html %}
