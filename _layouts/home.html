@@ -11,7 +11,7 @@ layout: default
     <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{ site.baseurl }}/assets/img/{{ site.author-image }}" alt="author profile image">
     <h1 class="dark:text-white mt-4">{{ site.author }}</h1>
   </div>
-  {% include social-media.html %}
+  
   {% if site.author-bio %}
 
   <p class="font-mono font-semibold text-lg xl:text-2xl lg:py-3 dark:text-white mx-5 md:mx-auto">
@@ -56,8 +56,11 @@ layout: default
       💻 I have worked on various projects involving Machine Learning, NLP, Computer Vision, Data Visualization, CI/CD, and Cloud-based projects.
     </p>
   </section>
-  
-  {% endif %}
+  <section id="contact" class="my-12"></section>
+    <h2 class="text-3xl font-semibold dark:text-white mb-6">Let's Be in Touch</h2>
+  </section>
+  {% include social-media.html %}
+    {% endif %}
 </div>
 
 <script type="text/javascript">
