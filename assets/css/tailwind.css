@@ -1997,9 +1997,7 @@ ul ul {
 }
 
 
-/* Improved CSS for certificates display and responsiveness */
-
-/* General styling for the certificate cards */
+/* General styling for certificates with hover effects */
 .certificates-list .certificate-card {
   transition: box-shadow 0.3s ease;
 }
@@ -2032,7 +2030,7 @@ ul ul {
   max-width: 250px; /* Set a maximum width for the cards */
   height: 400px; /* Set a consistent height */
   padding: 1rem;
-  text-align: center; /* Center the text and content inside */
+  text-align: center; /* Center-align text and content inside */
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #e5e7eb; /* Light border around the cards */
@@ -2080,4 +2078,49 @@ ul ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* --- DARK MODE SPECIFIC STYLES --- */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212; /* Dark background for night mode */
+    color: #e0e0e0; /* Light text for dark mode */
+  }
+
+  /* Background and text color adjustments for the certificate cards */
+  .certificate-card {
+    background-color: #1e1e1e; /* Dark background for certificates */
+    border: 1px solid #2a2a2a; /* Darker border for the certificates */
+    color: #e0e0e0; /* Light text for dark mode */
+  }
+
+  /* Adjust hover shadow and effect for dark mode */
+  .certificate-card:hover {
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2); /* Lighter shadow for dark mode */
+  }
+
+  /* Adjust text colors inside the certificate card */
+  .certificate-card h3, .certificate-card p {
+    color: #e0e0e0; /* Lighter text for dark mode */
+  }
+
+  /* Adjust link colors for dark mode */
+  .certificate-card a {
+    color: #90caf9; /* Light blue for links */
+  }
+
+  /* Adjust hover color for links in dark mode */
+  .certificate-card a:hover {
+    color: #bbdefb; /* Lighter blue on hover */
+  }
+
+  /* Image inside the certificate card */
+  .standardized-certificate-image {
+    border: 1px solid #2a2a2a; /* Darker border for the image */
+  }
+}
+
+/* Ensuring dark text on images is readable */
+img {
+  filter: brightness(1.2) contrast(1); /* Make the image slightly brighter in dark mode */
 }
