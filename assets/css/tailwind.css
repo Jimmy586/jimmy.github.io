@@ -2011,3 +2011,19 @@ ul ul {
 .certificates-list img:hover {
   opacity: 0.9; /* Slight transparency effect on hover */
 }
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically fill the row with certificates */
+}
+
+.certificate-card {
+  width: 100%; /* Full width for each certificate card */
+  max-width: 250px; /* Limit the size of the card */
+}
+
+.certificate img {
+  width: 100%; /* Make the images responsive */
+  max-height: 150px; /* Set a max height to prevent oversized images */
+}
