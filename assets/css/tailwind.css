@@ -2012,30 +2012,30 @@ ul ul {
   opacity: 0.9; /* Slight transparency effect on hover */
 }
 
-/* Set grid layout to be responsive and centered */
-.certificates-list {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Certificates will adjust based on screen size */
-  justify-items: center; /* Center the certificate cards horizontally */
-}
-
-.certificate-card {
-  width: 100%; /* Full width for each certificate card */
-  max-width: 250px; /* Standardized card size */
-  height: auto; /* Height will adjust based on content */
-  text-align: center; /* Center-align text */
+/* Set standard card dimensions */
+.standardized-certificate-card {
+  height: 400px; /* Set equal height for all cards */
+  max-width: 260px; /* Fixed width for all certificate cards */
 }
 
 .standardized-certificate-image {
-  width: 100%; /* Make the images responsive */
-  max-height: 200px; /* Standardized image height */
-  object-fit: contain; /* Ensure images fit within their containers without distortion */
+  width: 100%; /* Ensure images fill the container */
+  height: 200px; /* Set equal height for all images */
+  object-fit: cover; /* Ensure images fit without distortion */
+  object-position: top; /* Align image content properly */
 }
 
-/* For large screens, ensure that the grid is properly centered */
+/* Grid layout remains the same for responsiveness */
+.certificates-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+}
+
+/* Additional media queries for responsive scaling */
 @media (min-width: 1024px) {
   .certificates-list {
-    justify-content: center; /* Center the entire grid for larger screens */
+    justify-content: center;
   }
 }
