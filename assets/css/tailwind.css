@@ -2012,64 +2012,26 @@ ul ul {
   opacity: 0.9; /* Slight transparency effect on hover */
 }
 
-/* Standardized CSS for the certificate layout */
-
-/* Container for the certificates */
-.certificates-list {
+.grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Certificates will auto-adjust based on screen size */
-  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically fill the row with certificates */
 }
 
-/* Standardize the appearance of each certificate card */
 .certificate-card {
-  width: 100%;
-  max-width: 250px; /* Standardized width for all cards */
-  height: 350px; /* Ensure consistent height across all cards */
-  text-align: center;
-  padding: 1rem;
-  border: 1px solid #e5e7eb; /* Add a light border for definition */
-  border-radius: 8px; /* Slight rounding on card edges */
-  background-color: #ffffff; /* White background for clarity */
-  transition: box-shadow 0.3s ease;
+  width: 100%; /* Full width for each certificate card */
+  max-width: 250px; /* Limit the size of the card */
+  height: 400px; /* Set a fixed height for all certificates */
 }
 
-.certificate-card:hover {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+.standardized-certificate-image {
+  width: 100%; /* Make the images responsive */
+  max-height: 200px; /* Standardized image height */
+  object-fit: contain; /* Ensure images are contained within the set size */
 }
 
-/* Styling for the certificate images */
-.certificate-card img {
-  width: 100%;
-  height: 180px; /* Standardize the image height */
-  object-fit: cover; /* Ensure images fit properly without distortion */
-  margin-bottom: 1rem;
-  border-radius: 4px; /* Slight rounding on image edges */
-}
-
-/* Certificate title */
-.certificate-card p {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #333; /* Darker font color for readability */
-}
-
-/* Styling for core technology section */
-.certificate-card .core-tech {
-  font-size: 0.875rem;
-  color: #666;
-  margin-top: 0.5rem;
-}
-
-/* Responsive layout for larger screens */
-@media (min-width: 1024px) {
-  .certificates-list {
-    justify-content: center;
-  }
-}
-
-/* Hover effect for smoother transitions */
-.certificate-card img:hover {
-  opacity: 0.9; /* Slight image opacity effect on hover */
+.certificate img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
