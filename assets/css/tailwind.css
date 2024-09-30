@@ -2021,9 +2021,17 @@ ul ul {
 .certificate-card {
   width: 100%; /* Full width for each certificate card */
   max-width: 250px; /* Limit the size of the card */
+  height: 400px; /* Set a fixed height for all certificates */
+}
+
+.standardized-certificate-image {
+  width: 100%; /* Make the images responsive */
+  max-height: 200px; /* Standardized image height */
+  object-fit: contain; /* Ensure images are contained within the set size */
 }
 
 .certificate img {
-  width: 100%; /* Make the images responsive */
-  max-height: 150px; /* Set a max height to prevent oversized images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
