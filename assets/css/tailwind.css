@@ -1996,6 +1996,9 @@ ul ul {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
+/* Improved CSS for certificates display and responsiveness */
+
+/* General styling for the certificate cards */
 .certificates-list .certificate-card {
   transition: box-shadow 0.3s ease;
 }
@@ -2012,26 +2015,63 @@ ul ul {
   opacity: 0.9; /* Slight transparency effect on hover */
 }
 
-.grid {
+/* Grid layout for certificates */
+.certificates-list {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically fill the row with certificates */
+  justify-items: center; /* Center the certificates horizontally */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive column layout */
+  max-width: 1200px; /* Limit the grid's total width */
+  margin: 0 auto; /* Center the grid on the page */
 }
 
+/* Certificate card styling */
 .certificate-card {
-  width: 100%; /* Full width for each certificate card */
-  max-width: 250px; /* Limit the size of the card */
-  height: 400px; /* Set a fixed height for all certificates */
+  width: 100%; /* Ensure the cards are responsive */
+  max-width: 250px; /* Set a maximum width for the cards */
+  height: 400px; /* Set a consistent height */
+  padding: 1rem;
+  text-align: center; /* Center the text and content inside */
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb; /* Light border around the cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease; /* Add smooth hover effect */
 }
 
+.certificate-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Image inside the certificate card */
 .standardized-certificate-image {
-  width: 100%; /* Make the images responsive */
-  max-height: 200px; /* Standardized image height */
-  object-fit: contain; /* Ensure images are contained within the set size */
+  width: 100%;
+  max-height: 180px; /* Standard height for images */
+  object-fit: contain; /* Ensure images maintain their aspect ratio */
+  margin-bottom: 1rem;
+  border-radius: 4px;
 }
 
+/* Additional responsive handling for smaller screens */
+@media (max-width: 768px) {
+  .certificates-list {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust grid layout for smaller screens */
+  }
+
+  .certificate-card {
+    max-width: 200px; /* Reduce card size for smaller devices */
+    height: auto; /* Allow height to adjust dynamically */
+  }
+
+  .standardized-certificate-image {
+    max-height: 150px; /* Smaller image size for mobile devices */
+  }
+}
+
+/* Center certificate images */
 .certificate img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
