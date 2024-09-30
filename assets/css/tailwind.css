@@ -1996,6 +1996,7 @@ ul ul {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
+
 /* Improved CSS for certificates display and responsiveness */
 
 /* General styling for the certificate cards */
@@ -2020,7 +2021,7 @@ ul ul {
   display: grid;
   gap: 1rem;
   justify-items: center; /* Center the certificates horizontally */
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive column layout */
+  grid-template-columns: repeat(3, 1fr); /* Set up 3 columns */
   max-width: 1200px; /* Limit the grid's total width */
   margin: 0 auto; /* Center the grid on the page */
 }
@@ -2052,19 +2053,25 @@ ul ul {
   border-radius: 4px;
 }
 
-/* Additional responsive handling for smaller screens */
+/* Adjust the grid for smaller screens */
+@media (max-width: 1024px) {
+  .certificates-list {
+    grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns for medium screens */
+  }
+}
+
 @media (max-width: 768px) {
   .certificates-list {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust grid layout for smaller screens */
+    grid-template-columns: repeat(1, 1fr); /* Stack certificates vertically for small screens */
   }
 
   .certificate-card {
-    max-width: 200px; /* Reduce card size for smaller devices */
+    max-width: 300px; /* Allow slightly larger cards on smaller screens */
     height: auto; /* Allow height to adjust dynamically */
   }
 
   .standardized-certificate-image {
-    max-height: 150px; /* Smaller image size for mobile devices */
+    max-height: 200px; /* Adjust image size for smaller screens */
   }
 }
 
@@ -2074,4 +2081,3 @@ ul ul {
   margin-left: auto;
   margin-right: auto;
 }
-
