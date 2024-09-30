@@ -1997,7 +1997,7 @@ ul ul {
 }
 
 
-/* Improved CSS for certificates display and responsiveness */
+/* Improved CSS for certificates display and responsiveness with dark mode compatibility */
 
 /* General styling for the certificate cards */
 .certificates-list .certificate-card {
@@ -2080,4 +2080,32 @@ ul ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Dark mode compatibility */
+body.dark-mode {
+  background-color: #1c1c1e; /* Dark background */
+  color: #e5e5e5; /* Light text */
+}
+
+body.dark-mode .certificate-card {
+  background-color: #2c2c2e; /* Dark background for cards */
+  border: 1px solid #3a3a3c; /* Darker border in dark mode */
+  color: #e5e5e5; /* Light text */
+}
+
+body.dark-mode .certificate-card:hover {
+  box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2); /* Lighter shadow on hover in dark mode */
+}
+
+body.dark-mode .certificate-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+body.dark-mode .certificates-list img {
+  border: 1px solid #3a3a3c; /* Image border for dark mode */
+}
+
+body.dark-mode .certificates-list .certificate-card:hover {
+  box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2); /* Lighter shadow effect in dark mode */
 }
