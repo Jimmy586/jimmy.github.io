@@ -1987,3 +1987,27 @@ ul ul {
 #contact-form button:hover {
   background-color: #1d4ed8;
 }
+
+.hover-motion {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-motion:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.certificates-list .certificate-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.certificates-list .certificate-card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.certificates-list img {
+  transition: opacity 0.3s ease;
+}
+
+.certificates-list img:hover {
+  opacity: 0.9; /* Slight transparency effect on hover */
+}
