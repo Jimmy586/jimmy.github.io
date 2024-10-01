@@ -1996,7 +1996,6 @@ ul ul {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-
 /* Grid layout for certificates */
 .certificates-list {
   display: grid;
@@ -2094,3 +2093,4 @@ body.dark-mode .certificate-card:hover {
 body.dark-mode .standardized-certificate-image {
   border: 1px solid #3a3a3c; /* Image border for dark mode */
 }
+
