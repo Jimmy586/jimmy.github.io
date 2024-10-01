@@ -1997,25 +1997,6 @@ ul ul {
 }
 
 
-/* Improved CSS for certificates display and responsiveness with dark mode compatibility */
-
-/* General styling for the certificate cards */
-.certificates-list .certificate-card {
-  transition: box-shadow 0.3s ease;
-}
-
-.certificates-list .certificate-card:hover {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
-}
-
-.certificates-list img {
-  transition: opacity 0.3s ease;
-}
-
-.certificates-list img:hover {
-  opacity: 0.9; /* Slight transparency effect on hover */
-}
-
 /* Grid layout for certificates */
 .certificates-list {
   display: grid;
@@ -2024,33 +2005,6 @@ ul ul {
   grid-template-columns: repeat(3, 1fr); /* Set up 3 columns */
   max-width: 1200px; /* Limit the grid's total width */
   margin: 0 auto; /* Center the grid on the page */
-}
-
-/* Certificate card styling */
-.certificate-card {
-  width: 100%; /* Ensure the cards are responsive */
-  max-width: 250px; /* Set a maximum width for the cards */
-  height: 400px; /* Set a consistent height */
-  padding: 1rem;
-  text-align: center; /* Center the text and content inside */
-  background-color: #fff;
-  border-radius: 8px;
-  border: 1px solid #e5e7eb; /* Light border around the cards */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: transform 0.3s ease; /* Add smooth hover effect */
-}
-
-.certificate-card:hover {
-  transform: scale(1.05); /* Slightly enlarge the card on hover */
-}
-
-/* Image inside the certificate card */
-.standardized-certificate-image {
-  width: 100%;
-  max-height: 180px; /* Standard height for images */
-  object-fit: contain; /* Ensure images maintain their aspect ratio */
-  margin-bottom: 1rem;
-  border-radius: 4px;
 }
 
 /* Adjust the grid for smaller screens */
@@ -2075,11 +2029,49 @@ ul ul {
   }
 }
 
+/* Certificate card styling */
+.certificate-card {
+  width: 100%; /* Ensure the cards are responsive */
+  max-width: 250px; /* Set a maximum width for the cards */
+  height: 400px; /* Set a consistent height */
+  padding: 1rem;
+  text-align: center; /* Center the text and content inside */
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb; /* Light border around the cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth hover effects */
+}
+
+.certificate-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Image inside the certificate card */
+.standardized-certificate-image {
+  width: 100%;
+  max-height: 180px; /* Standard height for images */
+  object-fit: contain; /* Ensure images maintain their aspect ratio */
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  transition: opacity 0.3s ease; /* Add transition for opacity */
+}
+
+.standardized-certificate-image:hover {
+  opacity: 0.9; /* Slight transparency effect on hover */
+}
+
 /* Center certificate images */
 .certificate img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Remove underlines from links */
+.certificate {
+  text-decoration: none;
 }
 
 /* Dark mode compatibility */
@@ -2095,17 +2087,10 @@ body.dark-mode .certificate-card {
 }
 
 body.dark-mode .certificate-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
   box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2); /* Lighter shadow on hover in dark mode */
 }
 
-body.dark-mode .certificate-card:hover {
-  transform: scale(1.05); /* Slightly enlarge the card on hover */
-}
-
-body.dark-mode .certificates-list img {
+body.dark-mode .standardized-certificate-image {
   border: 1px solid #3a3a3c; /* Image border for dark mode */
-}
-
-body.dark-mode .certificates-list .certificate-card:hover {
-  box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2); /* Lighter shadow effect in dark mode */
 }
