@@ -1932,10 +1932,15 @@ strong.dark {
 /* Icon Hover Motion */
 .hover-motion {
   transition: transform 0.3s ease-in-out; /* Smooth transition */
+  border-radius: 8px;
+  border: 1px solid #e5e7eb; /* Light border around the cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hover-motion:hover {
-  transform: translateY(-10px); /* Move the icon up on hover */
+  transform: scale(1.05); /* Move the icon up on hover */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Indented Second-Level Bullet Points */
@@ -1986,6 +1991,10 @@ ul ul {
 
 #contact-form button:hover {
   background-color: #1d4ed8;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb; /* Light border around the cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hover-motion {
@@ -1994,6 +2003,7 @@ ul ul {
 
 .hover-motion:hover {
   transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Grid layout for certificates */
