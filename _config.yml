@@ -19,7 +19,7 @@ show-nav-menu: true
 
 nav-menu:
   - text: RESUME
-    permalink: ./assets/raw/RESUME.pdf
+    permalink: ./assets/raw/Machine_LearningEngineer_Mananjara_Jimmy_VATOSOA_V2.08.pdf
   - text: Experience
     permalink: projects
   - text: About
