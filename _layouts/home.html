@@ -68,17 +68,18 @@ layout: default
 
     <div class="certificates-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center">
       {% for certificate in site.data.certificates %}
-      <a href="{{ certificate.href }}" target="_blank" class="certificate hover-motion no-underline" loading="lazy" aria-label="View certificate for {{ certificate.title }}">
-          <div class="certificate-card p-4 rounded-lg border border-gray-200 shadow-md transition duration-300 ease-in-out hover:shadow-lg">
-            <img src="{{ site.baseurl }}{{ certificate.img_src }}" 
-                srcset="{{ site.baseurl }}{{ certificate.img_src }} 1x, {{ site.baseurl }}{{ certificate.img_src | replace: '.jpg', '@2x.jpg' }} 2x" 
-                alt="{{ certificate.img_alt }}" 
-                class="mb-4 rounded-lg object-contain">
-
-            <p class="text-lg font-semibold text-gray-900 text-center">{{ certificate.title }}</p>
-            <p class="text-sm text-gray-900 text-center mt-2">{{ certificate.description }}</p>
-          </div>
-        </a>
+      <a href="{{ certificate.href }}" target="_blank" class="certificate hover-motion no-underline">
+        <div class="certificate-card p-4 rounded-lg border border-gray-200 shadow-md transition duration-300 ease-in-out hover:shadow-lg">
+          <figure>
+            <img src="{{ site.baseurl }}{{ certificate.img_src }}" alt="{{ certificate.img_alt }}" class="mb-4 rounded-lg object-contain">
+            <figcaption class="text-center">
+              <p class="text-lg font-semibold text-gray-900">{{ certificate.title }}</p>
+              <p class="text-sm text-gray-900 mt-2">{{ certificate.description }}</p>
+            </figcaption>
+          </figure>
+        </div>
+      </a>
+      
       {% endfor %}
     </div>
     
