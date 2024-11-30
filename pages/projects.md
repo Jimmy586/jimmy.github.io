@@ -209,8 +209,8 @@ permalink: projects
         <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
       </a>
       <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Personal Projects</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">AZ+ | Euro Coin Recognizer • Jan. 2024 - Present</p>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Chief Technical Officer</h3>
+        <p class="text-gray-500 dark:text-slate-400 text-center">AZ+ • Jan. 2024 - Present</p>
       </div>
     </div>
 
@@ -250,14 +250,6 @@ permalink: projects
         </ul>
       </li>
 
-      <!-- Euro Coin Recognizer -->
-      <li class="task-item">
-        <strong class="task-title">Euro Coin Recognizer</strong>
-        <span class="task-tech text-gray-500 dark:text-slate-400">(FastAPI, Python, OpenCV, YOLO)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400">
-          <li>Developed a Euro coin recognition application using OpenCV and YOLO, allowing for fast and accurate identification of coins through a mobile device, designed as a personal project for organizing a coin collection.</li>
-        </ul>
-      </li>
     </ul>
 
     <div class="tech-icons flex justify-center space-x-4 mt-6">
