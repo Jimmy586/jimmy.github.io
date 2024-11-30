@@ -4,13 +4,90 @@ title: Projects
 permalink: projects
 ---
 
+<!-- Add this CSS to your stylesheet or within a <style> tag -->
+<style>
+/* Modal styling */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scrolling if needed */
+  background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+</style>
+
+<!-- Updated HTML Code -->
 <div style="text-align: justify">
-  <img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/card.PNG">
+  <img id="clickableImage" class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/card.PNG" alt="Card Image" style="max-width:100%;cursor:pointer;">
   <p class="!py-0 !mb-0 dark:text-slate-300">Let's be in touch to achieve greatness together.</p>
   <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">
     Greatness is not achieved overnight; the only way to get there is by providing yourself all manners to hit your best potential.
   </p>
 </div>
+
+<!-- Modal Structure -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+<!-- JavaScript Code -->
+<script>
+  // Get the modal element
+  var modal = document.getElementById("imageModal");
+
+  // Get the image and insert it inside the modal
+  var img = document.getElementById("clickableImage");
+  var modalImg = document.getElementById("modalImage");
+
+  img.onclick = function() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // Close the modal when the user clicks on <span> (x)
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // Close the modal when the user clicks anywhere outside of the modal image
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
 
 <section id="filters" class="my-8">
   <!-- Project-Specific Filters -->
