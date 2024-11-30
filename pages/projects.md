@@ -90,6 +90,66 @@ permalink: projects
     </div>
   </div> <!-- Properly closed the div -->
 
+<!-- AZ+ Madagascar Experience -->
+  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws devops kubernetes microservices">
+    <div class="flex items-start">
+      <a href="https://www.azplus.mg/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Chief Technical Officer</h3>
+        <p class="text-gray-500 dark:text-slate-400 text-center">AZ+ • Jan. 2024 - Present</p>
+      </div>
+    </div>
+
+    <ul class="task-list mt-4">
+      <!-- SuperApp Development and Management -->
+      <li class="task-item">
+        <strong class="task-title">AZ+: SuperApp Architect and Management</strong>
+        <span class="task-tech text-gray-500 dark:text-slate-400">(Microservices)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400">
+          <li>Led a team of 13 in the design and deployment of the SuperApp AZ+ for Madagascar, offering services such as e-commerce, food delivery, and ride-hailing under one platform.</li>
+        </ul>
+      </li>
+
+      <!-- Cloud Migration -->
+      <li class="task-item">
+        <strong class="task-title">Cloud Migration</strong>
+        <span class="task-tech text-gray-500 dark:text-slate-400">(GCP, AWS, Kubernetes)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400">
+          <li>Executed the migration of infrastructure from Firebase to AWS and GCP, improving scalability, reducing costs, and increasing control over the deployment process; used Kubernetes for managing containerized apps.</li>
+        </ul>
+      </li>
+
+      <!-- Self-hosted Services -->
+      <li class="task-item">
+        <strong class="task-title">Self-hosted Services</strong>
+        <span class="task-tech text-gray-500 dark:text-slate-400">(PostgreSQL, GitLab, Minio S3, Grafana)</span>:
+        <ul class="task-details text-gray-500 dark:text-slate-400">
+          <li>Set up and managed self-hosted services on internal servers, including GitLab, Minio S3 (object storage), and Grafana (monitoring and analytics), ensuring full ownership and cost control over the infrastructure.</li>
+        </ul>
+      </li>
+
+      <!-- Technical Innovations for Local Solutions -->
+      <li class="task-item">
+        <strong class="task-title">Technical Innovations for Local Solutions</strong>:
+        <ul class="task-details text-gray-500 dark:text-slate-400">
+          <li>Developed innovative location tracking solutions specifically tailored for Madagascar, enabling more accurate delivery management and solving challenges not addressed by existing tools in the region.</li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <div class="tech-icons flex justify-center space-x-4 mt-6">
+      <img src="{{ site.baseurl }}/assets/img/icons/gcp.png" alt="GCP" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/aws.png" alt="AWS" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/minio.png" alt="Minio" class="icon w-10 h-10 hover-motion" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/img/icons/grafana.png" alt="Grafana" class="icon w-10 h-10 hover-motion" loading="lazy">
+    </div>
+  </div>
+
+
   <!-- SERMA Safety & Security Experience -->
   <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo opencv llm ocr python kubernetes fuzzymatching rag devops">
     <div class="flex items-start">
@@ -202,65 +262,7 @@ permalink: projects
     </div>
   </div>
 
-  <!-- AZ+ Madagascar Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws devops kubernetes microservices">
-    <div class="flex items-start">
-      <a href="https://www.azplus.mg/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
-      </a>
-      <div>
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Chief Technical Officer</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">AZ+ • Jan. 2024 - Present</p>
-      </div>
-    </div>
-
-    <ul class="task-list mt-4">
-      <!-- SuperApp Development and Management -->
-      <li class="task-item">
-        <strong class="task-title">AZ+: SuperApp Architect and Management</strong>
-        <span class="task-tech text-gray-500 dark:text-slate-400">(Microservices)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400">
-          <li>Led a team of 13 in the design and deployment of the SuperApp AZ+ for Madagascar, offering services such as e-commerce, food delivery, and ride-hailing under one platform.</li>
-        </ul>
-      </li>
-
-      <!-- Cloud Migration -->
-      <li class="task-item">
-        <strong class="task-title">Cloud Migration</strong>
-        <span class="task-tech text-gray-500 dark:text-slate-400">(GCP, AWS, Kubernetes)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400">
-          <li>Executed the migration of infrastructure from Firebase to AWS and GCP, improving scalability, reducing costs, and increasing control over the deployment process; used Kubernetes for managing containerized apps.</li>
-        </ul>
-      </li>
-
-      <!-- Self-hosted Services -->
-      <li class="task-item">
-        <strong class="task-title">Self-hosted Services</strong>
-        <span class="task-tech text-gray-500 dark:text-slate-400">(PostgreSQL, GitLab, Minio S3, Grafana)</span>:
-        <ul class="task-details text-gray-500 dark:text-slate-400">
-          <li>Set up and managed self-hosted services on internal servers, including GitLab, Minio S3 (object storage), and Grafana (monitoring and analytics), ensuring full ownership and cost control over the infrastructure.</li>
-        </ul>
-      </li>
-
-      <!-- Technical Innovations for Local Solutions -->
-      <li class="task-item">
-        <strong class="task-title">Technical Innovations for Local Solutions</strong>:
-        <ul class="task-details text-gray-500 dark:text-slate-400">
-          <li>Developed innovative location tracking solutions specifically tailored for Madagascar, enabling more accurate delivery management and solving challenges not addressed by existing tools in the region.</li>
-        </ul>
-      </li>
-
-    </ul>
-
-    <div class="tech-icons flex justify-center space-x-4 mt-6">
-      <img src="{{ site.baseurl }}/assets/img/icons/gcp.png" alt="GCP" class="icon w-10 h-10 hover-motion" loading="lazy">
-      <img src="{{ site.baseurl }}/assets/img/icons/aws.png" alt="AWS" class="icon w-10 h-10 hover-motion" loading="lazy">
-      <img src="{{ site.baseurl }}/assets/img/icons/gitlab.png" alt="GitLab" class="icon w-10 h-10 hover-motion" loading="lazy">
-      <img src="{{ site.baseurl }}/assets/img/icons/minio.png" alt="Minio" class="icon w-10 h-10 hover-motion" loading="lazy">
-      <img src="{{ site.baseurl }}/assets/img/icons/grafana.png" alt="Grafana" class="icon w-10 h-10 hover-motion" loading="lazy">
-    </div>
-  </div>
-
+  
   <!-- Videotron Experience -->
   <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="sql powerbi excel datavisualization">
     <div class="flex items-start">
