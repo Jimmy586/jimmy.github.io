@@ -47,7 +47,7 @@ permalink: projects
 <!-- Updated HTML Code -->
 <div style="text-align: justify">
   <img id="clickableImage" class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/card.PNG" alt="Card Image" style="max-width:100%;cursor:pointer;">
-  <p class="!py-0 !mb-0 dark:text-slate-300">Transformer Architecture viz of "Jimmy is a Great Machine Learning Engineer".</p>
+  <p class="!py-0 !mb-0 dark:text-slate-300">Transformer Architecture visual of: "Jimmy is a great Machine Learning Engineer"</p>
   <p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">
     Greatness is not achieved overnight; the only way to get there is by providing yourself all manners to hit your best potential.
   </p>
