@@ -252,7 +252,7 @@ h3:hover {
 
 
 <h2 class="dark:text-stone-200">My Curriculum Vitae</h2>
-<p><a href="{{site.baseurl}}/assets/raw/RESUME.pdf" class="dark:text-stone-300" target="_blank">Download my Resume (v.2024.07)</a></p>
+<p><a href="{{site.baseurl}}/assets/raw/Machine_LearningEngineer_Mananjara_Jimmy_VATOSOA_V2.08.pdf" class="dark:text-stone-300" target="_blank">Download my Resume (v.2024.07)</a></p>
 <iframe src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/RESUME.pdf" width="100%" height="300px" style="border: none;"></iframe>
 
 <h2 class="dark:text-stone-200">Some of my Projects</h2>
