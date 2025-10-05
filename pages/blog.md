@@ -4,102 +4,119 @@ title: Blog
 permalink: blog
 ---
 
+-----
+
 ### **Le Dilemme du Manifestant : Une Analyse Stratégique des Manifestations à Madagascar par la Théorie des Jeux**
 
 **Date:** October 5, 2025
 
-*En tant qu'Ingénieur en IA passionné par la mathématique appliquée à la stratégie, je vais décortiquer ce cas d'usage, le formaliser mathématiquement et vous proposer les stratégies qui en découlent.*
+*Absolument. En tant que votre professeur, je vais fusionner ces excellentes analyses – la vôtre, celle du document de référence, et mon propre cadre initial – pour produire un article de fond complet et structuré sur ce cas d'étude fascinant.*
 
-Votre observation sur les manifestations à Madagascar est au cœur du **problème de l'action collective**, qui est une forme généralisée du dilemme du prisonnier avec un grand nombre de joueurs. C'est une analyse très pertinente.
+-----
 
-![Manifestation à Madagascar](./assets/img/mada.png)
+### **Introduction**
 
----
+Les manifestations qui ont débuté le 25 septembre 2025 à Madagascar offrent un cas d'étude saisissant pour l'application de la théorie des jeux à la dynamique des mouvements sociaux. Initialement déclenchées par des frustrations populaires face aux pénuries d'eau et d'électricité, elles se sont rapidement muées en un mouvement politique exigeant la démission du président en place¹. Après un pic de mobilisation impressionnant, le mouvement a connu une phase d'érosion, illustrant parfaitement le concept de **dilemme du prisonnier collectif**.
 
-### Analyse du Contexte : Le Dilemme du Manifestant Malgache
+Cet article se propose d'analyser cette situation en trois temps. D'abord, nous modéliserons le choix rationnel de chaque manifestant potentiel. Ensuite, nous examinerons la dynamique collective temporelle du mouvement, notamment sa phase de déclin. Enfin, nous définirons les stratégies optimales qui auraient pu être mises en œuvre pour surmonter ce dilemme et atteindre les objectifs collectifs.
 
-Vous avez parfaitement posé le décor. La situation à Madagascar, qui a débuté le 25 septembre 2025, est une illustration parfaite d'un "jeu" à N joueurs où N est le nombre de citoyens potentiellement manifestants. La cause initiale, les pénuries d'eau et d'électricité, a évolué vers une demande de démission du président, augmentant l'enjeu du "gain" potentiel.
+-----
 
-Chaque citoyen fait face à un choix binaire :
-* **Coopérer (Manifester)** : Se joindre aux autres manifestants pour faire pression sur le gouvernement.
-* **Trahir (Rester chez soi)** : Ne pas manifester pour préserver sa sécurité et sa stabilité personnelle.
+### **1. Modélisation du Choix Individuel : Coopérer ou Faire Défection ?**
 
-Les risques que vous avez identifiés (répression, perte d'emploi, harcèlement, etc.) constituent le **coût de la coopération (C)**. La répression gouvernementale violente augmente considérablement ce coût perçu. Le doute sur l'issue de la manifestation et la peur de "tout perdre pour rien" sont au cœur du dilemme. Si un individu pense que les autres vont "trahir", sa meilleure réponse est de trahir également pour ne pas payer seul le coût d'une action vaine. C'est la dynamique observée avec l'affaiblissement de la mobilisation : l'intérêt individuel entre en conflit avec l'intérêt collectif.
+Au cœur du problème se trouve un conflit entre l'intérêt individuel et l'intérêt collectif. Chaque citoyen est confronté à un choix binaire :
 
----
+  * **Coopérer** : Participer à la manifestation.
+  * **Faire défection** : Rester chez soi pour éviter les risques.
 
-### Formalisation Mathématique du Dilemme
+Pour formaliser ce choix, nous introduisons trois variables clés :
 
-Pour concrétiser cela, utilisons des variables et une matrice de gains.
+  * **B (Bénéfice)** : Le gain collectif obtenu si la manifestation réussit (ex: démission du président, amélioration des services). Ce bénéfice est un **bien public** ; tous les citoyens en profitent, qu'ils aient participé ou non⁵.
+  * **C (Coût)** : Le coût individuel et certain de la participation. Il inclut les risques de blessures ou d'arrestation dus à la répression gouvernementale (rapportée comme violente)², la perte de salaire, les sanctions professionnelles, etc.
+  * **T (Seuil)** : Le nombre critique de manifestants nécessaire pour que le mouvement réussisse et obtienne le bénéfice B.
 
-**Hypothèses et Variables :**
-* **B** : Le **Bénéfice** collectif si la manifestation réussit (meilleur gouvernement, fin des pénuries). C'est un **bien public** : tout le monde en profite, même ceux qui sont restés chez eux.
-* **C** : Le **Coût** individuel et certain de la participation (risque de blessure, perte de salaire, arrestation).
-* **T** : Le **Seuil** critique de participants requis pour que la manifestation réussisse.
+La décision de chaque individu peut être représentée par la **matrice des gains** suivante :
 
-**La Matrice des Gains pour un individu :**
+|                           | **Assez d'autres manifestent (Nombre ≥ T)** | **Pas assez d'autres manifestent (Nombre \< T)** |
+| :------------------------ | :--------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
+| **Je Manifeste (Coopérer)** | **B - C** (Succès, mais j'ai payé le coût)                                  | **-C** (Échec, et j'ai payé le coût pour rien)                              |
+| **Je Reste chez moi (Défection)** | **B** (Succès sans aucun coût : le gain du *passager clandestin*) | **0** (Échec, mais je n'ai rien perdu)                                       |
 
-| | **Assez d'autres manifestent (Nombre ≥ T-1)** | **Pas assez d'autres manifestent (Nombre < T-1)** |
-| :--- | :--- | :--- |
-| **Vous manifestez (Coopérer)** | **B - C** (Succès, avec un coût) | **-C** (Échec, et vous payez le coût pour rien) |
-| **Vous ne manifestez pas (Trahir)**| **B** (Succès, sans coût : le "passager clandestin") | **0** (Échec, statu quo) |
+L'analyse de cette matrice révèle une **stratégie dominante** : quel que soit le choix des autres, un individu rationnel a toujours intérêt à faire défection. Ce phénomène, connu sous le nom de \*\*problème du passager clandestin (free-rider)\*\*⁶, conduit à un équilibre de Nash sous-optimal : si tout le monde suit cette logique, personne ne manifeste, et le mouvement échoue.
 
-D'un point de vue purement rationnel et égoïste, la logique pousse à **Trahir** (ne pas manifester), quelle que soit l'action des autres. C'est une **stratégie dominante**. Si tout le monde suit ce raisonnement, personne ne manifeste, menant à un échec collectif (gain de 0 pour tous), alors que la coopération aurait pu apporter un résultat bien supérieur.
+-----
 
-**Modélisation de la décision rationnelle :**
+### **2. Formalisation Mathématique**
 
-Soit `p` la probabilité subjective (la croyance) de l'individu que la manifestation va réussir. L'espérance de gain pour chaque action est :
+Nous pouvons modéliser la décision d'un individu `i` en utilisant l'espérance mathématique de son gain (son "utilité"). Soit `p` la probabilité subjective (la croyance) de l'individu `i` que la manifestation va réussir. Pour simplifier, disons que `p` est la probabilité que le nombre de manifestants atteigne le seuil `T`.
 
-* Espérance de gain en manifestant :
-    $$E[U(M)] = p \cdot (B - C) + (1-p) \cdot (-C) = pB - C$$
-* Espérance de gain en restant chez soi :
-    $$E[U(R)] = p \cdot B + (1-p) \cdot 0 = pB$$
+L'espérance de gain en manifestant est :
+$$E[U(M)] = p \cdot (B - C) + (1 - p) \cdot (-C) = pB - C$$
 
-Clairement, `pB - C` n'est jamais supérieur à `pB`. Ce modèle simple suggère qu'il est toujours irrationnel de manifester. Cependant, un individu ne manifestera que s'il pense que sa participation personnelle peut être **décisive**, c'est-à-dire faire basculer le résultat de l'échec au succès.
+L'espérance de gain en restant chez soi est :
+$$E[U(R)] = p \cdot B + (1 - p) \cdot 0 = pB$$
 
-Soit `P(T-1)` la probabilité qu'exactement `T-1` autres personnes se présentent. La condition pour qu'un individu rationnel décide de manifester devient :
+Un individu rationnel choisira de manifester uniquement si $$E[U(M)] > E[U(R)]$$
 
+Cependant, notre modèle simple montre que `pB - C` n'est **jamais** supérieur à `pB`. Il y a donc une faille. Le modèle doit être plus subtil : la participation ne devient rationnelle que si l'individu estime que sa propre présence peut être **décisive**.
+
+Soit `P(T-1)` la probabilité qu'exactement `T-1` autres personnes se présentent. La condition pour manifester devient alors :
 $$P(T-1) \cdot B > C$$
 
-Cette formule est très puissante. Elle explique l'érosion de la manifestation :
-* La répression du gouvernement **augmente C**.
-* La fatigue et le doute **diminuent la croyance d'être décisif (P(T-1))**.
+Cette formule explique parfaitement l'érosion de la manifestation à Madagascar :
 
-Quand le coût `C` devient trop grand ou que le bénéfice probable `P(T-1) * B` devient trop petit, l'inégalité s'inverse et la décision rationnelle redevient de rester chez soi.
+  * La **répression du gouvernement augmente C** : Le coût perçu (arrestation, perte d'emploi) devient très élevé².
+  * La **fatigue et le doute diminuent P(T-1)** : Moins les gens y croient, plus ils estiment qu'il est improbable que leur seule présence soit le facteur décisif.
 
----
+Quand `C` devient trop grand ou que `P(T-1) * B` devient trop petit, l'inégalité s'inverse et la décision rationnelle devient de rester chez soi.
 
-### La Dynamique du Mouvement : Une Guerre d'Usure
+-----
 
-Le modèle s'enrichit en analysant la dynamique temporelle comme une **"guerre d'attrition"** entre les manifestants et le gouvernement. Les deux camps endurent des coûts au fil du temps et espèrent que l'autre cédera le premier. Ce modèle prédit un cycle en trois phases, observé à Madagascar:
-1.  **Montée en puissance** : Les plus motivés créent un effet de cascade.
-2.  **Pic de mobilisation** : Le mouvement atteint son apogée, forçant le pouvoir à des concessions (dissolution du gouvernement).
-3.  **Déclin et érosion** : Si la victoire n'est pas totale, le moral et les ressources s'épuisent. La répression et la fatigue accélèrent ce découragement.
+### **3. De la Statique à la Dynamique Collective : La « Guerre d'Usure »**
 
----
+Le modèle statique explique l'érosion, mais la dynamique temporelle du mouvement peut être modélisée comme une **« guerre d'attrition »** entre les manifestants et le gouvernement. Les deux camps subissent des coûts au fil du temps et espèrent que l'autre cédera le premier. Ce processus se déroule typiquement en trois phases :
 
-### La Stratégie Optimale : Comment Vaincre le Dilemme
+1.  **Montée en puissance (Phase de cascade)** : Les individus les plus motivés commencent. Leur présence encourage d'autres, créant un effet de cascade qui fait grossir la foule.
+2.  **Pic de la mobilisation** : Le mouvement atteint sa taille maximale, imposant un coût significatif au gouvernement. C'est à ce moment que la pression a forcé le président à une concession partielle : la dissolution du gouvernement².
+3.  **Déclin (Phase d'érosion)** : Si une victoire totale n'est pas obtenue au pic, la dynamique s'inverse. Les coûts cumulés, la fatigue et la peur accélèrent le découragement, menant à une « trappe à inaction collective ».
 
-Le but n'est pas de changer la rationalité des individus, mais de **changer les paramètres du jeu**. Voici la stratégie optimale :
+-----
 
-#### 1. Diminuer le Coût de la Coopération (↓C)
-* **La Force du Nombre** : Créer des pics de mobilisation massifs pour diluer le risque individuel.
-* **Organisation et Sécurité** : Mettre en place des structures de soutien (caisses de grève, assistance juridique, équipes de secours) pour mutualiser le coût `C`.
-* **Discipline Non-Violente** : Une stratégie non-violente réduit la légitimité de la répression gouvernementale.
+### **4. Stratégies pour Surmonter le Dilemme et Réussir la Mobilisation**
 
-#### 2. Augmenter le Bénéfice Perçu (↑B) et la Probabilité de Succès (↑p)
-* **Créer un Point Focal (Point de Schelling)** : Fixer une date, une heure et un lieu uniques et crédibles pour que chaque personne soit assurée que les autres y seront aussi.
-* **Obtenir des Victoires Intermédiaires** : Des succès partiels prouvent que l'action collective fonctionne et augmentent la croyance en la victoire finale.
-* **Créer des Cascades d'Information** : Utiliser les réseaux sociaux pour montrer une foule grandissante crée une prophétie autoréalisatrice.
+Sortir du dilemme du prisonnier nécessite de **changer les paramètres du jeu**. Les organisateurs doivent agir sur les variables C, B et la perception du succès pour rendre la coopération rationnelle.
 
-#### 3. Augmenter le Coût de la Trahison (Rester chez soi)
-* **Pression Sociale et Identité Collective** : Créer un sentiment d'appartenance fort (via des symboles, un discours unificateur) où ne pas participer est perçu comme une honte.
-* **Rendre la Non-Participation Visible** : Organiser des actions où l'absence est remarquée (journées "ville morte", grèves générales).
+**Axe 1 : Réduire le Coût de la Participation (↓C)**
 
-### Conclusion
+  * **Soutien logistique et financier** : Mettre en place des caisses de grève pour compenser les pertes de salaire et des fonds de solidarité.
+  * **Assurer la sécurité** : Organiser des services d'ordre internes et promouvoir une discipline non-violente pour réduire l'intensité de la répression.
 
-Le dilemme du manifestant n'est pas une fatalité. C'est un obstacle stratégique qui peut être surmonté. La clé n'est pas l'altruisme, mais la **confiance et la coordination**. La meilleure stratégie consiste à modifier la matrice des gains de chaque individu. En diminuant le coût de la participation, en augmentant le coût de l'inaction et en renforçant la conviction que la victoire est possible, les organisateurs peuvent transformer un jeu de "trahison" individuelle en un jeu de **coopération collective inévitable**.
+**Axe 2 : Augmenter le Bénéfice Espéré (↑B et ↑p)**
 
-C'est là que les mathématiques de la stratégie rejoignent la psychologie des foules et l'art de l'action politique.
+  * **Nourrir l'espoir de succès** : Communiquer massivement sur chaque avancée, même partielle, pour prouver que la pression fonctionne.
+  * **Souligner l'importance de l'enjeu** : Cadrer le bénéfice B non seulement comme un gain, mais aussi comme l'évitement d'un futur bien pire.
 
----
+**Axe 3 : Transformer le Jeu de Dilemme en Jeu de Coordination**
+
+  * **Créer des points focaux (Schelling Points)** : Organiser des journées nationales de manifestation à des dates et heures précises et crédibles, comme la grève générale appelée par le collectif Gen Z³.
+  * **Renforcer la solidarité et les normes sociales** : Créer une identité collective forte (les jeunes organisateurs ont utilisé des symboles rassembleurs) où la non-participation est perçue comme une trahison¹.
+  * **Adopter des stratégies tournantes** : Organiser des rotations où différents groupes prennent le relais pour maintenir la pression sans épuiser les participants.
+
+-----
+
+### **Conclusion**
+
+L'analyse des manifestations à Madagascar à travers la théorie des jeux révèle que l'échec d'un mouvement de masse n'est souvent pas dû à un manque de volonté collective, mais à une **défaillance de la coordination** face à des risques individuels élevés.
+
+Le succès d'une telle entreprise ne repose donc pas sur l'altruisme ou l'héroïsme, mais sur une **stratégie délibérée visant à modifier la structure des incitations**. En réduisant les coûts, en augmentant la croyance en la victoire et, surtout, en créant des mécanismes de coordination robustes, les organisateurs peuvent aligner l'intérêt individuel sur l'intérêt collectif. C'est à ce prix qu'il est possible de briser le cercle vicieux du passager clandestin et de transformer une multitude de décisions individuelles craintives en une action collective victorieuse.
+
+-----
+
+### **Références**
+
+1.  RFI. « À Madagascar, la contestation de la "Gen Z" prend de l'ampleur ». *Radio France Internationale*, 27 sept. 2025.
+2.  Le Monde avec AFP. « Manifestations meurtrières à Madagascar: nouvelle mobilisation malgré le renvoi du gouvernement ». *Le Monde*, 30 sept. 2025.
+3.  Le Monde avec AFP. « A Madagascar, la Gen Z appelle désormais à la grève générale et durcit le mot d'ordre: "Rajoelina, dégage\!" ». *Le Monde*, 1er oct. 2025.
+4.  Wikipedia. "2025 Malagasy protests", consulté le 5 oct. 2025.
+5.  Olson, Mancur. *The Logic of Collective Action*. Harvard University Press, 1965.
+6.  Stanford Encyclopedia of Philosophy. "The Free Rider Problem", consulté le 5 oct. 2025.
