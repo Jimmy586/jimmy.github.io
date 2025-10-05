@@ -4,12 +4,11 @@ title: Blog
 permalink: blog
 ---
 
-### Highlighted Blog Posts
+### **Le Dilemme du Manifestant : Une Analyse Stratégique des Manifestations à Madagascar par la Théorie des Jeux**
 
-#### **1. Le Dilemme du Manifestant : Une Analyse Stratégique des Manifestations à Madagascar par la Théorie des Jeux**
 **Date:** October 5, 2025
 
-*En tant que professeur en mathématiques appliquées à la stratégie, je vais décortiquer ce cas d'usage, le formaliser mathématiquement et vous proposer les stratégies qui en découlent.*
+*En tant qu'Ingénieur en IA passionné par la mathématique appliquée à la stratégie, je vais décortiquer ce cas d'usage, le formaliser mathématiquement et vous proposer les stratégies qui en découlent.*
 
 Votre observation sur les manifestations à Madagascar est au cœur du **problème de l'action collective**, qui est une forme généralisée du dilemme du prisonnier avec un grand nombre de joueurs. C'est une analyse très pertinente.
 
@@ -104,61 +103,3 @@ Le dilemme du manifestant n'est pas une fatalité. C'est un obstacle stratégiqu
 C'est là que les mathématiques de la stratégie rejoignent la psychologie des foules et l'art de l'action politique.
 
 ---
-
-#### **2. Practical Tips for Getting Started with Machine Learning**
-**Date:** June 10, 2024
-
-Starting your journey into machine learning can be overwhelming, but with the right resources, anyone can succeed. Begin by building a solid foundation with online courses like **Coursera** or **edX**, and hands-on books like *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* by Aurélien Géron.
-
-Hands-on experience is essential. Participate in **Kaggle competitions** or work on personal projects to apply your knowledge and create a portfolio that showcases your skills to potential employers.
-
-As you progress, remember that **continuous learning and curiosity** are key to success in this rapidly evolving field. Stay updated with the latest research, attend conferences, and engage with the community.
-
----
-
-#### **3. The Role of Machine Learning in Sustainable Development**
-**Date:** May 30, 2024
-
-Machine learning is an essential tool for addressing global sustainability challenges. One of my projects at **IMT Atlantique** focused on **reducing energy consumption in mobile networks** by leveraging machine learning to identify key factors and propose energy-saving strategies.
-
-In wildlife conservation, machine learning is also helping monitor endangered species, detect poaching, and analyze habitat changes, supporting the protection of biodiversity.
-
-As we push forward, it’s vital to integrate **ethical considerations** and focus on long-term sustainability when deploying machine learning solutions.
-
----
-
-#### **4. Building Scalable Systems for Big Data Analytics**
-**Date:** April 25, 2024
-
-Big data analytics requires robust and scalable systems, utilizing distributed computing frameworks like **Apache Hadoop** or **Spark**. These frameworks allow parallel processing across nodes, speeding up data analysis.
-
-Effective storage solutions, such as **NoSQL databases** (e.g., MongoDB, Cassandra), handle large datasets flexibly, while tools like **Apache Kafka** enable real-time data processing, essential for applications like fraud detection and network monitoring.
-
-A holistic approach that considers performance, fault tolerance, and security is necessary to build scalable systems that meet today's big data demands.
-
----
-
-#### **5. Enhancing Cybersecurity with AI and Machine Learning**
-**Date:** March 20, 2024
-
-AI and machine learning offer advanced tools for **proactive cybersecurity**, detecting anomalies and predicting threats. In my work at **SERMA Safety and Security**, we developed machine learning models for **threat detection and mitigation**, leveraging anomaly detection to identify potential breaches early.
-
-However, challenges such as model accuracy, bias, and protection against adversarial attacks must be carefully addressed to ensure the reliability of AI-driven security solutions.
-
----
-
-#### **6. Optimizing Cloud Infrastructure for Machine Learning Workloads**
-**Date:** February 15, 2024
-
-Optimizing cloud infrastructure for machine learning workloads involves addressing key challenges like **autoscaling** and **resource allocation**. Autoscaling ensures cloud resources adapt to demand, while resource allocation fine-tunes performance for different tasks.
-
-At **SERMA Safety and Security**, our optimized CI/CD pipelines reduced deployment times and increased operational efficiency. Cloud infrastructure planning is crucial for delivering scalable and cost-effective machine learning solutions.
-
----
-
-#### **7. The Evolution of Machine Learning: From Theory to Practical Applications**
-**Date:** January 10, 2024
-
-Machine learning has evolved from theory to a driving force in technology. Early milestones like the development of **neural networks** laid the foundation for **deep learning**, which powers modern applications like image recognition and natural language processing.
-
-As we move forward, we must address **ethical considerations** around fairness, transparency, and accountability in machine learning. These factors will shape the future of the field as we continue to expand its practical applications.
