@@ -6,29 +6,102 @@ permalink: blog
 
 ### Highlighted Blog Posts
 
-#### **1. Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth**
-**Date:** July 31, 2024
+#### **1. Le Dilemme du Manifestant : Une Analyse Stratégique des Manifestations à Madagascar par la Théorie des Jeux**
+**Date:** October 5, 2025
 
-The release of Llama 3.1 has set new benchmarks in performance, narrowing the gap between open-weight and closed-source models. Fine-tuning Llama 3.1, rather than relying on general-purpose LLMs like GPT-4o or Claude 3.5, offers superior performance and customizability for specific use cases at a lower cost.
+*En tant que professeur en mathématiques appliquées à la stratégie, je vais décortiquer ce cas d'usage, le formaliser mathématiquement et vous proposer les stratégies qui en découlent.*
 
-This post provides a complete guide to **supervised fine-tuning (SFT)**, comparing it with prompt engineering to clarify when SFT is more beneficial. We'll cover essential techniques like LoRA hyperparameters, storage formats, and chat templates, concluding with a practical implementation of fine-tuning **Llama 3.1 8B** on Google Colab using Unsloth.
+Votre observation sur les manifestations à Madagascar est au cœur du **problème de l'action collective**, qui est une forme généralisée du dilemme du prisonnier avec un grand nombre de joueurs. C'est une analyse très pertinente.
 
-#### **Overview of Supervised Fine-Tuning Techniques**
-We break down key SFT methods:
-- **Full Fine-Tuning**: Retrains all model parameters, yielding excellent results but requiring significant computational power.
-- **LoRA (Low-Rank Adaptation)**: Inserts small trainable adapters, offering flexibility with fewer resources.
-- **QLoRA (Quantization-aware LoRA)**: Further optimizes LoRA by reducing memory usage, ideal for limited GPU environments.
+![Manifestation à Madagascar](./assets/img/mada.png)
 
-#### **Practical Implementation**
-A step-by-step guide demonstrates how to fine-tune Llama 3.1 using **Google Colab** and **Unsloth**, from environment setup to dataset preparation and parameter configuration.
+---
 
-#### **The Role of Instruction Datasets**
-A high-quality dataset is crucial for effective fine-tuning. This post uses the **mlabonne/FineTome-100k** dataset as an example of how curated datasets enhance model performance across diverse tasks.
+### Analyse du Contexte : Le Dilemme du Manifestant Malgache
 
-#### **Ethical Considerations and Future Prospects**
-We discuss the importance of responsible AI usage and the ethical challenges of deploying fine-tuned models, particularly in ensuring their long-term societal benefits.
+Vous avez parfaitement posé le décor. La situation à Madagascar, qui a débuté le 25 septembre 2025, est une illustration parfaite d'un "jeu" à N joueurs où N est le nombre de citoyens potentiellement manifestants. La cause initiale, les pénuries d'eau et d'électricité, a évolué vers une demande de démission du président, augmentant l'enjeu du "gain" potentiel.
 
-All code is available on [Google Colab](https://colab.research.google.com/drive/164cg_O7SV7G8kZr_JXqLd6VC7pd86-1Z#scrollTo=PoPKQjga6obN). The full article can be found [here](https://huggingface.co/blog/mlabonne/sft-llama3).
+Chaque citoyen fait face à un choix binaire :
+* **Coopérer (Manifester)** : Se joindre aux autres manifestants pour faire pression sur le gouvernement.
+* **Trahir (Rester chez soi)** : Ne pas manifester pour préserver sa sécurité et sa stabilité personnelle.
+
+Les risques que vous avez identifiés (répression, perte d'emploi, harcèlement, etc.) constituent le **coût de la coopération (C)**. La répression gouvernementale violente augmente considérablement ce coût perçu. Le doute sur l'issue de la manifestation et la peur de "tout perdre pour rien" sont au cœur du dilemme. Si un individu pense que les autres vont "trahir", sa meilleure réponse est de trahir également pour ne pas payer seul le coût d'une action vaine. C'est la dynamique observée avec l'affaiblissement de la mobilisation : l'intérêt individuel entre en conflit avec l'intérêt collectif.
+
+---
+
+### Formalisation Mathématique du Dilemme
+
+Pour concrétiser cela, utilisons des variables et une matrice de gains.
+
+**Hypothèses et Variables :**
+* **B** : Le **Bénéfice** collectif si la manifestation réussit (meilleur gouvernement, fin des pénuries). C'est un **bien public** : tout le monde en profite, même ceux qui sont restés chez eux.
+* **C** : Le **Coût** individuel et certain de la participation (risque de blessure, perte de salaire, arrestation).
+* **T** : Le **Seuil** critique de participants requis pour que la manifestation réussisse.
+
+**La Matrice des Gains pour un individu :**
+
+| | **Assez d'autres manifestent (Nombre ≥ T-1)** | **Pas assez d'autres manifestent (Nombre < T-1)** |
+| :--- | :--- | :--- |
+| **Vous manifestez (Coopérer)** | **B - C** (Succès, avec un coût) | **-C** (Échec, et vous payez le coût pour rien) |
+| **Vous ne manifestez pas (Trahir)**| **B** (Succès, sans coût : le "passager clandestin") | **0** (Échec, statu quo) |
+
+D'un point de vue purement rationnel et égoïste, la logique pousse à **Trahir** (ne pas manifester), quelle que soit l'action des autres. C'est une **stratégie dominante**. Si tout le monde suit ce raisonnement, personne ne manifeste, menant à un échec collectif (gain de 0 pour tous), alors que la coopération aurait pu apporter un résultat bien supérieur.
+
+**Modélisation de la décision rationnelle :**
+
+Soit `p` la probabilité subjective (la croyance) de l'individu que la manifestation va réussir. L'espérance de gain pour chaque action est :
+
+* Espérance de gain en manifestant :
+    $$E[U(M)] = p \cdot (B - C) + (1-p) \cdot (-C) = pB - C$$
+* Espérance de gain en restant chez soi :
+    $$E[U(R)] = p \cdot B + (1-p) \cdot 0 = pB$$
+
+Clairement, `pB - C` n'est jamais supérieur à `pB`. Ce modèle simple suggère qu'il est toujours irrationnel de manifester. Cependant, un individu ne manifestera que s'il pense que sa participation personnelle peut être **décisive**, c'est-à-dire faire basculer le résultat de l'échec au succès.
+
+Soit `P(T-1)` la probabilité qu'exactement `T-1` autres personnes se présentent. La condition pour qu'un individu rationnel décide de manifester devient :
+
+$$P(T-1) \cdot B > C$$
+
+Cette formule est très puissante. Elle explique l'érosion de la manifestation :
+* La répression du gouvernement **augmente C**.
+* La fatigue et le doute **diminuent la croyance d'être décisif (P(T-1))**.
+
+Quand le coût `C` devient trop grand ou que le bénéfice probable `P(T-1) * B` devient trop petit, l'inégalité s'inverse et la décision rationnelle redevient de rester chez soi.
+
+---
+
+### La Dynamique du Mouvement : Une Guerre d'Usure
+
+Le modèle s'enrichit en analysant la dynamique temporelle comme une **"guerre d'attrition"** entre les manifestants et le gouvernement. Les deux camps endurent des coûts au fil du temps et espèrent que l'autre cédera le premier. Ce modèle prédit un cycle en trois phases, observé à Madagascar:
+1.  **Montée en puissance** : Les plus motivés créent un effet de cascade.
+2.  **Pic de mobilisation** : Le mouvement atteint son apogée, forçant le pouvoir à des concessions (dissolution du gouvernement).
+3.  **Déclin et érosion** : Si la victoire n'est pas totale, le moral et les ressources s'épuisent. La répression et la fatigue accélèrent ce découragement.
+
+---
+
+### La Stratégie Optimale : Comment Vaincre le Dilemme
+
+Le but n'est pas de changer la rationalité des individus, mais de **changer les paramètres du jeu**. Voici la stratégie optimale :
+
+#### 1. Diminuer le Coût de la Coopération (↓C)
+* **La Force du Nombre** : Créer des pics de mobilisation massifs pour diluer le risque individuel.
+* **Organisation et Sécurité** : Mettre en place des structures de soutien (caisses de grève, assistance juridique, équipes de secours) pour mutualiser le coût `C`.
+* **Discipline Non-Violente** : Une stratégie non-violente réduit la légitimité de la répression gouvernementale.
+
+#### 2. Augmenter le Bénéfice Perçu (↑B) et la Probabilité de Succès (↑p)
+* **Créer un Point Focal (Point de Schelling)** : Fixer une date, une heure et un lieu uniques et crédibles pour que chaque personne soit assurée que les autres y seront aussi.
+* **Obtenir des Victoires Intermédiaires** : Des succès partiels prouvent que l'action collective fonctionne et augmentent la croyance en la victoire finale.
+* **Créer des Cascades d'Information** : Utiliser les réseaux sociaux pour montrer une foule grandissante crée une prophétie autoréalisatrice.
+
+#### 3. Augmenter le Coût de la Trahison (Rester chez soi)
+* **Pression Sociale et Identité Collective** : Créer un sentiment d'appartenance fort (via des symboles, un discours unificateur) où ne pas participer est perçu comme une honte.
+* **Rendre la Non-Participation Visible** : Organiser des actions où l'absence est remarquée (journées "ville morte", grèves générales).
+
+### Conclusion
+
+Le dilemme du manifestant n'est pas une fatalité. C'est un obstacle stratégique qui peut être surmonté. La clé n'est pas l'altruisme, mais la **confiance et la coordination**. La meilleure stratégie consiste à modifier la matrice des gains de chaque individu. En diminuant le coût de la participation, en augmentant le coût de l'inaction et en renforçant la conviction que la victoire est possible, les organisateurs peuvent transformer un jeu de "trahison" individuelle en un jeu de **coopération collective inévitable**.
+
+C'est là que les mathématiques de la stratégie rejoignent la psychologie des foules et l'art de l'action politique.
 
 ---
 
