@@ -8,7 +8,7 @@ permalink: blog
 
 ### **Le Dilemme du Manifestant : Une Analyse Stratégique des Manifestations à Madagascar par la Théorie des Jeux**
 
-**Date:** 5 octobre 2025
+*Date: 5 octobre 2025*
 
 *Dans cet article, nous proposons d’analyser la situation de la manifestation à Madagascar de 2025 à travers le prisme de la théorie des jeux et de la logique du dilemme du prisonnier, afin de comprendre comment des décisions individuelles rationnelles ont pu mener à un blocage collectif. Nous formalisons le « dilemme du manifestant » par un modèle simplifié, puis nous discutons des stratégies optimales que pourraient adopter les protestataires pour surmonter ce problème d’action collective et maximiser leurs chances de succès.*
 
