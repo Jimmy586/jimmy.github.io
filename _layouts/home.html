@@ -7,63 +7,63 @@ layout: default
 {% endif %}
 
 <div class="container mx-auto text-center prose prose-{{ site.theme-color }} my-8">
+
   <div class="flex flex-col items-center">
     <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg" src="{{ site.baseurl }}/assets/img/{{ site.author-image }}" alt="author profile image">
     <h1 class="dark:text-white mt-4">{{ site.author }}</h1>
   </div>
-  <!-- Place this where you want the view counter to appear -->
-  <div id="view-counter">
+
+  <div id="view-counter" class="my-4">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=VATOSOA.portfolio" alt="Visitor Counter">
   </div>
-
 
   {% if site.author-bio %}
 
   <p class="font-mono font-semibold text-lg xl:text-2xl lg:py-3 dark:text-white mx-5 md:mx-auto">
-    <span id="typing"></span></p>
-    <section id="current-roles" class="my-6">
-      <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-        I am currently the <strong>Head of AI Projects</strong> at <a class="text-gray-500 dark:text-stone-200" href="https://metalab.essec.edu/">ESSEC Metalab</a>, 
-        where I lead all AI and research-related projects. In this role, I oversee the development and implementation of cutting-edge AI solutions, manage research initiatives, and guide the project in regards of 3 dimensions : ESSEC students, professors and industries.
-        I also co-founded a startup based in Madagascar called AZ+ and occupy the role of <strong>CTO</strong>, it is a SuperApp I designed and 
-        helped deploy, and I lead the technical staff. <a class="text-gray-500 dark:text-stone-200" href="https://www.azplus.mg/">AZ+ Madagascar</a> is available on Android and iOS.
-      </p>
-      <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-        Previously, I worked as a <strong>Machine Learning Engineer Intern</strong> at 
-        <a class="text-gray-500 dark:text-stone-200" href="https://www.serma-safety-security.com/en/">
-          SERMA SAFETY AND SECURITY</a> .
-      </p>
-    </section>
+    <span id="typing"></span>
+  </p>
+  
+  <section id="current-roles" class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl">
+    <p>
+      I am currently the <strong>Head of AI Projects</strong> at <a href="https://metalab.essec.edu/">ESSEC Metalab</a>, 
+      where I lead all AI and research-related projects. In this role, I oversee the development and implementation of cutting-edge AI solutions, manage research initiatives, and guide the project in regards of 3 dimensions : ESSEC students, professors and industries.
+    </p>
+    <p>
+      I also co-founded a startup based in Madagascar called AZ+ and occupy the role of <strong>CTO</strong>, it is a SuperApp I designed and 
+      helped deploy, and I lead the technical staff. <a href="https://www.azplus.mg/">AZ+ Madagascar</a> is available on Android and iOS.
+    </p>
+    <p>
+      Previously, I worked as a <strong>Machine Learning Engineer Intern</strong> at 
+      <a href="https://www.serma-safety-security.com/en/">SERMA SAFETY AND SECURITY</a>.
+    </p>
+  </section>
 
-<section id="professional-summary" class="my-6">
-  <div class="summary-content">
-    <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
+  <section id="professional-summary" class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl">
+    <p>
       I have acquired a solid understanding and hands-on experience in Cloud computing and 
       Machine Learning throughout my academic and professional journey. I love crafting 
       technological solutions in my spare time to challenge myself. 
       I hold an <strong>MSc in Computer Science with a focus on Cloud Computing</strong> 
-      from <strong> <a class="text-gray-500 dark:text-stone-200" href="https://istic.univ-rennes.fr/"> Rennes University, France </a> </strong>, complemented by a <strong>BSc in AI</strong> from <strong> <a class="text-gray-500 dark:text-stone-200" href="https://fcai.cu.edu.eg/"> Cairo University, Egypt </a></strong>.
+      from <strong><a href="https://istic.univ-rennes.fr/">Rennes University, France</a></strong>, complemented by a <strong>BSc in AI</strong> from <strong><a href="https://fcai.cu.edu.eg/">Cairo University, Egypt</a></strong>.
     </p>
-  </div>
-</section>
+  </section>
 
+  <section id="career-goals" class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl">
+    <p>
+      My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of 
+      my resources to sustainable solutions for the greater good. 
+      Read <a href="{{ site.baseurl }}/about">more about me</a>.
+    </p>
+    <p>
+      <strong>Last update:</strong> September 2025
+    </p>
+  </section>
 
-<section id="career-goals" class="my-6">
-  <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-    My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of 
-    my resources to sustainable solutions for the greater good. 
-    Read <a class="text-gray-500 dark:text-stone-200" href="{{ site.baseurl }}/about">more about me</a>.
-  </p>
-  <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-    <strong>Last update:</strong> December 2024
-  </p>
-</section>
-
-<section id="projects" class="my-6">
-  <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-    💻 I have worked on various projects involving Machine Learning, NLP, Computer Vision, Data Visualization, CI/CD, and Cloud-based projects.
-  </p>
-</section>
+  <section id="projects" class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl">
+    <p>
+      💻 I have worked on various projects involving Machine Learning, NLP, Computer Vision, Data Visualization, CI/CD, and Cloud-based projects.
+    </p>
+  </section>
 
   <section id="certificates" class="my-12">
     <h2 class="text-3xl font-semibold dark:text-white mb-2 text-center">Certificates</h2>
@@ -72,12 +72,12 @@ layout: default
     <div class="certificates-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center justify-items-center">
       {% for certificate in site.data.certificates %}
         <a href="{{ certificate.href }}" target="_blank" class="certificate hover-motion no-underline" aria-label="View certificate for {{ certificate.title }}">
-          <div class="certificate-card p-4 rounded-lg border border-gray-200 shadow-md transition duration-300 ease-in-out hover:shadow-lg">
+          <div class="certificate-card p-4 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md transition duration-300 ease-in-out hover:shadow-lg">
             <figure>
               <img src="{{ site.baseurl }}{{ certificate.img_src }}" alt="{{ certificate.img_alt }}" loading="lazy" class="mb-4 rounded-lg object-contain">
-              <figcaption class="text-center">
-                <p class="text-lg font-semibold text-gray-900">{{ certificate.title }}</p>
-                <p class="text-sm text-gray-900 mt-2">{{ certificate.description }}</p>
+              <figcaption class="text-center text-gray-900 dark:text-gray-200">
+                <p class="text-lg font-semibold">{{ certificate.title }}</p>
+                <p class="text-sm mt-2">{{ certificate.description }}</p>
               </figcaption>
             </figure>
           </div>
@@ -85,50 +85,40 @@ layout: default
       {% endfor %}
     </div>
   </section>
-  
-  
-  
-  
-  
-    
-    
 
-  <section id="contact" class="my-12"></section>
+  <section id="contact" class="my-12">
     <h2 class="text-3xl font-semibold dark:text-white mb-6">Let's Be in Touch</h2>
+    {% include social-media.html %}
   </section>
 
-  {% include social-media.html %}
-    {% endif %}
+  {% endif %}
 </div>
 
 <script type="text/javascript">
-  (function(){
-    type();
-  })();
+  (function() {
+    // Check if the typewriter element exists before initializing
+    var typingElement = document.getElementById('typing');
+    if (!typingElement) return;
 
-  function type() {
-    var typing = document.getElementById('typing');
-    const PAUSE = 1500; // 1.5s
+    const PAUSE_DURATION = 1500; // 1.5s pause between sentences
 
-    var typewriter = new Typewriter(typing, {
+    var typewriter = new Typewriter(typingElement, {
       loop: true,
       delay: 100,
     });
 
     typewriter
       .typeString('AI/ML Engineer')
-      .pauseFor(PAUSE)
+      .pauseFor(PAUSE_DURATION)
       .deleteAll()
       .typeString('Cloud/Infrastructure Engineer')
-      .pauseFor(PAUSE)
+      .pauseFor(PAUSE_DURATION)
       .deleteAll()
       .typeString('LLM/GenAI Engineer')
-      .pauseFor(PAUSE)
+      .pauseFor(PAUSE_DURATION)
       .deleteAll()
       .start();
-  }
+  })();
 </script>
-
-
 
 {% include footer.html %}
