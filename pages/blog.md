@@ -19,7 +19,7 @@ permalink: blog
 Les manifestations qui ont débuté le 25 septembre 2025 à Madagascar offrent un cas d'étude saisissant pour l'application de la théorie des jeux à la dynamique des mouvements sociaux. Initialement déclenchées par des frustrations populaires face aux pénuries d'eau et d'électricité, elles se sont rapidement muées en un mouvement politique exigeant la démission du président en place¹. Après un pic de mobilisation impressionnant, le mouvement a connu une phase d'érosion, illustrant parfaitement le concept de **dilemme du prisonnier collectif**.
 
 Cet article se propose d'analyser cette situation en trois temps. D'abord, nous modéliserons le choix rationnel de chaque manifestant potentiel. Ensuite, nous examinerons la dynamique collective temporelle du mouvement, notamment sa phase de déclin. Enfin, nous définirons les stratégies optimales qui auraient pu être mises en œuvre pour surmonter ce dilemme et atteindre les objectifs collectifs.
-
+![Manifestation à Madagascar](./assets/img/mada.png)
 -----
 
 ### **1. Modélisation du Choix Individuel : Coopérer ou Faire Défection ?**
