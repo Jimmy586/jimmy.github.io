@@ -122,6 +122,7 @@ La stratégie la plus efficace consiste à faire basculer la situation d'un **di
 ### **Conclusion : De la rationalité individuelle à l'intelligence collective**
 
 L'analyse par la théorie des jeux met en lumière le cœur du dilemme : comment faire en sorte que des individus, agissant logiquement pour leur sécurité personnelle, convergent vers une action collective bénéfique pour tous ? La solution ne réside pas dans l'héroïsme individuel, mais dans une **stratégie collective intelligente**. En abaissant les coûts, en maximisant les bénéfices perçus et, surtout, en coordonnant les attentes pour créer un moment de bascule, les organisateurs peuvent transformer une multitude de décisions individuelles craintives en une force collective irrésistible. Il s'agit de transformer l'anarchie des comportements égoïstes en une action collective cohérente, seule capable d'atteindre l'optimum social revendiqué.
+
 ---
 
 ### **Références**
