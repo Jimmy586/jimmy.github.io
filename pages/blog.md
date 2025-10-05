@@ -21,7 +21,7 @@ Les manifestations qui ont débuté le 25 septembre 2025 à Madagascar offrent u
 Cet article se propose d'analyser cette situation en trois temps. D'abord, nous modéliserons le choix rationnel de chaque manifestant potentiel. Ensuite, nous examinerons la dynamique collective temporelle du mouvement, notamment sa phase de déclin. Enfin, nous définirons les stratégies optimales qui auraient pu être mises en œuvre pour surmonter ce dilemme et atteindre les objectifs collectifs.
 
 
-
+![Manifestation à Madagascar](./assets/img/mada.png)
 ---
 
 ### **1. Modélisation du Choix Individuel : Coopérer ou Faire Défection ?**
