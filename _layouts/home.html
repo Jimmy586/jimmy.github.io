@@ -89,7 +89,7 @@ layout: default
       <a href="{{ certificate.href }}" target="_blank" class="certificate hover-motion no-underline"
         aria-label="View certificate for {{ certificate.title }}">
         <div
-          class="certificate-card premium-card p-4 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md transition duration-300 ease-in-out hover:shadow-lg h-full">
+          class="certificate-card premium-card hover-lift-subtle p-4 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md transition duration-300 ease-in-out hover:shadow-lg h-full">
           <figure>
             <img src="{{ site.baseurl }}{{ certificate.img_src }}" alt="{{ certificate.img_alt }}" loading="lazy"
               class="mb-4 rounded-lg object-contain h-32 w-full">
@@ -131,13 +131,10 @@ layout: default
       .typeString('Chief of AI')
       .pauseFor(PAUSE_DURATION)
       .deleteAll()
-      .typeString('Technology Visionary')
+      .typeString('Tech Visionary')
       .pauseFor(PAUSE_DURATION)
       .deleteAll()
-      .typeString('AI Research Leader')
-      .pauseFor(PAUSE_DURATION)
-      .deleteAll()
-      .typeString('Cloud & ML Expert')
+      .typeString('Leader')
       .pauseFor(PAUSE_DURATION)
       .deleteAll()
       .start();
