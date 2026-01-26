@@ -35,7 +35,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Université de Rennes</h3>
-      <p class="text-gray-500 dark:text-gray-400">MSc Cloud and Network Infrastructures • Sept. 2022 - Aug. 2024 • Brittany, France</p>
+      <p class="text-gray-500 dark:text-gray-400">MSc Cloud and Network Infrastructures • 2022 • Brittany, France</p>
       <ul class="list-disc list-inside mt-4">
         <li>Specialized in smart city services, big data, distributed systems, advanced cloud infrastructure, and fog computing.</li>
         <li>Grade: Good</li>
@@ -50,7 +50,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">EIT Digital Master School</h3>
-      <p class="text-gray-500 dark:text-gray-400">International Master Student • 09/2022 - 07/2024 • Rennes, France</p>
+      <p class="text-gray-500 dark:text-gray-400">International Master Student • 2022 • Rennes, France</p>
       <ul class="list-disc list-inside mt-4">
         <li>Double Masters in Cloud Computing from Université de Rennes and Innovation & Entrepreneurship at EIT Digital.</li>
         <li>Coached by renowned European entrepreneurs.</li>
@@ -64,7 +64,7 @@ permalink: about
   </a>
   <div>
     <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">ELTE University, Informatics Faculty</h3>
-    <p class="text-gray-500 dark:text-gray-400">Summer Class, Erasmus+ (Scholarship) • Jun. 2023 - July 2023 • Budapest, Hungary</p>
+    <p class="text-gray-500 dark:text-gray-400">Summer Class, Erasmus+ (Scholarship) • 2023 • Budapest, Hungary</p>
     <ul class="list-disc list-inside mt-4">
       <li>Showcased V2V Grids project and delivered an engaging pitch.</li>
       <li>Grade: Excellent</li>
@@ -80,7 +80,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Cairo University</h3>
-      <p class="text-gray-500 dark:text-gray-400">BSc Computer Science & AI(Scholarship) • Sept. 2016 - Aug. 2020• Cairo, Egypt</p>
+      <p class="text-gray-500 dark:text-gray-400">BSc Computer Science & AI(Scholarship) • 2020 • Cairo, Egypt</p>
       <ul class="list-disc list-inside mt-4">
         <li>Secured a mixed Egyptian and Malagasy Government Scholarship for outstanding grades.</li>
         <li>Grade: Very Good</li>
@@ -96,7 +96,7 @@ permalink: about
     </a>
     <div>
       <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Ecole Superieur de Polytechnique Madagascar</h3>
-      <p class="text-gray-500 dark:text-gray-400">Junior Engineering School, Telecommunications • 2015 - 2016 • Antsiranana , Madagascar</p>
+      <p class="text-gray-500 dark:text-gray-400">Junior Engineering School, Telecommunications • 2015 • Antsiranana , Madagascar</p>
     </div>
   </div>
 

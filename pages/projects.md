@@ -111,10 +111,10 @@ permalink: projects
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
   <!-- ESSEC Business School Experience (New) -->
-  <div class="experience-section premium-card p-6 mb-6" data-tech="python data ai teaching">
+  <div class="experience-section premium-card p-6 mb-6" data-tech="Python Data AI Teaching">
     <div class="flex items-start">
       <a href="https://www.essec.edu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/icons/essec.png" alt="ESSEC Logo" class="icon w-12 h-12 mr-4">
+        <img src="{{ site.baseurl }}/assets/img/icons/metalab.jpg" alt="ESSEC Logo" class="icon w-12 h-12 mr-4">
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">External Professor</h3>
@@ -142,7 +142,7 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Head of AI Projects</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">ESSEC Metalab • Dec. 2024 - Present • Cergy, France</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">ESSEC Metalab • 2024 - Present • Cergy, France</p>
       </div>
     </div>
 
@@ -200,7 +200,7 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Chief Technical Officer</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">AZ+ • Jan. 2024 - Present</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">AZ+ • 2024 - Present</p>
       </div>
     </div>
 
@@ -260,7 +260,7 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Machine Learning Engineer</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">SERMA Safety & Security • Feb. 2024 - Aug. 2024 • Rennes, France</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">SERMA Safety & Security • 2024 • Rennes, France</p>
       </div>
     </div>
 
@@ -322,7 +322,7 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Data Scientist</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">IMT Atlantique • May 2023 - Sep. 2023 • Rennes, France</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">IMT Atlantique • 2023 • Rennes, France</p>
       </div>
     </div>
 
@@ -373,7 +373,7 @@ permalink: projects
       </a>
       <div>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Junior Data Analyst</h3>
-        <p class="text-gray-500 dark:text-slate-400 text-center">Videotron • Sep. 2020 - Jun. 2022 • Cairo, Egypt</p>
+        <p class="text-gray-500 dark:text-slate-400 text-center">Videotron • 2020 2022 • Cairo, Egypt</p>
       </div>
     </div>
 
