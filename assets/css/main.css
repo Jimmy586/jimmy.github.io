@@ -2,20 +2,118 @@
 @tailwind utilities;
 @tailwind components;
 
-.blog-heading {
-    color: #333; /* Default color */
+/* ============================================
+   EXECUTIVE AI LEADER - DESIGN SYSTEM (ADDITIVE)
+   ============================================ */
+
+:root {
+    /* Executive Color Palette */
+    --color-primary: #1e3a5f;
+    /* Deep Navy */
+    --color-primary-light: #2d5a87;
+    --color-accent: #c9a227;
+    /* Gold */
+    --color-accent-light: #e8c547;
+
+    /* Glassmorphism */
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.5);
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+
+    /* Premium Shadows */
+    --shadow-premium: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+    --shadow-glow: 0 0 15px rgba(201, 162, 39, 0.3);
 }
 
-@media (prefers-color-scheme: dark) {
-    .blog-heading {
-        color: #ccc; /* Color for dark mode */
-    }
+.dark {
+    --glass-bg: rgba(15, 23, 42, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.1);
 }
+
+/* ============================================
+   PREMIUM UTILITIES (Surface-Level Only)
+   ============================================ */
 
 @layer components {
 
+    /* Glass Panel - Fits inside existing containers */
+    .glass-panel {
+        background: var(--glass-bg);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid var(--glass-border);
+        box-shadow: var(--glass-shadow);
+        transition: all 0.3s ease;
+    }
+
+    /* Premium Card - Elevation without size change */
+    .premium-card {
+        background: white;
+        border: 1px solid transparent;
+        box-shadow: var(--shadow-premium);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .dark .premium-card {
+        background: #1e293b;
+        /* Slate-800 */
+        border-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .premium-card:hover {
+        transform: translateY(-2px);
+        /* Micro-lift */
+        box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.2);
+        border-color: rgba(201, 162, 39, 0.3);
+        /* Gold border hint */
+    }
+
+    /* Gradient Text */
+    .text-gradient {
+        background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .dark .text-gradient {
+        background: linear-gradient(135deg, #fff 0%, #e2e8f0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    /* Gold Accent Text */
+    .text-gold {
+        color: var(--color-accent);
+    }
+
+    /* Avatar Glow */
+    .glow-border {
+        box-shadow: 0 0 0 4px white, 0 0 20px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .dark .glow-border {
+        box-shadow: 0 0 0 4px #1e293b, 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .glow-border:hover {
+        box-shadow: 0 0 0 4px var(--color-accent), 0 0 30px var(--color-accent);
+    }
+
+    /* EXISTING STYLES PRESERVED BELOW */
+
     a {
         @apply text-stone-600 dark:text-stone-100 dark:hover:text-stone-100;
+        transition: color 0.2s ease;
+    }
+
+    a:hover {
+        color: var(--color-accent);
+        /* Updated hover to Gold */
     }
 
     .badge {
@@ -37,12 +135,13 @@
         @apply hover:bg-green-600 hover:text-white transition-colors duration-300;
     }
 
-    #menu ~ #menu-dropdown {
+    #menu~#menu-dropdown {
         @apply transform;
         @apply ease-in duration-75 opacity-0 scale-0;
     }
 
-    #menu ~ #menu-dropdown:focus-within, #menu:focus ~ #menu-dropdown {
+    #menu~#menu-dropdown:focus-within,
+    #menu:focus~#menu-dropdown {
         @apply ease-out duration-100 opacity-100 scale-100;
     }
 
@@ -52,9 +151,22 @@
 
     strong {
         @apply dark:text-slate-200;
+        color: var(--color-primary);
+        /* Updated strong to Navy */
     }
 
     strong.dark {
         @apply !text-slate-200;
+    }
+}
+
+.blog-heading {
+    color: var(--color-primary);
+    /* Updated to Navy */
+}
+
+@media (prefers-color-scheme: dark) {
+    .blog-heading {
+        color: #ccc;
     }
 }
