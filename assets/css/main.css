@@ -3,154 +3,214 @@
 @tailwind components;
 
 /* ============================================
-   2026 CHIEF OF AI - OBSIDIAN & AURORA SYSTEM
+   EXECUTIVE AI LEADER - DESIGN SYSTEM (ADDITIVE)
    ============================================ */
 
 :root {
-    /* Obsidian Base - Deepest Space Black/Blue */
-    --bg-obsidian: #020617;
-    /* Slate 950+ */
-    --bg-deep: #0f172a;
-    /* Slate 900 */
-    --bg-card: rgba(30, 41, 59, 0.4);
-    /* Slate 800 with alpha */
+    /* Executive Color Palette */
+    --color-primary: #1e3a5f;
+    /* Deep Navy */
+    --color-primary-light: #2d5a87;
+    --color-accent: #c9a227;
+    /* Gold */
+    --color-accent-light: #e8c547;
 
-    /* Aurora Accents - Neon & Glow */
-    --color-aurora-1: #6366f1;
-    /* Electric Indigo */
-    --color-aurora-2: #06b6d4;
-    /* Cyan Glow */
-    --color-aurora-3: #10b981;
-    /* Emerald Light */
-    --color-gold-2026: #fbbf24;
-    /* Starlight Gold */
+    /* Glassmorphism */
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 
-    /* Glass V2 - Ultra Thin, High Blur */
-    --glass-border-thin: rgba(255, 255, 255, 0.08);
-    --glass-surface: rgba(15, 23, 42, 0.6);
-
-    /* Text */
-    --text-primary: #f8fafc;
-    /* Slate 50 */
-    --text-secondary: #94a3b8;
-    /* Slate 400 */
+    /* Premium Shadows */
+    --shadow-premium: 0 20px 40px -5px rgba(0, 0, 0, 0.1);
+    --shadow-glow: 0 0 15px rgba(201, 162, 39, 0.3);
 }
 
-/* Force Dark Mode Default for 2026 Vibe */
-body {
-    background-color: var(--bg-obsidian);
-    color: var(--text-primary);
-    font-family: 'Inter', sans-serif;
-    /* Ensure clean sans */
+.dark {
+    --glass-bg: rgba(15, 23, 42, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.1);
 }
+
+/* ============================================
+   PREMIUM UTILITIES (Surface-Level Only)
+   ============================================ */
 
 @layer components {
 
-    /* --- BENTO GRID LAYOUT --- */
-    .bento-grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 1.5rem;
-        padding: 1rem;
+    /* Glass Panel - Fits inside existing containers */
+    .glass-panel {
+        background: var(--glass-bg);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid var(--glass-border);
+        box-shadow: var(--glass-shadow), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
     }
 
-    .bento-item {
-        @apply relative overflow-hidden rounded-3xl border;
-        background: var(--bg-card);
-        border-color: var(--glass-border-thin);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    .glass-panel::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, var(--color-accent), transparent);
+        opacity: 0.5;
     }
 
-    .bento-item:hover {
-        border-color: rgba(99, 102, 241, 0.3);
-        /* Indigo hint */
-        box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.15);
-        transform: translateY(-4px) scale(1.005);
-        z-index: 10;
+    /* Premium Card - Elevation without size change */
+    .premium-card {
+        background: white;
+        border: 1px solid rgba(226, 232, 240, 0.8);
+        box-shadow: var(--shadow-premium);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
     }
 
-    /* --- TYPOGRAPHY 2026 --- */
-    .text-display {
-        font-size: clamp(3rem, 8vw, 6rem);
-        line-height: 1;
-        letter-spacing: -0.04em;
-        font-weight: 800;
+    .dark .premium-card {
+        background: #1e293b;
+        /* Slate-800 */
+        border-color: rgba(255, 255, 255, 0.05);
     }
 
-    .text-gradient-aurora {
-        background: linear-gradient(135deg, #fff 0%, #cbd5e1 50%, #94a3b8 100%);
+    .premium-card:hover {
+        transform: translateY(-3px);
+        /* Micro-lift */
+        box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.15), 0 0 20px rgba(201, 162, 39, 0.1);
+        border-color: rgba(201, 162, 39, 0.4);
+        /* Gold border hint */
+    }
+
+    /* Gradient Text */
+    .text-gradient {
+        background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
     }
 
-    .text-gradient-gold {
-        background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+    .dark .text-gradient {
+        background: linear-gradient(135deg, #f8fafc 0%, #94a3b8 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
     }
 
-    .text-gradient-cyan {
-        background: linear-gradient(135deg, #22d3ee 0%, #0ea5e9 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+    /* Gold Accent Text */
+    .text-gold {
+        color: var(--color-accent);
     }
 
-    /* --- ANIMATED BACKGROUNDS --- */
-    .bg-spotlight {
-        background: radial-gradient(circle at 50% 0%,
-                rgba(99, 102, 241, 0.15) 0%,
-                transparent 60%);
+    /* Avatar Glow */
+    .glow-border {
+        position: relative;
+        box-shadow: 0 0 0 4px white, 0 10px 30px rgba(0, 0, 0, 0.15);
+        transition: all 0.5s ease;
     }
 
-    /* --- UTILITIES --- */
-    .icon-glow {
-        filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
+    .dark .glow-border {
+        box-shadow: 0 0 0 4px #1e293b, 0 10px 30px rgba(0, 0, 0, 0.5);
     }
 
-    .tech-pill {
-        @apply px-3 py-1 rounded-full text-xs font-mono border transition-all duration-300;
-        background: rgba(255, 255, 255, 0.03);
-        border-color: rgba(255, 255, 255, 0.1);
-        color: var(--text-secondary);
+    .glow-border:hover {
+        box-shadow: 0 0 0 4px var(--color-accent), 0 0 50px rgba(201, 162, 39, 0.4);
+        transform: scale(1.02);
     }
 
-    .tech-pill:hover {
-        background: rgba(255, 255, 255, 0.1);
-        border-color: var(--color-aurora-2);
-        color: white;
+    /* Hover Lift Subtle */
+    .hover-lift-subtle {
+        transition: transform 0.3s ease;
     }
 
-    /* Hide scrollbar for clean look */
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
+    .hover-lift-subtle:hover {
+        transform: translateY(-2px);
     }
 
-    .no-scrollbar {
-        -ms-overflow-style: none;
-        /* IE and Edge */
-        scrollbar-width: none;
-        /* Firefox */
+    /* Hero Decoration - Absolute positioning to avoid layout shift */
+    .hero-glow-container {
+        position: relative;
+        z-index: 0;
     }
 
-    /* Additions for existing elements used in logic */
+    .hero-glow-container::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120%;
+        height: 120%;
+        background: radial-gradient(circle, rgba(201, 162, 39, 0.08) 0%, transparent 70%);
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    /* EXISTING STYLES PRESERVED BELOW */
+
     a {
-        @apply transition-colors duration-300;
-        color: var(--text-secondary);
+        @apply text-stone-600 dark:text-stone-100 dark:hover:text-stone-100;
+        transition: color 0.2s ease;
     }
 
     a:hover {
-        color: var(--color-aurora-2);
+        color: var(--color-accent);
+        /* Updated hover to Gold */
     }
 
-    /* Responsive overrides */
-    @media (max-width: 768px) {
-        .bento-grid {
-            grid-template-columns: 1fr;
-        }
+    .badge {
+        @apply bg-black text-white rounded px-3 py-2 mt-2;
+    }
+
+    .mobile-menu-item {
+        @apply block text-sm text-gray-500 hover:text-gray-900 px-4 py-2 lg:py-1 mx-auto uppercase;
+        @apply dark:text-slate-200 dark:hover:text-white;
+    }
+
+    .menu-item {
+        @apply text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase;
+        @apply dark:text-slate-200 dark:hover:text-white;
+    }
+
+    .dark-social-btn {
+        @apply dark:bg-slate-600 dark:text-white dark:shadow-slate-600 dark:shadow-sm;
+        @apply hover:bg-green-600 hover:text-white transition-colors duration-300;
+    }
+
+    #menu~#menu-dropdown {
+        @apply transform;
+        @apply ease-in duration-75 opacity-0 scale-0;
+    }
+
+    #menu~#menu-dropdown:focus-within,
+    #menu:focus~#menu-dropdown {
+        @apply ease-out duration-100 opacity-100 scale-100;
+    }
+
+    .dark .dark\:block {
+        display: block !important;
+    }
+
+    strong {
+        @apply dark:text-slate-200;
+        color: var(--color-primary);
+        /* Updated strong to Navy */
+    }
+
+    strong.dark {
+        @apply !text-slate-200;
+    }
+}
+
+.blog-heading {
+    color: var(--color-primary);
+    /* Updated to Navy */
+}
+
+@media (prefers-color-scheme: dark) {
+    .blog-heading {
+        color: #ccc;
     }
 }

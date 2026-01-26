@@ -2,158 +2,149 @@
 layout: default
 ---
 
-<!-- Cinematic Hero Background -->
-<div class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-spotlight pt-20">
+{% if site.show-nav-menu %}
+{% include nav.html %}
+{% endif %}
 
-  <!-- Massive Typography Hero -->
-  <div class="z-10 text-center px-4 mb-16 animate-fade-in-up">
-    <div class="inline-block px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md mb-6">
-      <span class="text-xs font-mono text-cyan-400">AVAILABLE FOR LEADERSHIP ROLES</span>
-    </div>
-    <h1 class="text-display text-gradient-aurora tracking-tight mb-6">
-      CHIEF OF AI
-    </h1>
-    <p class="text-xl md:text-2xl text-slate-400 font-light max-w-2xl mx-auto leading-relaxed">
-      Architecting the future of intelligence at <span class="text-white font-medium">ESSEC Metalab</span>.
-      <br class="hidden md:block" />
-      Building scalable super-apps at <span class="text-white font-medium">AZ+</span>.
-    </p>
+<div class="container mx-auto text-center prose prose-{{ site.theme-color }} my-8">
+
+  <div class="flex flex-col items-center hero-glow-container">
+    <img class="object-cover h-48 w-48 mt-8 rounded-full shadow-lg glow-border"
+      src="{{ site.baseurl }}/assets/img/{{ site.author-image }}" alt="author profile image">
+    <h1 class="dark:text-white mt-4 text-gradient font-bold drop-shadow-sm">{{ site.author }}</h1>
   </div>
 
-  <!-- Bento Grid Main Content -->
-  <div class="container mx-auto px-4 z-10 w-full max-w-7xl pb-20">
-    <div class="bento-grid">
 
-      <!-- Card 1: Professional Vision (Large) -->
-      <div class="bento-item col-span-12 md:col-span-8 p-8 md:p-10 flex flex-col justify-between min-h-[300px]">
-        <div>
-          <h3 class="text-sm font-mono text-indigo-400 mb-4">PROFESSIONAL VISION</h3>
-          <p class="text-2xl md:text-3xl font-light text-slate-200 leading-snug">
-            "My goal is to be a key player in <span class="text-gradient-gold font-normal">technological
-              transformation</span>.
-            By age 35, I dedicate 100% of my resources to sustainable, high-impact AI solutions for the greater good."
-          </p>
-        </div>
-        <div class="mt-8 flex gap-4">
-          <a href="{{ site.baseurl }}/about"
-            class="px-6 py-3 rounded-full bg-white text-black font-semibold hover:bg-cyan-50 transition-colors">
-            Read My Story
-          </a>
-          <a href="#contact" class="px-6 py-3 rounded-full border border-white/20 hover:bg-white/10 transition-colors">
-            Contact Me
-          </a>
-        </div>
-        <!-- Abstract Decoration -->
-        <div
-          class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none">
-        </div>
-      </div>
+  {% if site.author-bio %}
 
-      <!-- Card 2: Current Role - ESSEC (Medium) -->
-      <div class="bento-item col-span-12 md:col-span-4 p-8 flex flex-col justify-center items-center text-center group">
-        <div
-          class="w-20 h-20 rounded-2xl bg-white/5 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-          <!-- Placeholder Icon for Metalab -->
-          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-              d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
-            </path>
-          </svg>
-        </div>
-        <h2 class="text-2xl font-bold text-white mb-2">Head of AI Projects</h2>
-        <p class="text-sm font-mono text-slate-400 mb-4">ESSEC METALAB</p>
-        <p class="text-sm text-slate-400 leading-relaxed">
-          Leading research initiatives and guiding 3 dimensions: Students, Professors, Industries.
-        </p>
-      </div>
+  <p class="font-mono font-semibold text-lg xl:text-2xl lg:py-3 dark:text-white mx-5 md:mx-auto">
+    <span id="typing"></span>
+  </p>
 
-      <!-- Card 3: Startup - AZ+ (Medium) -->
-      <div class="bento-item col-span-12 md:col-span-4 p-8 relative">
-        <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/20 to-transparent"></div>
-        <h3 class="text-sm font-mono text-cyan-400 mb-2 relative z-10">FOUNDER & CTO</h3>
-        <h2 class="text-3xl font-bold text-white mb-4 relative z-10">AZ+ SuperApp</h2>
-        <p class="text-slate-300 text-sm mb-6 relative z-10">
-          Designed and deployed Madagascar's premier super-app. Leading technical staff and architecture.
-        </p>
-        <div class="flex gap-2 relative z-10">
-          <span class="tech-pill">Android</span>
-          <span class="tech-pill">iOS</span>
-          <span class="tech-pill">Cloud</span>
-        </div>
-      </div>
-
-      <!-- Card 4: Tech Stack (Wide Strip) -->
-      <div class="bento-item col-span-12 p-6 flex flex-col md:flex-row items-center gap-6 overflow-hidden">
-        <span class="text-xs font-mono text-slate-500 whitespace-nowrap">CORE TECHNOLOGIES</span>
-        <div class="h-8 w-px bg-white/10 hidden md:block"></div>
-        <div class="flex flex-wrap justify-center gap-3">
-          <span class="tech-pill">Python</span>
-          <span class="tech-pill">TensorFlow</span>
-          <span class="tech-pill">PyTorch</span>
-          <span class="tech-pill">LLMs</span>
-          <span class="tech-pill">RAG</span>
-          <span class="tech-pill">DevOps</span>
-          <span class="tech-pill">Kubernetes</span>
-          <span class="tech-pill">GCP</span>
-          <span class="tech-pill">AWS</span>
-        </div>
-      </div>
-
-      <!-- Card 5: Certificates Showcase (Scrollable) -->
-      <div class="bento-item col-span-12 md:col-span-8 p-8">
-        <div class="flex justify-between items-end mb-6">
-          <div>
-            <h3 class="text-lg font-bold text-white">Certifications</h3>
-            <p class="text-sm text-slate-400">Verified expertise in Cloud & AI</p>
-          </div>
-          <a href="#" class="text-xs font-mono text-cyan-400 hover:text-cyan-300">VIEW ALL &rarr;</a>
-        </div>
-
-        <div class="flex gap-4 overflow-x-auto no-scrollbar pb-2">
-          {% for certificate in site.data.certificates limit:3 %}
-          <a href="{{ certificate.href }}" target="_blank" class="block min-w-[200px] group">
-            <div
-              class="aspect-video rounded-lg overflow-hidden border border-white/5 mb-3 group-hover:scale-105 transition-transform duration-300">
-              <img src="{{ site.baseurl }}{{ certificate.img_src }}" alt="{{ certificate.img_alt }}"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
-            </div>
-            <p class="text-xs font-semibold text-white truncate">{{ certificate.title }}</p>
-          </a>
-          {% endfor %}
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Footer / Contact Integration -->
-  <footer id="contact" class="container mx-auto px-4 pb-12 text-center z-10">
-    <h2 class="text-2xl font-bold text-white mb-8">Ready to Collaborate?</h2>
-    <div class="flex justify-center mb-12">
-      {% include social-media.html %}
-    </div>
-    <p class="text-xs font-mono text-slate-600">
-      DESIGNED FOR 2026 • JIMMY MANANJARA • CHIEF OF AI
+  <section id="current-roles" class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl">
+    <p class="mb-4">
+      I am currently the <strong class="text-gold">Head of AI Projects</strong> at <a href="https://metalab.essec.edu/"
+        class="font-semibold text-gradient hover:text-gold transition-colors">ESSEC
+        Metalab</a>,
+      where I lead all AI and research-related projects. In this role, I oversee the development and implementation of
+      cutting-edge AI solutions, manage research initiatives, and guide the project in regards of 3 dimensions : ESSEC
+      students, professors and industries.
     </p>
-  </footer>
+    <p class="mb-4">
+      I also co-founded a startup based in Madagascar called AZ+ and occupy the role of <strong
+        class="text-gold">CTO</strong>, it is a
+      SuperApp I designed and
+      helped deploy, and I lead the technical staff. <a href="https://www.azplus.mg/"
+        class="font-semibold text-gradient hover:text-gold transition-colors">AZ+ Madagascar</a> is available on
+      Android and iOS.
+    </p>
+    <p>
+      Previously, I worked as a <strong class="text-gold">Machine Learning Engineer Intern</strong> at
+      <a href="https://www.serma-safety-security.com/en/"
+        class="font-semibold text-gradient hover:text-gold transition-colors">SERMA SAFETY AND SECURITY</a>.
+    </p>
+  </section>
 
+  <section id="professional-summary"
+    class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl">
+    <div class="glass-panel p-6 rounded-xl hover-lift-subtle transition-all duration-300">
+      <p>
+        I have acquired a solid understanding and hands-on experience in <strong class="text-gold">Cloud
+          computing</strong> and
+        <strong class="text-gold">Machine Learning</strong> throughout my academic and professional journey. I love
+        crafting
+        technological solutions in my spare time to challenge myself.
+        I hold an <strong class="text-primary-light dark:text-white">MSc in Computer Science with a focus on Cloud
+          Computing</strong>
+        from <strong><a href="https://istic.univ-rennes.fr/" class="text-gradient hover:text-gold">Rennes University,
+            France</a></strong>, complemented by a <strong class="text-primary-light dark:text-white">BSc in AI</strong>
+        from <strong><a href="https://fcai.cu.edu.eg/" class="text-gradient hover:text-gold">Cairo University,
+            Egypt</a></strong>.
+      </p>
+    </div>
+  </section>
+
+  <section id="career-goals"
+    class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl text-center">
+    <p class="italic text-lg mb-4">
+      "My goal is to be a key player in technology's transformation and, by age 35, dedicate 100% of
+      my resources to sustainable solutions for the greater good."
+    </p>
+    <p class="mb-2">
+      Read <a href="{{ site.baseurl }}/about" class="text-gold font-bold hover:underline">more about me</a>.
+    </p>
+    <p class="text-sm text-gray-400">
+      <strong>Last update:</strong> September 2025
+    </p>
+  </section>
+
+  <section id="projects"
+    class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl text-center">
+    <p class="glass-panel inline-block px-6 py-2 rounded-full">
+      💻 I have worked on various projects involving <span class="text-gold">Machine Learning, NLP, Computer
+        Vision</span>, Data Visualization, CI/CD, and Cloud-based projects.
+    </p>
+  </section>
+
+  <section id="certificates" class="my-12">
+    <h2 class="text-3xl font-semibold dark:text-white mb-2 text-center text-gradient">Certificates</h2>
+    <p class="text-lg dark:text-white mb-6 text-center text-gray-500">(GCP Professional ML Engineer Certificate On the
+      way 🚀)</p>
+
+    <div
+      class="certificates-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center justify-items-center">
+      {% for certificate in site.data.certificates %}
+      <a href="{{ certificate.href }}" target="_blank" class="certificate hover-motion no-underline"
+        aria-label="View certificate for {{ certificate.title }}">
+        <div
+          class="certificate-card premium-card hover-lift-subtle p-4 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md transition duration-300 ease-in-out hover:shadow-lg h-full">
+          <figure>
+            <img src="{{ site.baseurl }}{{ certificate.img_src }}" alt="{{ certificate.img_alt }}" loading="lazy"
+              class="mb-4 rounded-lg object-contain h-32 w-full">
+            <figcaption class="text-center text-gray-900 dark:text-gray-200">
+              <p class="text-lg font-semibold text-gradient">{{ certificate.title }}</p>
+              <p class="text-sm mt-2 font-medium text-gray-500">{{ certificate.description }}</p>
+            </figcaption>
+          </figure>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="contact" class="my-12">
+    <h2 class="text-3xl font-semibold dark:text-white mb-6 text-center text-gradient">Let's Be in Touch</h2>
+    {% include social-media.html %}
+  </section>
+
+  {% endif %}
 </div>
 
-<style>
-  /* Custom Animation for Hero */
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
+<script type="text/javascript">
+  (function () {
+    // Check if the typewriter element exists before initializing
+    var typingElement = document.getElementById('typing');
+    if (!typingElement) return;
 
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+    const PAUSE_DURATION = 1500; // 1.5s pause between sentences
 
-  .animate-fade-in-up {
-    animation: fadeInUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-  }
-</style>
+    var typewriter = new Typewriter(typingElement, {
+      loop: true,
+      delay: 100,
+    });
+
+    typewriter
+      .typeString('Chief of AI')
+      .pauseFor(PAUSE_DURATION)
+      .deleteAll()
+      .typeString('Tech Visionary')
+      .pauseFor(PAUSE_DURATION)
+      .deleteAll()
+      .typeString('Entrepreneur')
+      .pauseFor(PAUSE_DURATION)
+      .deleteAll()
+      .start();
+  })();
+</script>
+
+{% include footer.html %}
