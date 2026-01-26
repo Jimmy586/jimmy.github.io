@@ -57,7 +57,8 @@ layout: default
         I hold an <strong class="text-primary-light dark:text-white">MSc in Computer Science with a focus on Cloud
           Computing</strong>
         from <strong><a href="https://istic.univ-rennes.fr/" class="text-gradient hover:text-gold">Rennes University,
-            France</a></strong>, complemented by a <strong class="text-primary-light dark:text-white">BSc in AI</strong>
+            France</a></strong>, complemented by a <strong class="text-primary-light dark:text-white">MSc in Computer
+          Science with a focus on AI</strong>
         from <strong><a href="https://fcai.cu.edu.eg/" class="text-gradient hover:text-gold">Cairo University,
             Egypt</a></strong>.
       </p>
@@ -74,13 +75,13 @@ layout: default
       Read <a href="{{ site.baseurl }}/about" class="text-gold font-bold hover:underline">more about me</a>.
     </p>
     <p class="text-sm text-gray-400">
-      <strong>Last update:</strong> September 2025
+      <strong>Last update:</strong> January 2026
     </p>
   </section>
 
   <section id="projects"
     class="my-6 text-gray-500 dark:text-stone-100 mx-5 md:mx-auto lg:text-md xl:text-xl text-center">
-    <p class="glass-panel inline-block px-6 py-2 rounded-full">
+    <p class="glass-panel inline-block px-6 py-2">
       💻 I have worked on various projects involving <span class="text-gold">Machine Learning, NLP, Computer
         Vision</span>, Data Visualization, CI/CD, and Cloud-based projects.
     </p>
@@ -96,17 +97,14 @@ layout: default
       {% for certificate in site.data.certificates %}
       <a href="{{ certificate.href }}" target="_blank" class="certificate hover-motion no-underline"
         aria-label="View certificate for {{ certificate.title }}">
-        <div
-          class="certificate-card premium-card hover-lift-subtle p-4 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md transition duration-300 ease-in-out hover:shadow-lg h-full">
-          <figure>
-            <img src="{{ site.baseurl }}{{ certificate.img_src }}" alt="{{ certificate.img_alt }}" loading="lazy"
-              class="mb-4 rounded-lg object-contain h-32 w-full">
-            <figcaption class="text-center text-gray-900 dark:text-gray-200">
-              <p class="text-lg font-semibold text-gradient">{{ certificate.title }}</p>
-              <p class="text-sm mt-2 font-medium text-gray-500">{{ certificate.description }}</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure>
+          <img src="{{ site.baseurl }}{{ certificate.img_src }}" alt="{{ certificate.img_alt }}" loading="lazy"
+            class="mb-4 rounded-lg object-contain h-32 w-full">
+          <figcaption class="text-center text-gray-900 dark:text-gray-200">
+            <p class="text-lg font-semibold text-gradient">{{ certificate.title }}</p>
+            <p class="text-sm mt-2 font-medium text-gray-500">{{ certificate.description }}</p>
+          </figcaption>
+        </figure>
       </a>
       {% endfor %}
     </div>
