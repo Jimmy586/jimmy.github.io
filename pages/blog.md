@@ -6,6 +6,8 @@ permalink: blog
 
 ---
 
+<div class="glass-panel p-8 rounded-xl hover-lift-subtle transition-all duration-300">
+
 ### **Le Dilemme du Manifestant : Une Analyse Stratégique des Manifestations à Madagascar par la Théorie des Jeux**
 
 *Date: 5 octobre 2025*
@@ -130,3 +132,5 @@ L'analyse par la théorie des jeux met en lumière le cœur du dilemme : comment
 4.  Wikipedia. "2025 Malagasy protests", consulté le 5 oct. 2025.
 5.  Olson, Mancur. *The Logic of Collective Action*. Harvard University Press, 1965.
 6.  Stanford Encyclopedia of Philosophy. "The Free Rider Problem", consulté le 5 oct. 2025.
+
+</div>
