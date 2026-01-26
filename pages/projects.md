@@ -110,8 +110,32 @@ permalink: projects
 <section id="experience" class="my-8">
   <div class="timeline-line"></div> <!-- Blue timeline line -->
 
+  <!-- ESSEC Business School Experience (New) -->
+  <div class="experience-section premium-card p-6 mb-6" data-tech="python data ai teaching">
+    <div class="flex items-start">
+      <a href="https://www.essec.edu/" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/essec.png" alt="ESSEC Logo" class="icon w-12 h-12 mr-4">
+      </a>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">External Professor</h3>
+        <p class="text-gray-500 dark:text-slate-400 text-center">ESSEC Business School • 2025 - Present • Paris, France</p>
+      </div>
+    </div>
+    <ul class="task-list mt-4">
+      <li class="task-item">
+        <strong class="task-title">Lecturer</strong>:
+        <ul class="task-details text-gray-500 dark:text-slate-400">
+          <li>Teaching Python, Data Analysis, and AI courses for International BBA students (BBA1 & BBA2).</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="tech-icons flex justify-center space-x-4 mt-6">
+      <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" class="icon w-10 h-10 hover-motion">
+    </div>
+  </div>
+
   <!-- ESSEC Metalab Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="ai ml research llm devops python">
+  <div class="experience-section premium-card p-6 mb-6" data-tech="ai ml research llm devops python finance">
     <div class="flex items-start">
       <a href="https://metalab.essec.edu/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/metalab.jpg" alt="ESSEC Metalab Logo" class="icon w-12 h-12 mr-4">
@@ -125,9 +149,10 @@ permalink: projects
     <ul class="task-list mt-4">
       <!-- AI Projects Leadership -->
       <li class="task-item">
-        <strong class="task-title">AI Projects Leadership</strong>:
+        <strong class="task-title">AI Projects Leadership (LLM & Finance)</strong>:
         <ul class="task-details text-gray-500 dark:text-slate-400">
-          <li>Leading all AI and research-related projects, overseeing development and implementation of cutting-edge AI solutions.</li>
+          <li>Leading a team of PhD students on the development and deployment of LLM models applied to Finance.</li>
+          <li>Overseeing development and implementation of cutting-edge AI solutions.</li>
         </ul>
       </li>
 
@@ -168,7 +193,7 @@ permalink: projects
   </div> <!-- Properly closed the div -->
 
 <!-- AZ+ Madagascar Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="gcp aws devops kubernetes microservices">
+  <div class="experience-section premium-card p-6 mb-6" data-tech="gcp aws devops kubernetes microservices ai-agents">
     <div class="flex items-start">
       <a href="https://www.azplus.mg/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/azplus.png" alt="AZ+ Madagascar Logo" class="icon w-12 h-12 mr-4">
@@ -185,7 +210,7 @@ permalink: projects
         <strong class="task-title">AZ+: SuperApp Architect and Management</strong>
         <span class="task-tech text-gray-500 dark:text-slate-400">(Microservices)</span>:
         <ul class="task-details text-gray-500 dark:text-slate-400">
-          <li>Led a team of 13 in the design and deployment of the SuperApp AZ+ for Madagascar, offering services such as e-commerce, food delivery, and ride-hailing under one platform.</li>
+          <li>Led a team of 13 in the design and deployment of the SuperApp AZ+, including AI Agent integration for recommendation systems.</li>
         </ul>
       </li>
 
@@ -228,7 +253,7 @@ permalink: projects
 
 
   <!-- SERMA Safety & Security Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="yolo opencv llm ocr python kubernetes fuzzymatching rag devops">
+  <div class="experience-section premium-card p-6 mb-6" data-tech="yolo opencv llm ocr python kubernetes fuzzymatching rag devops">
     <div class="flex items-start">
       <a href="https://www.serma-safety-security.com/en/" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/serma.png" alt="SERMA Safety and Security Logo" class="icon w-12 h-12 mr-4">
@@ -290,7 +315,7 @@ permalink: projects
   </div>
 
   <!-- IMT Atlantique Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="etl powerbi pandas python datavisualization">
+  <div class="experience-section premium-card p-6 mb-6" data-tech="etl powerbi pandas python datavisualization">
     <div class="flex items-start">
       <a href="https://www.imt-atlantique.fr/en" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/imt.png" alt="IMT Atlantique Logo" class="icon w-12 h-12 mr-4">
@@ -341,7 +366,7 @@ permalink: projects
 
   
   <!-- Videotron Experience -->
-  <div class="experience-section bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8" data-tech="sql powerbi excel datavisualization">
+  <div class="experience-section premium-card p-6 mb-6" data-tech="sql powerbi excel datavisualization">
     <div class="flex items-start">
       <a href="https://www.videotron.com/en" target="_blank">
         <img src="{{ site.baseurl }}/assets/img/icons/videotron.png" alt="Videotron Logo" class="icon w-12 h-12 mr-4">
