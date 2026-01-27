@@ -6,7 +6,7 @@ permalink: blog
 
 ---
 
-<div class="glass-panel p-8 rounded-xl hover-lift-subtle transition-all duration-300">
+<div class="glass-panel p-8 rounded-xl hover-lift-subtle transition-all duration-300" markdown="1">
 
 ### **Le Dilemme du Manifestant : Une Analyse Stratégique des Manifestations à Madagascar par la Théorie des Jeux**
 
