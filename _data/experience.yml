@@ -1,0 +1,179 @@
+- company: ESSEC Business School
+  url: https://www.essec.edu/
+  logo: metalab.jpg
+  role: External Professor
+  date: 2025 - Present
+  location: Paris, France
+  tasks:
+    - title: Lecturer
+      details:
+        - Teaching Python, Data Analysis, and AI courses for International BBA students (BBA1 & BBA2).
+  tech_stack: Python Data AI Teaching
+  icons:
+    - name: Python
+      file: python.png
+  tag: teaching
+
+- company: ESSEC Metalab
+  url: https://metalab.essec.edu/
+  logo: metalab.jpg
+  role: Head of AI Projects
+  date: 2024 - Present
+  location: Cergy, France
+  tasks:
+    - title: AI Projects Leadership (LLM & Finance)
+      details:
+        - Leading a team of PhD students on the development and deployment of LLM models applied to Finance.
+        - Overseeing development and implementation of cutting-edge AI solutions.
+    - title: Team Management
+      details:
+        - Managing a team of professionals to drive innovation within the lab, fostering collaboration and technical excellence.
+    - title: Research Initiatives
+      details:
+        - Initiating and overseeing research projects in AI, contributing to academic publications and industry advancements.
+    - title: Technology Stack (Python, TensorFlow, PyTorch, LLMs, DevOps)
+      details:
+        - Utilizing advanced AI frameworks and tools to develop innovative solutions, integrating best practices in DevOps and MLOps.
+  tech_stack: ai ml research llm devops python finance
+  icons:
+    - name: Python
+      file: python.png
+    - name: TensorFlow
+      file: tensorflow.svg
+    - name: PyTorch
+      file: pytorch.svg
+    - name: LLM
+      file: llm.png
+    - name: Kubernetes
+      file: kubernetes.png
+    - name: GitLab
+      file: gitlab.png
+  tag: metalab
+
+- company: AZ+
+  url: https://www.azplus.mg/
+  logo: azplus.png
+  role: Chief Technical Officer
+  date: 2024 - Present
+  location: Madagascar
+  tasks:
+    - title: AZ+; SuperApp Architect and Management (Microservices)
+      details:
+        - Led a team of 13 in the design and deployment of the SuperApp AZ+, including AI Agent integration for recommendation systems.
+    - title: Cloud Migration (GCP, AWS, Kubernetes)
+      details:
+        - Executed the migration of infrastructure from Firebase to AWS and GCP, improving scalability, reducing costs, and increasing control over the deployment process; used Kubernetes for managing containerized apps.
+    - title: Self-hosted Services (PostgreSQL, GitLab, Minio S3, Grafana)
+      details:
+        - Set up and managed self-hosted services on internal servers, including GitLab, Minio S3 (object storage), and Grafana (monitoring and analytics), ensuring full ownership and cost control over the infrastructure.
+    - title: Technical Innovations for Local Solutions
+      details:
+        - Developed innovative location tracking solutions specifically tailored for Madagascar, enabling more accurate delivery management and solving challenges not addressed by existing tools in the region.
+  tech_stack: gcp aws devops kubernetes microservices ai-agents
+  icons:
+    - name: GCP
+      file: gcp.png
+    - name: AWS
+      file: aws.png
+    - name: GitLab
+      file: gitlab.png
+    - name: Minio
+      file: minio.png
+    - name: Grafana
+      file: grafana.png
+  tag: azplus
+
+- company: SERMA Safety & Security
+  url: https://www.serma-safety-security.com/en/
+  logo: serma.png
+  role: Machine Learning Engineer
+  date: 2024
+  location: Rennes, France
+  tasks:
+    - title: PCB Component Recognition (YOLO, OCR, Fuzzy Matching, OpenCV)
+      details:
+        - Developed a system to recognize Printed Circuit Board (PCB) components using YOLO (object detection), OCR, and Fuzzy Matching techniques, reducing component misidentification by 35%.
+    - title: Reverse Engineering with LLM4Decompile (LLM4Decompile, Assembly Code)
+      details:
+        - Integrated LLM4Decompile to automate the reverse engineering of binary files from detected hardware components, streamlining the process of extracting and analyzing firmware from embedded chips.
+    - title: Machine Clustering and CI/CD Automation (GitLabCI, MLFlow, Ansible, K8s)
+      details:
+        - Clustered a set of 5 spare machines with Kubernetes and implemented fully automated CI/CD pipelines using GitLabCI and MLFlow, automating the deployment and monitoring of ML models.
+    - title: Graph RAG & LLM POC (GraphRAG, Neo4J, Llama3)
+      details:
+        - Developed a POC that uses GraphRAG for enhanced document retrieval and analysis, leveraging self-hosted Llama3 and Neo4J for local document integration, running on local machines.
+  tech_stack: yolo opencv llm ocr python kubernetes fuzzymatching rag devops
+  icons:
+    - name: YOLO
+      file: yolov8.png
+    - name: OpenCV
+      file: opencv.png
+    - name: OCR
+      file: ocr.png
+    - name: Neo4J
+      file: neo4j.png
+    - name: LLM
+      file: llm.png
+    - name: PyTorch
+      file: pytorch.svg
+    - name: Kubernetes
+      file: kubernetes.png
+    - name: GitLab
+      file: gitlab.png
+  tag: serma
+
+- company: IMT Atlantique
+  url: https://www.imt-atlantique.fr/en
+  logo: imt.png
+  role: Data Scientist
+  date: 2023
+  location: Rennes, France
+  tasks:
+    - title: Data Acquisition & Processing (ETL, PowerBI, Pandas, Seaborn, Python)
+      details:
+        - Acquired and processed data (ETL with PowerBI) from ANFR to understand the power usage of every antenna (Base Stations) in France since 2015 using Pandas, Seaborn, and Pyplot.
+    - title: Energy-Saving Strategies (Seaborn, Pandas, Python)
+      details:
+        - Proposed four strategies to save energy for mobile networks based on key factors, improving the existing models.
+    - title: Real-World Application (PowerBI, Python)
+      details:
+        - Implemented a GenAI Model (CTGAN) to synthesize the traffic data of base stations in Rennes, resulting in energy savings of up to 20%.
+  tech_stack: etl powerbi pandas python datavisualization
+  icons:
+    - name: PowerBI
+      file: powerbi.png
+    - name: Pandas
+      file: pandas.png
+    - name: Seaborn
+      file: seaborn.png
+    - name: Python
+      file: python.png
+    - name: GitLab
+      file: gitlab.png
+  tag: imt
+
+- company: Videotron
+  url: https://www.videotron.com/en
+  logo: videotron.png
+  role: Junior Data Analyst
+  date: 2020 - 2022
+  location: Cairo, Egypt
+  tasks:
+    - title: Customer Satisfaction Improvement (Excel, SQL)
+      details:
+        - Developed data-driven strategies that increased customer satisfaction from 80% to 95% over a one-year period by identifying key factors contributing to dissatisfaction and addressing them through targeted interventions.
+    - title: KPI Analysis & Agent Performance (PowerBI, SQL)
+      details:
+        - Conducted in-depth analysis of agent performance, resulting in a 20% improvement in key performance indicators (KPIs) by identifying areas for training and skill development.
+    - title: Process Optimization (PowerBI, Excel, SQL)
+      details:
+        - Streamlined resource management and optimized workflows by analyzing callback data and process inefficiencies, enhancing decision-making and improving response times within a seven-day period.
+  tech_stack: sql powerbi excel datavisualization
+  icons:
+    - name: SQL
+      file: sql.png
+    - name: Excel
+      file: excel.png
+    - name: PowerBI
+      file: powerbi.png
+  tag: videotron

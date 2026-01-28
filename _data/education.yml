@@ -1,0 +1,65 @@
+- institution: Université de Rennes
+  url: http://cni.istic.univ-rennes1.fr/
+  logo: cni.png
+  degree: MSc Cloud and Network Infrastructures
+  date: 2022
+  location: Brittany, France
+  points:
+    - Specialized in smart city services, big data, distributed systems, advanced cloud infrastructure, and fog computing.
+    - "Grade: Good"
+  tag: rennes
+
+- institution: EIT Digital Master School
+  url: https://masterschool.eitdigital.eu/
+  logo: eit.png
+  degree: International Master Student
+  date: 2022
+  location: Rennes, France
+  points:
+    - Double Masters in Cloud Computing from Université de Rennes and Innovation & Entrepreneurship at EIT Digital.
+    - Coached by renowned European entrepreneurs.
+  tag: eit
+
+- institution: ELTE University, Informatics Faculty
+  url: https://www.elte.hu/en/
+  logo: elte.png
+  degree: Summer Class, Erasmus+ (Scholarship)
+  date: 2023
+  location: Budapest, Hungary
+  points:
+    - Showcased V2V Grids project and delivered an engaging pitch.
+    - "Grade: Excellent"
+    - "Core Values: Leadership, teamwork, pitching, innovation, technology watch, project management."
+  tag: elte
+
+- institution: Cairo University
+  url: https://fcai.cu.edu.eg/
+  logo: fcai.png
+  degree: MSc Computer Science & AI(Scholarship)
+  date: 2020
+  location: Cairo, Egypt
+  points:
+    - Secured a mixed Egyptian and Malagasy Government Scholarship for outstanding grades.
+    - "Grade: Very Good"
+    - "Graduation Project : Excellent"
+  tag: cairo univerisity
+
+- institution: Ecole Superieur de Polytechnique Madagascar
+  url: https://www.polytechnique.mg/
+  logo: espa.png
+  degree: Junior Engineering School, Telecommunications
+  date: 2015
+  location: Antsiranana , Madagascar
+  tag: Ecole Superieur Polytech
+
+- institution: Saint François Xavier
+  url: https://vatosoamananjara-jimmy.com/about
+  logo: sfx.png
+  degree: Baccalauréat, Serie C
+  date: 2014
+  location: Fianarantsoa , Madagascar
+  points:
+    - Top 1
+    - Mention Très Bien
+    - Malagasy Government Scholarship for outstanding grades.
+  tag: sfx

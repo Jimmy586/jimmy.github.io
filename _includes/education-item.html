@@ -1,0 +1,18 @@
+<div class="education-section premium-card p-6 mb-8 flex" data-edu="{{ include.edu.tag }}">
+    <a href="{{ include.edu.url }}" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/icons/{{ include.edu.logo }}" alt="{{ include.edu.institution }} Logo"
+            class="icon mr-6">
+    </a>
+    <div>
+        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">{{ include.edu.institution }}</h3>
+        <p class="text-gray-500 dark:text-gray-400">{{ include.edu.degree }} • {{ include.edu.date }} • {{
+            include.edu.location }}</p>
+        {% if include.edu.points %}
+        <ul class="list-disc list-inside mt-4">
+            {% for point in include.edu.points %}
+            <li>{{ point }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>

@@ -3,7 +3,7 @@
 {% endif %}
 <!-- dynamic menu based on navigation info in _config.yml -->
 {% for link in site.nav-menu %}
-{% if page.permalink != {{link.permalink}} %} <!-- don't show current page in menu -->
+{% if page.permalink != link.permalink %} <!-- don't show current page in menu -->
 <a class="mobile-menu-item dark:hover:text-white !md:menu-item" href="{{site.baseurl}}/{{link.permalink}}">
     {{link.text}}
 </a>
